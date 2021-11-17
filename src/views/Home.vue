@@ -1,18 +1,31 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Header />
+    <section class="section">
+      <div id="movie-card-container">
+        <MovieCard v-for="i of Array(20).fill()" key="i" />
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Header from "../components/Header";
+import MovieCard from "../components/MovieCard";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    Header,
+    MovieCard,
   },
 };
 </script>
+
+<style>
+#movie-card-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+</style>
