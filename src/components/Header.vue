@@ -17,11 +17,15 @@ export default {
 </script>
 
 <style>
-/* https://www.schemecolor.com/holiday-lights.php*/
 #header-hero {
   /*https://app.haikei.app/*/
-  /*background-image: url("~@/assets/img/header-background.svg");*/
-  /*background-size: cover;*/
-  background-color: #2fdb6a;
+  background-image: url("~@/assets/img/header-background-trees.jpg");
+  background-size: cover;
+  /*background-color: #2fdb6a;*/
+}
+
+.hero-body {
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 </style>

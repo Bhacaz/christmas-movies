@@ -1,48 +1,58 @@
 <template>
   <div class="card">
-    <!--    <div class="card-image">-->
-    <!--      <figure class="image is-4by3">-->
-    <!--        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">-->
-    <!--      </figure>-->
-    <!--    </div>-->
     <header class="card-header">
-      <p class="card-header-title">1 décembre</p>
+      <p class="card-header-title">1er décembre</p>
     </header>
-    <div class="card-content">
+    <div class="card-content" @click="showModal = !showModal">
       <div class="media">
         <div class="media-left">
           <figure class="image is-128x128">
             <img
-              src="https://m.media-amazon.com/images/M/MV5BNWNiNTczNzEtMjQyZC00MjFmLTkzMDMtODk4ZGMyZmE0N2E4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+                :src="movie.imdb_data.poster"
               alt="Placeholder image"
             />
           </figure>
         </div>
         <div class="media-content">
-          <p class="title is-5">How the Grinch Stole Christmas</p>
-          <p>1994</p>
+          <p class="title is-5">{{movie.title}}</p>
+          <p>{{movie.release_date}}</p>
           <p>
-            <span class="tag is-warning">8.5</span>
+            <span class="tag is-info">{{movie.user_rating}}</span>
+            <span class="tag is-primary">{{movie.critic_score}}</span>
           </p>
         </div>
       </div>
+    </div>
+  </div>
 
-      <!--      <div class="content">-->
-      <!--        <p class="title is-4">-->
-
-      <!--        </p>-->
-      <!--        <p>-->
-      <!--          <span class="tag is-primary is-light">🤣 #Comedy</span>-->
-      <!--          <span class="tag is-primary is-light">👨‍👩‍👧‍👧 #Family</span>-->
-      <!--          <span class="tag is-primary is-light">✨ #Fantasy</span>-->
-      <!--        </p>-->
-      <!--        <p>-->
-      <!--          On the outskirts of Whoville lives a green, revenge-seeking Grinch who plans to ruin Christmas for all of the citizens of the town.-->
-      <!--        </p>-->
-      <!--        <a href="#">#css</a> <a href="#">#responsive</a>-->
-      <!--        <br>-->
-      <!--        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>-->
-      <!--      </div>-->
+  <div class="modal" :class="{ 'is-active': showModal }">
+    <div class="modal-background" @click="showModal = !showModal"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">{{movie.title}}</p>
+        <button class="delete" aria-label="close" @click="showModal = !showModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-128x128">
+              <img :src="movie.imdb_data.poster">
+            </p>
+          </figure>
+          <div class="media-content">
+            <p>{{movie.plot_overview}}</p>
+            <p>{{movie.release_date}}</p>
+            <p>{{movie.runtime_minutes}} minutes</p>
+          </div>
+        </article>
+        <div class="source-container">
+          <span v-for="source of movie.sources" :key="source.info.id">
+            <a :href="source.web_url" target="_blank">
+              <img class="image is-64x64 logo" :src="source.info.logo_100px"/>
+            </a>
+          </span>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -50,6 +60,12 @@
 <script>
 export default {
   name: "MovieCard",
+  props: ["movie"],
+  data() {
+    return {
+      showModal: false
+    }
+  }
 };
 </script>
 
@@ -74,5 +90,14 @@ export default {
 
 .card-header {
   background-color: #ff2f2abb;
+}
+
+.source-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  border-radius: 10px;
 }
 </style>

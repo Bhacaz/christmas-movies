@@ -3,7 +3,7 @@
     <Header />
     <section class="section">
       <div id="movie-card-container">
-        <MovieCard v-for="i of Array(20).fill()" key="i" />
+        <MovieCard v-for="movie of movies" :key="movie.id" :movie="movie" />
       </div>
     </section>
   </div>
@@ -12,6 +12,7 @@
 <script>
 import Header from "../components/Header";
 import MovieCard from "../components/MovieCard";
+import Movies from "../assets/movies.json";
 
 export default {
   name: "Home",
@@ -19,6 +20,14 @@ export default {
     Header,
     MovieCard,
   },
+  data() {
+    return {
+    movies: []
+    }
+  },
+  created() {
+    this.movies = Movies;
+  }
 };
 </script>
 
