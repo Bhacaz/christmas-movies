@@ -27,5 +27,6 @@ export default {
 .hero-body {
   padding-top: 72px;
   padding-bottom: 72px;
+  font-family: "Courgette", cursive;
 }
 </style>
