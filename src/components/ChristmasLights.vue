@@ -184,23 +184,23 @@ export default {
 @-webkit-keyframes flash-3 {
   0%,
   100% {
-    background: #f70094;
-    box-shadow: 0px 4.6666666667px 24px 3px #f70094;
+    background: #ff3c4a;
+    box-shadow: 0px 4.6666666667px 24px 3px #ff3c4a;
   }
   50% {
-    background: rgba(247, 0, 148, 0.4);
-    box-shadow: 0px 4.6666666667px 24px 3px rgba(247, 0, 148, 0.2);
+    background: rgba(255, 60, 74, 0.4);
+    box-shadow: 0px 4.6666666667px 24px 3px rgba(255, 60, 74, 0.2);
   }
 }
 @keyframes flash-3 {
   0%,
   100% {
-    background: #f70094;
-    box-shadow: 0px 4.6666666667px 24px 3px #f70094;
+    background: #ff3c4a;
+    box-shadow: 0px 4.6666666667px 24px 3px #ff3c4a;
   }
   50% {
-    background: rgba(247, 0, 148, 0.4);
-    box-shadow: 0px 4.6666666667px 24px 3px rgba(247, 0, 148, 0.2);
+    background: rgba(255, 60, 74, 0.4);
+    box-shadow: 0px 4.6666666667px 24px 3px rgba(255, 60, 74, 0.2);
   }
 }
 </style>

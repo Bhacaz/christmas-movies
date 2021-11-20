@@ -83,6 +83,8 @@ export default {
   },
   methods: {
     showMovie() {
+      const d = new Date();
+      d.getDate();
       return this.movie.date <= 1;
     },
   },
@@ -113,7 +115,7 @@ export default {
 }
 
 .card-header {
-  background-color: #fe757f;
+  background-color: #ff3c4a;
   font-family: "Courgette", cursive;
 }
 
