@@ -153,6 +153,8 @@ export default {
   border-radius: 50px;
   background: #e0e0e0;
   box-shadow: 6px 6px 12px #9f9f9f, -6px -6px 12px #ffffff;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .movie-info {
