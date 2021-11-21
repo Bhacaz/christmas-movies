@@ -3,11 +3,8 @@
     <header class="card-header">
       <p class="card-header-title">{{ movie.date }} décembre</p>
     </header>
-    <div
-      class="card-content"
-      @click="showModal = !showModal"
-      v-if="showMovie()"
-    >
+    <div class="card-content" v-if="showMovie()">
+      <!--      @click="showModal = !showModal"-->
       <div class="media">
         <div class="media-left">
           <figure class="image is-128x128">
@@ -18,16 +15,31 @@
           <p class="title is-5">{{ movie.title }}</p>
           <p class="movie-info">{{ movie.release_date }}</p>
           <p>
-            <span class="tag is-info">{{ movie.user_rating }}</span>
-            <span class="tag is-primary">{{ movie.critic_score }}</span>
+            <span v-if="movie.user_rating" class="tag is-info">{{
+              movie.user_rating
+            }}</span>
+            <span v-if="movie.critic_score" class="tag is-primary">{{
+              movie.critic_score
+            }}</span>
           </p>
+        </div>
+      </div>
+      <div class="source-container">
+        <div
+          class="source-box"
+          v-for="source of movie.sources"
+          :key="source.info.id"
+        >
+          <a :href="source.web_url" target="_blank">
+            <img class="image is-52x52 logo" :src="source.info.logo_100px" />
+          </a>
         </div>
       </div>
     </div>
     <div class="card-content gift-box" v-if="!showMovie()">
       <img
         src="~@/assets/img/gift.png"
-        style="object-fit: fill; width: 100%; height: 20em"
+        style="object-fit: fill; width: 100%; height: 21em"
       />
     </div>
   </div>
@@ -63,7 +75,7 @@
             :key="source.info.id"
           >
             <a :href="source.web_url" target="_blank">
-              <img class="image is-64x64 logo" :src="source.info.logo_100px" />
+              <img class="image is-32x32 logo" :src="source.info.logo_100px" />
             </a>
           </div>
         </div>
@@ -84,8 +96,9 @@ export default {
   methods: {
     showMovie() {
       const d = new Date();
-      d.getDate();
-      return this.movie.date <= 1;
+      const date = d.getDate();
+      const month = d.getMonth();
+      return month === 12 && date >= this.movie.date;
     },
   },
 };
@@ -98,7 +111,7 @@ export default {
 }
 
 .card-content {
-  min-height: 20em;
+  min-height: 21em;
 }
 
 .media {
@@ -162,5 +175,10 @@ export default {
   font-weight: bold;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+}
+
+.is-52x52 {
+  height: 52px;
+  width: 52px;
 }
 </style>
