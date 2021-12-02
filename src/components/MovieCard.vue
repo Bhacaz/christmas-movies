@@ -97,11 +97,10 @@ export default {
     showMovie() {
       const d = new Date();
       const date = d.getDate();
-      const month = d.getMonth();
       if (this.movie.date === 1) {
         return true;
       }
-      return month === 12 && date >= this.movie.date;
+      return date >= this.movie.date;
     },
   },
 };
