@@ -8,30 +8,33 @@
       <div class="media">
         <div class="media-left">
           <figure class="image is-128x128">
-            <img :src="movie.imdb_data.poster" alt="Placeholder image" />
+            <img :src="movie.poster" alt="Placeholder image" />
           </figure>
         </div>
         <div class="media-content">
           <p class="title is-5">{{ movie.title }}</p>
-          <p class="movie-info">{{ movie.release_date }}</p>
-          <p>
-            <span v-if="movie.user_rating" class="tag is-info">{{
-              movie.user_rating
-            }}</span>
-            <span v-if="movie.critic_score" class="tag is-primary">{{
-              movie.critic_score
-            }}</span>
-          </p>
+          <p class="movie-info">{{ movie.release_year }}</p>
+          <!--          <p>-->
+          <!--            <span v-if="movie.user_rating" class="tag is-info">{{-->
+          <!--              movie.user_rating-->
+          <!--            }}</span>-->
+          <!--            <span v-if="movie.critic_score" class="tag is-primary">{{-->
+          <!--              movie.critic_score-->
+          <!--            }}</span>-->
+          <!--          </p>-->
         </div>
       </div>
       <div class="source-container">
         <div
           class="source-box"
-          v-for="source of movie.sources"
-          :key="source.info.id"
+          v-for="source of movie.streamingOffers"
+          :key="source.provider.id"
         >
-          <a :href="source.web_url" target="_blank">
-            <img class="image is-52x52 logo" :src="source.info.logo_100px" />
+          <a :href="source.offer.urls.standard_web" target="_blank">
+            <img
+              class="image is-52x52 logo"
+              :src="source.provider.full_icon_url"
+            />
           </a>
         </div>
       </div>
@@ -44,44 +47,44 @@
     </div>
   </div>
 
-  <div class="modal" :class="{ 'is-active': showModal }">
-    <div class="modal-background" @click="showModal = !showModal"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">{{ movie.title }}</p>
-        <button
-          class="delete"
-          aria-label="close"
-          @click="showModal = !showModal"
-        ></button>
-      </header>
-      <section class="modal-card-body">
-        <article class="media">
-          <figure class="media-left">
-            <p class="image is-128x128">
-              <img :src="movie.imdb_data.poster" />
-            </p>
-          </figure>
-          <div class="media-content">
-            <p class="movie-info">{{ movie.plot_overview }}</p>
-            <p class="movie-info">{{ movie.release_date }}</p>
-            <p class="movie-info">{{ movie.runtime_minutes }} minutes</p>
-          </div>
-        </article>
-        <div class="source-container">
-          <div
-            class="source-box"
-            v-for="source of movie.sources"
-            :key="source.info.id"
-          >
-            <a :href="source.web_url" target="_blank">
-              <img class="image is-32x32 logo" :src="source.info.logo_100px" />
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
+  <!--  <div class="modal" :class="{ 'is-active': showModal }">-->
+  <!--    <div class="modal-background" @click="showModal = !showModal"></div>-->
+  <!--    <div class="modal-card">-->
+  <!--      <header class="modal-card-head">-->
+  <!--        <p class="modal-card-title">{{ movie.title }}</p>-->
+  <!--        <button-->
+  <!--          class="delete"-->
+  <!--          aria-label="close"-->
+  <!--          @click="showModal = !showModal"-->
+  <!--        ></button>-->
+  <!--      </header>-->
+  <!--      <section class="modal-card-body">-->
+  <!--        <article class="media">-->
+  <!--          <figure class="media-left">-->
+  <!--            <p class="image is-128x128">-->
+  <!--              <img :src="movie.imdb_data.poster" />-->
+  <!--            </p>-->
+  <!--          </figure>-->
+  <!--          <div class="media-content">-->
+  <!--            <p class="movie-info">{{ movie.plot_overview }}</p>-->
+  <!--            <p class="movie-info">{{ movie.release_date }}</p>-->
+  <!--            <p class="movie-info">{{ movie.runtime_minutes }} minutes</p>-->
+  <!--          </div>-->
+  <!--        </article>-->
+  <!--        <div class="source-container">-->
+  <!--          <div-->
+  <!--            class="source-box"-->
+  <!--            v-for="source of movie.sources"-->
+  <!--            :key="source.info.id"-->
+  <!--          >-->
+  <!--            <a :href="source.web_url" target="_blank">-->
+  <!--              <img class="image is-32x32 logo" :src="source.info.logo_100px" />-->
+  <!--            </a>-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--      </section>-->
+  <!--    </div>-->
+  <!--  </div>-->
 </template>
 
 <script>

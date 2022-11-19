@@ -12,7 +12,7 @@
 <script>
 import Header from "../components/Header";
 import MovieCard from "../components/MovieCard";
-import Movies from "../assets/movies.json";
+import Movie from "../models/movie";
 
 export default {
   name: "Home",
@@ -22,12 +22,12 @@ export default {
   },
   data() {
     return {
-    movies: []
-    }
+      movies: [],
+    };
   },
   created() {
-    this.movies = Movies;
-  }
+    this.movies = Movie.fromJson();
+  },
 };
 </script>
 

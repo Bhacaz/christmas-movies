@@ -1,0 +1,1546 @@
+[
+  {
+    "title": "The Holiday",
+    "full_path": "/ca/movie/the-holiday",
+    "short_description": "Two women, one from the United States and one from the United Kingdom, swap homes at Christmastime after bad breakups with their boyfriends. Each woman finds romance with a local man but realizes that the imminent return home may end the relationship.",
+    "poster": "https://images.justwatch.com/poster/101462527/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/158213912/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 326,
+          "technical_name": "ctv",
+          "short_name": "ctc",
+          "clear_name": "CTV",
+          "display_priority": 42,
+          "priority": 0,
+          "monetization_types": [
+            "ads"
+          ],
+          "icon_url": "/icon/142828658/{profile}",
+          "icon_blur_hash": "KeRp2u#A$^kBoMay~pTIIw",
+          "slug": "ctv",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "",
+              "tizenos": "enabled",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/142828658/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm31297",
+          "monetization_type": "ads",
+          "provider_id": 326,
+          "package_short_name": "ctc",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://www.ctv.ca/movies/the-holiday-2006"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "A Bad Moms Christmas",
+    "full_path": "/ca/movie/a-bad-moms-christmas",
+    "short_description": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own mothers.",
+    "poster": "https://images.justwatch.com/poster/18684531/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/26698014/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm281935",
+          "monetization_type": "flatrate",
+          "provider_id": 8,
+          "package_short_name": "nfx",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/80177872",
+            "deeplink_web": "http://www.netflix.com/watch/80177872",
+            "deeplink_rokuos": "launch/12?contentID=80177872&MediaType=movie"
+          },
+          "available_to": "2023-11-01",
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 1796,
+          "technical_name": "netflixbasicwithads",
+          "short_name": "nfa",
+          "clear_name": "Netflix basic with Ads",
+          "display_priority": 10090,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/301462744/{profile}",
+          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
+          "slug": "netflix-basic-with-ads",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm281935",
+          "monetization_type": "flatrate",
+          "provider_id": 1796,
+          "package_short_name": "nfa",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/80177872",
+            "deeplink_web": "http://www.netflix.com/watch/80177872",
+            "deeplink_rokuos": "launch/12?contentID=80177872&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Nutcracker and the Four Realms",
+    "full_path": "/ca/movie/the-nutcracker-and-the-four-realms",
+    "short_description": "When Clara’s mother leaves her a mysterious gift, she embarks on a journey to four secret realms—where she discovers her greatest strength could change the world.",
+    "poster": "https://images.justwatch.com/poster/107395164/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/88208616/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm327380",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fthe-nutcracker-and-the-four-realms%2F5dYD1WTOdnZm&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/b846534b-4fbc-40d9-b3d3-28fe79e38355",
+            "deeplink_rokuos": "launch/291097?contentID=b846534b-4fbc-40d9-b3d3-28fe79e38355&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Noel Diary",
+    "full_path": "/ca/movie/the-noel-diary",
+    "short_description": "The story of a man who returns home on Christmas to settle his estranged mother's estate. Once there, he discovers a diary that may hold secrets to his own past and of a beautiful young woman on a mysterious journey of her own.",
+    "poster": "https://images.justwatch.com/poster/301488647/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/301488649/s1440"
+  },
+  {
+    "title": "Thanks for Everything",
+    "full_path": "/ca/movie/thanks-for-everything",
+    "short_description": "Sisters Marianne and Christine take a road trip from Montreal to the Magdalen Islands to spread the ashes of their late father. He wasn’t exactly an angel, and his associates are hot on their trail.",
+    "poster": "https://images.justwatch.com/poster/172554752/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/161527008/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm840126",
+          "monetization_type": "flatrate",
+          "provider_id": 8,
+          "package_short_name": "nfx",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/81572134",
+            "deeplink_web": "http://www.netflix.com/watch/81572134",
+            "deeplink_rokuos": "launch/12?contentID=81572134&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 146,
+          "technical_name": "icitoutv",
+          "short_name": "itt",
+          "clear_name": "iciTouTV",
+          "display_priority": 13,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/5827076/{profile}",
+          "icon_blur_hash": "KaEhe9oz0LpIfka|0Lay-p",
+          "slug": "icitoutv",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/5827076/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm840126",
+          "monetization_type": "flatrate",
+          "provider_id": 146,
+          "package_short_name": "itt",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://ici.tou.tv/merci-pour-tout"
+          },
+          "presentation_type": "sd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 314,
+          "technical_name": "cbcgem",
+          "short_name": "cbc",
+          "clear_name": "CBC Gem",
+          "display_priority": 41,
+          "priority": 0,
+          "monetization_types": [
+            "ads"
+          ],
+          "icon_url": "/icon/140132304/{profile}",
+          "icon_blur_hash": "KTNhvg|_Mx{}o1ozVsayog",
+          "slug": "cbc-gem",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/140132304/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm840126",
+          "monetization_type": "ads",
+          "provider_id": 314,
+          "package_short_name": "cbc",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://gem.cbc.ca/media/merci-pour-tout-thanks-for-everything"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Godmothered",
+    "full_path": "/ca/movie/godmothered",
+    "short_description": "A young and unskilled fairy godmother that ventures out on her own to prove her worth by tracking down a young girl whose request for help was ignored. What she discovers is that the girl has now become a grown woman in need of something very different than a \"prince charming.\"",
+    "poster": "https://images.justwatch.com/poster/239521142/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/239200398/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm974117",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fgodmothered%2F5xCSclU8XGKM&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/83420846-ad3a-4bbf-b057-da3b59e32f5c",
+            "deeplink_rokuos": "launch/291097?contentID=83420846-ad3a-4bbf-b057-da3b59e32f5c&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "I'll Be Home for Christmas",
+    "full_path": "/ca/movie/ill-be-home-for-christmas-1998",
+    "short_description": "Estranged from his father, college student Jake is lured home to New York for Christmas with the promise of receiving a classic Porsche as a gift. When the bullying football team dumps him in the desert in a Santa suit, Jake is left without identification or money to help him make the journey. Meanwhile, his girlfriend, Allie, does not know where he is, and accepts a cross-country ride from Jake's rival, Eddie.",
+    "poster": "https://images.justwatch.com/poster/162824159/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/162824168/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm56602",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fill-be-home-for-christmas%2F4JnQ1UDM1qFD&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/5116e020-934e-42a6-811b-bc83e41e85a5",
+            "deeplink_rokuos": "launch/291097?contentID=5116e020-934e-42a6-811b-bc83e41e85a5&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Polar Express",
+    "full_path": "/ca/movie/the-polar-express",
+    "short_description": "When a doubting young boy takes an extraordinary train ride to the North Pole, he embarks on a journey of self-discovery that shows him that the wonder of life never fades for those who believe.",
+    "poster": "https://images.justwatch.com/poster/9179717/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/93113675/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/258219092/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm78713",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://clubillico.videotron.com/club-illico/677113/Boreal-express"
+          },
+          "presentation_type": "sd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Klaus",
+    "full_path": "/ca/movie/klaus",
+    "short_description": "When Jesper distinguishes himself as the Postal Academy's worst student, he is sent to Smeerensburg, a small village located on an icy island above the Arctic Circle, where grumpy inhabitants barely exchange words, let alone letters. Jesper is about to give up and abandon his duty as a postman when he meets local teacher Alva and Klaus, a mysterious carpenter who lives alone in a cabin full of handmade toys.",
+    "poster": "https://images.justwatch.com/poster/157065274/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/257473442/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm375883",
+          "monetization_type": "flatrate",
+          "provider_id": 8,
+          "package_short_name": "nfx",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/80183187",
+            "deeplink_web": "http://www.netflix.com/watch/80183187",
+            "deeplink_rokuos": "launch/12?contentID=80183187&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 1796,
+          "technical_name": "netflixbasicwithads",
+          "short_name": "nfa",
+          "clear_name": "Netflix basic with Ads",
+          "display_priority": 10090,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/301462744/{profile}",
+          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
+          "slug": "netflix-basic-with-ads",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm375883",
+          "monetization_type": "flatrate",
+          "provider_id": 1796,
+          "package_short_name": "nfa",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/80183187",
+            "deeplink_web": "http://www.netflix.com/watch/80183187",
+            "deeplink_rokuos": "launch/12?contentID=80183187&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Fred Claus",
+    "full_path": "/ca/movie/fred-claus",
+    "short_description": "Fred Claus and Santa Claus have been estranged brothers for many years. Now Fred must reconcile his differences with his brother whom he believes overshadows him. When an efficiency expert assesses the workings at the North Pole and threatens to shut Santa down, Fred must help his brother to save Christmas.",
+    "poster": "https://images.justwatch.com/poster/11000953/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/11000945/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 230,
+          "technical_name": "crave",
+          "short_name": "crv",
+          "clear_name": "Crave",
+          "display_priority": 4,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/92692011/{profile}",
+          "icon_blur_hash": "KA0dm*fRZ~f+fQf6U[fQkr",
+          "slug": "crave",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": [
+            "crp",
+            "crs"
+          ],
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/92692011/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm76868",
+          "monetization_type": "flatrate",
+          "provider_id": 230,
+          "package_short_name": "crv",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://www.crave.ca//movies/fred-claus"
+          },
+          "presentation_type": "sd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 305,
+          "technical_name": "cravestarz",
+          "short_name": "crs",
+          "clear_name": "Crave Starz",
+          "display_priority": 6,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/135207354/{profile}",
+          "icon_blur_hash": "KN0.EJfRZ~kWfQflZLfPkX",
+          "slug": "crave-starz",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": [
+            "crv"
+          ],
+          "full_icon_url": "https://images.justwatch.com/icon/135207354/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm76868",
+          "monetization_type": "flatrate",
+          "provider_id": 305,
+          "package_short_name": "crs",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://www.crave.ca//movies/fred-claus"
+          },
+          "presentation_type": "sd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 1794,
+          "technical_name": "amazonstarz",
+          "short_name": "saz",
+          "clear_name": "Starz Amazon Channel",
+          "display_priority": 10071,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/241732487/{profile}",
+          "icon_blur_hash": "KyHx$%ayWB00j[WB-;ayof",
+          "slug": "starz-amazon-channel",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": [
+            "prv",
+            "amp"
+          ],
+          "full_icon_url": "https://images.justwatch.com/icon/241732487/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm76868",
+          "monetization_type": "flatrate",
+          "provider_id": 1794,
+          "package_short_name": "saz",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f8b528b4-12ab-370e-cee4-3a0541957384",
+            "deeplink_web": "https://app.primevideo.com/watch?gti=amzn1.dv.gti.f8b528b4-12ab-370e-cee4-3a0541957384",
+            "deeplink_rokuos": "launch/13?contentID=B07R3FV1LN&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Grinch",
+    "full_path": "/ca/movie/the-grinch",
+    "short_description": "The Grinch hatches a scheme to ruin Christmas when the residents of Whoville plan their annual holiday celebration.",
+    "poster": "https://images.justwatch.com/poster/82774854/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/51155658/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/258219092/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm231788",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://clubillico.videotron.com/club-illico/1271263/Dr.-Seuss-le-Grincheux"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Santa Clause",
+    "full_path": "/ca/movie/the-santa-clause",
+    "short_description": "Scott Calvin is an ordinary man, who accidentally causes Santa Claus to fall from his roof on Christmas Eve and is knocked unconscious. When he and his young son finish Santa's trip and deliveries, they go to the North Pole, where Scott learns he must become the new Santa and convince those he loves that he is indeed, Father Christmas.",
+    "poster": "https://images.justwatch.com/poster/147273336/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/206724895/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm115014",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fthe-santa-clause%2F3JPPheWC0SH5&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/343fdc18-57bd-4709-93f8-04be1b00a440",
+            "deeplink_rokuos": "launch/291097?contentID=343fdc18-57bd-4709-93f8-04be1b00a440&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Iron Man 3",
+    "full_path": "/ca/movie/iron-man-3",
+    "short_description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+    "poster": "https://images.justwatch.com/poster/8662059/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/8662087/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm177964",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Firon-man-3%2F3s4Ihq7P2c6e&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/e8fbf24f-defb-41a6-b578-1b9edd6d301b",
+            "deeplink_rokuos": "launch/291097?contentID=e8fbf24f-defb-41a6-b578-1b9edd6d301b&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Night Before",
+    "full_path": "/ca/movie/the-night-before",
+    "short_description": "In New York City for their annual tradition of Christmas Eve debauchery, three lifelong best friends set out to find the Holy Grail of Christmas parties since their yearly reunion might be coming to an end.",
+    "poster": "https://images.justwatch.com/poster/100721464/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/207253521/s1440",
+    "streamingOffers": []
+  },
+  {
+    "title": "Mickey's Christmas Carol",
+    "full_path": "/ca/movie/mickeys-christmas-carol",
+    "short_description": "Ebenezer Scrooge is far too greedy to understand that Christmas is a time for kindness and generosity. But with the guidance of some new found friends, Scrooge learns to embrace the spirit of the season. A retelling of the classic Dickens tale with Disney's classic characters.",
+    "poster": "https://images.justwatch.com/poster/120294067/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/120294068/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm66657",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fmickeys-christmas-carol%2F7522gHd0GW3X&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/dec7fca2-7b4d-45ce-a9f9-93c5cd63cdf2",
+            "deeplink_rokuos": "launch/291097?contentID=dec7fca2-7b4d-45ce-a9f9-93c5cd63cdf2&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Noelle",
+    "full_path": "/ca/movie/noelle-2019",
+    "short_description": "Kris Kringle's daughter, Noelle, sets off on a mission to find and bring back her brother, after he gets cold feet when it's his turn to take over as Santa.",
+    "poster": "https://images.justwatch.com/poster/146805598/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/152733569/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm319217",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fnoelle%2F1NOwi3epkH6X&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/ed8faabe-93a4-4eb9-9041-85802c1f0c53",
+            "deeplink_rokuos": "launch/291097?contentID=ed8faabe-93a4-4eb9-9041-85802c1f0c53&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Little Women",
+    "full_path": "/ca/movie/little-women-2019",
+    "short_description": "Four sisters come of age in America in the aftermath of the Civil War.",
+    "poster": "https://images.justwatch.com/poster/154480497/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/149991571/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm424851",
+          "monetization_type": "flatrate",
+          "provider_id": 8,
+          "package_short_name": "nfx",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/81140933",
+            "deeplink_web": "http://www.netflix.com/watch/81140933",
+            "deeplink_rokuos": "launch/12?contentID=81140933&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/258219092/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm424851",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://clubillico.videotron.com/club-illico/1328869/Les-quatre-filles-du-docteur-March"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 1796,
+          "technical_name": "netflixbasicwithads",
+          "short_name": "nfa",
+          "clear_name": "Netflix basic with Ads",
+          "display_priority": 10090,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/301462744/{profile}",
+          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
+          "slug": "netflix-basic-with-ads",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm424851",
+          "monetization_type": "flatrate",
+          "provider_id": 1796,
+          "package_short_name": "nfa",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/81140933",
+            "deeplink_web": "http://www.netflix.com/watch/81140933",
+            "deeplink_rokuos": "launch/12?contentID=81140933&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Falling for Christmas",
+    "full_path": "/ca/movie/falling-for-christmas",
+    "short_description": "In the days leading up to Christmas, a young & newly engaged heiress experiences a skiing accident. After being diagnosed with amnesia, she finds herself in the care of the handsome lodge owner and his daughter.",
+    "poster": "https://images.justwatch.com/poster/301542461/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/301011089/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm1088977",
+          "monetization_type": "flatrate",
+          "provider_id": 8,
+          "package_short_name": "nfx",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/81416312",
+            "deeplink_web": "http://www.netflix.com/watch/81416312",
+            "deeplink_rokuos": "launch/12?contentID=81416312&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 1796,
+          "technical_name": "netflixbasicwithads",
+          "short_name": "nfa",
+          "clear_name": "Netflix basic with Ads",
+          "display_priority": 10090,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/301462744/{profile}",
+          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
+          "slug": "netflix-basic-with-ads",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm1088977",
+          "monetization_type": "flatrate",
+          "provider_id": 1796,
+          "package_short_name": "nfa",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/81416312",
+            "deeplink_web": "http://www.netflix.com/watch/81416312",
+            "deeplink_rokuos": "launch/12?contentID=81416312&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Man Who Invented Christmas",
+    "full_path": "/ca/movie/the-man-who-invented-christmas",
+    "short_description": "In 1843, despite the fact that Dickens is a successful writer, the failure of his latest book puts his career at a crossroads, until the moment when, struggling with inspiration and confronting reality with his childhood memories, a new character is born in the depths of his troubled mind; an old, lonely, embittered man, so vivid, so human, that a whole world grows around him, a story so inspiring that changed the meaning of Christmas forever.",
+    "poster": "https://images.justwatch.com/poster/18807551/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/253113580/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 146,
+          "technical_name": "icitoutv",
+          "short_name": "itt",
+          "clear_name": "iciTouTV",
+          "display_priority": 13,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/5827076/{profile}",
+          "icon_blur_hash": "KaEhe9oz0LpIfka|0Lay-p",
+          "slug": "icitoutv",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/5827076/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm340212",
+          "monetization_type": "flatrate",
+          "provider_id": 146,
+          "package_short_name": "itt",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://ici.tou.tv/l-homme-qui-inventa-noel"
+          },
+          "presentation_type": "sd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 212,
+          "technical_name": "hoopla",
+          "short_name": "hop",
+          "clear_name": "Hoopla",
+          "display_priority": 10,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/80212823/{profile}",
+          "icon_blur_hash": "KS91Y8b_Rku6kCj@4sjct6",
+          "slug": "hoopla",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/80212823/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm340212",
+          "monetization_type": "flatrate",
+          "provider_id": 212,
+          "package_short_name": "hop",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://www.hoopladigital.com/title/15128375"
+          },
+          "presentation_type": "sd",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 314,
+          "technical_name": "cbcgem",
+          "short_name": "cbc",
+          "clear_name": "CBC Gem",
+          "display_priority": 41,
+          "priority": 0,
+          "monetization_types": [
+            "ads"
+          ],
+          "icon_url": "/icon/140132304/{profile}",
+          "icon_blur_hash": "KTNhvg|_Mx{}o1ozVsayog",
+          "slug": "cbc-gem",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/140132304/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm340212",
+          "monetization_type": "ads",
+          "provider_id": 314,
+          "package_short_name": "cbc",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://gem.cbc.ca/media/the-man-who-invented-christmas"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Red Nose",
+    "full_path": "/ca/movie/red-nose",
+    "short_description": "During the Christmas holiday season, Félix and Céline find themselves working as volunteers for the drive-home service Opération Nez Rouge. Right from the first, Félix falls for Céline. But Céline doesn't feel the same way: she can't forget the fact that Félix once wrote a scathing review of her first piece of writing, crushing her literary ambitions in the process. Worse, Félix doesn't even remember her name. Céline decides to take her revenge. Just as things seem to be going from bad to worse for Félix, Céline realizes that he is vulnerable, tender... and madly in love with her. She is ready to surrender to love... but a chance encounter causes her to wonder whether Félix isn't playing some twisted love game.",
+    "poster": "https://images.justwatch.com/poster/138614292/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/244252543/s1440"
+  },
+  {
+    "title": "A Boy Called Christmas",
+    "full_path": "/ca/movie/a-boy-called-christmas",
+    "short_description": "In this origin story of Father Christmas, an ordinary boy (with a loyal pet mouse and a reindeer at his side) sets out on an extraordinary adventure to find his father who is on a quest to discover the fabled village of Elfhelm.",
+    "poster": "https://images.justwatch.com/poster/242702721/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/256347681/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm675820",
+          "monetization_type": "flatrate",
+          "provider_id": 8,
+          "package_short_name": "nfx",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/81029733",
+            "deeplink_web": "http://www.netflix.com/watch/81029733",
+            "deeplink_rokuos": "launch/12?contentID=81029733&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 1796,
+          "technical_name": "netflixbasicwithads",
+          "short_name": "nfa",
+          "clear_name": "Netflix basic with Ads",
+          "display_priority": 10090,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/301462744/{profile}",
+          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
+          "slug": "netflix-basic-with-ads",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm675820",
+          "monetization_type": "flatrate",
+          "provider_id": 1796,
+          "package_short_name": "nfa",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "http://www.netflix.com/title/81029733",
+            "deeplink_web": "http://www.netflix.com/watch/81029733",
+            "deeplink_rokuos": "launch/12?contentID=81029733&MediaType=movie"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Mickey's Once Upon a Christmas",
+    "full_path": "/ca/movie/mickeys-once-upon-a-christmas",
+    "short_description": "Mickey, Minnie, and their famous friends Goofy, Donald, Daisy and Pluto gather together to reminisce about the love, magic and surprises in three wonder-filled stories of Christmas past.",
+    "poster": "https://images.justwatch.com/poster/93321833/s592",
+    "backdrop": "https://images.justwatch.com/backdrop/161664574/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 337,
+          "technical_name": "disneyplus",
+          "short_name": "dnp",
+          "clear_name": "Disney Plus",
+          "display_priority": 1,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/147638351/{profile}",
+          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
+          "slug": "disney-plus",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm46480",
+          "monetization_type": "flatrate",
+          "provider_id": 337,
+          "package_short_name": "dnp",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fmickeys-once-upon-a-christmas%2F72SAF9iLzQlT&subId3=justappsvod",
+            "deeplink_web": "https://www.disneyplus.com/video/952bd4cf-5705-4041-8af2-749f2b0389ab",
+            "deeplink_rokuos": "launch/291097?contentID=952bd4cf-5705-4041-8af2-749f2b0389ab&MediaType=movie"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  }
+]
