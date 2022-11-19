@@ -155,50 +155,6 @@
           "presentation_type": "hd",
           "country": "CA"
         }
-      },
-      {
-        "provider": {
-          "id": 1796,
-          "technical_name": "netflixbasicwithads",
-          "short_name": "nfa",
-          "clear_name": "Netflix basic with Ads",
-          "display_priority": 10090,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/301462744/{profile}",
-          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
-          "slug": "netflix-basic-with-ads",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm281935",
-          "monetization_type": "flatrate",
-          "provider_id": 1796,
-          "package_short_name": "nfa",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/80177872",
-            "deeplink_web": "http://www.netflix.com/watch/80177872",
-            "deeplink_rokuos": "launch/12?contentID=80177872&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
       }
     ]
   },
@@ -660,50 +616,6 @@
           "presentation_type": "4k",
           "country": "CA"
         }
-      },
-      {
-        "provider": {
-          "id": 1796,
-          "technical_name": "netflixbasicwithads",
-          "short_name": "nfa",
-          "clear_name": "Netflix basic with Ads",
-          "display_priority": 10090,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/301462744/{profile}",
-          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
-          "slug": "netflix-basic-with-ads",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm375883",
-          "monetization_type": "flatrate",
-          "provider_id": 1796,
-          "package_short_name": "nfa",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/80183187",
-            "deeplink_web": "http://www.netflix.com/watch/80183187",
-            "deeplink_rokuos": "launch/12?contentID=80183187&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
       }
     ]
   },
@@ -759,97 +671,6 @@
           "presentation_type": "sd",
           "country": "CA"
         }
-      },
-      {
-        "provider": {
-          "id": 305,
-          "technical_name": "cravestarz",
-          "short_name": "crs",
-          "clear_name": "Crave Starz",
-          "display_priority": 6,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/135207354/{profile}",
-          "icon_blur_hash": "KN0.EJfRZ~kWfQflZLfPkX",
-          "slug": "crave-starz",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": [
-            "crv"
-          ],
-          "full_icon_url": "https://images.justwatch.com/icon/135207354/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm76868",
-          "monetization_type": "flatrate",
-          "provider_id": 305,
-          "package_short_name": "crs",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://www.crave.ca//movies/fred-claus"
-          },
-          "presentation_type": "sd",
-          "country": "CA"
-        }
-      },
-      {
-        "provider": {
-          "id": 1794,
-          "technical_name": "amazonstarz",
-          "short_name": "saz",
-          "clear_name": "Starz Amazon Channel",
-          "display_priority": 10071,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/241732487/{profile}",
-          "icon_blur_hash": "KyHx$%ayWB00j[WB-;ayof",
-          "slug": "starz-amazon-channel",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": [
-            "prv",
-            "amp"
-          ],
-          "full_icon_url": "https://images.justwatch.com/icon/241732487/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm76868",
-          "monetization_type": "flatrate",
-          "provider_id": 1794,
-          "package_short_name": "saz",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.f8b528b4-12ab-370e-cee4-3a0541957384",
-            "deeplink_web": "https://app.primevideo.com/watch?gti=amzn1.dv.gti.f8b528b4-12ab-370e-cee4-3a0541957384",
-            "deeplink_rokuos": "launch/13?contentID=B07R3FV1LN&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
       }
     ]
   },
@@ -898,6 +719,48 @@
           "currency": "CAD",
           "urls": {
             "standard_web": "https://clubillico.videotron.com/club-illico/1271263/Dr.-Seuss-le-Grincheux"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      },
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
+        },
+        "offer": {
+          "jw_entity_id": "tm231788",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1254&context=library%3Acontent.library~1~2"
           },
           "presentation_type": "4k",
           "country": "CA"
@@ -1062,6 +925,48 @@
           "presentation_type": "hd",
           "country": "CA"
         }
+      },
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
+        },
+        "offer": {
+          "jw_entity_id": "tm231788",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1087&context=library%3Acontent.library~4~1"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
       }
     ]
   },
@@ -1170,6 +1075,48 @@
           "presentation_type": "4k",
           "country": "CA"
         }
+      },
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
+        },
+        "offer": {
+          "jw_entity_id": "tm231788",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1171&context=library%3Acontent.library~4~4"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
       }
     ]
   },
@@ -1266,50 +1213,6 @@
           "presentation_type": "4k",
           "country": "CA"
         }
-      },
-      {
-        "provider": {
-          "id": 1796,
-          "technical_name": "netflixbasicwithads",
-          "short_name": "nfa",
-          "clear_name": "Netflix basic with Ads",
-          "display_priority": 10090,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/301462744/{profile}",
-          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
-          "slug": "netflix-basic-with-ads",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm424851",
-          "monetization_type": "flatrate",
-          "provider_id": 1796,
-          "package_short_name": "nfa",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/81140933",
-            "deeplink_web": "http://www.netflix.com/watch/81140933",
-            "deeplink_rokuos": "launch/12?contentID=81140933&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
       }
     ]
   },
@@ -1355,50 +1258,6 @@
           "monetization_type": "flatrate",
           "provider_id": 8,
           "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/81416312",
-            "deeplink_web": "http://www.netflix.com/watch/81416312",
-            "deeplink_rokuos": "launch/12?contentID=81416312&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
-      },
-      {
-        "provider": {
-          "id": 1796,
-          "technical_name": "netflixbasicwithads",
-          "short_name": "nfa",
-          "clear_name": "Netflix basic with Ads",
-          "display_priority": 10090,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/301462744/{profile}",
-          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
-          "slug": "netflix-basic-with-ads",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm1088977",
-          "monetization_type": "flatrate",
-          "provider_id": 1796,
-          "package_short_name": "nfa",
           "currency": "CAD",
           "urls": {
             "standard_web": "http://www.netflix.com/title/81416312",
@@ -1553,7 +1412,51 @@
     "short_description": "During the Christmas holiday season, Félix and Céline find themselves working as volunteers for the drive-home service Opération Nez Rouge. Right from the first, Félix falls for Céline. But Céline doesn't feel the same way: she can't forget the fact that Félix once wrote a scathing review of her first piece of writing, crushing her literary ambitions in the process. Worse, Félix doesn't even remember her name. Céline decides to take her revenge. Just as things seem to be going from bad to worse for Félix, Céline realizes that he is vulnerable, tender... and madly in love with her. She is ready to surrender to love... but a chance encounter causes her to wonder whether Félix isn't playing some twisted love game.",
     "release_year": 2003,
     "poster": "https://images.justwatch.com/poster/138614292/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/244252543/s1440"
+    "backdrop": "https://images.justwatch.com/backdrop/244252543/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
+        },
+        "offer": {
+          "jw_entity_id": "tm231788",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1234&context=search%3Ahub.mediaServers~0~0"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
+      }
+    ]
   },
   {
     "title": "A Boy Called Christmas",
@@ -1597,50 +1500,6 @@
           "monetization_type": "flatrate",
           "provider_id": 8,
           "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/81029733",
-            "deeplink_web": "http://www.netflix.com/watch/81029733",
-            "deeplink_rokuos": "launch/12?contentID=81029733&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
-      },
-      {
-        "provider": {
-          "id": 1796,
-          "technical_name": "netflixbasicwithads",
-          "short_name": "nfa",
-          "clear_name": "Netflix basic with Ads",
-          "display_priority": 10090,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/301462744/{profile}",
-          "icon_blur_hash": "KWS$GqoLozsCayfk*JkCV@",
-          "slug": "netflix-basic-with-ads",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/301462744/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm675820",
-          "monetization_type": "flatrate",
-          "provider_id": 1796,
-          "package_short_name": "nfa",
           "currency": "CAD",
           "urls": {
             "standard_web": "http://www.netflix.com/title/81029733",
