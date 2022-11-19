@@ -52,6 +52,58 @@
     ]
   },
   {
+    "title": "23 décembre",
+    "full_path": "/ca/movie/the-holiday",
+    "short_description": "Two women, one from the United States and one from the United Kingdom, swap homes at Christmastime after bad breakups with their boyfriends. Each woman finds romance with a local man but realizes that the imminent return home may end the relationship.",
+    "release_year": 2022,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWZhYTYzMmMtMGU5ZS00MmY0LWI5YjMtYWFlMzBmZTJhMWUzXkEyXkFqcGdeQXVyMTM1MDExOTE2._V1_.jpg",
+    "backdrop": "https://m.media-amazon.com/images/M/MV5BNWZhYTYzMmMtMGU5ZS00MmY0LWI5YjMtYWFlMzBmZTJhMWUzXkEyXkFqcGdeQXVyMTM1MDExOTE2._V1_.jpg",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 326,
+          "technical_name": "ctv",
+          "short_name": "ctc",
+          "clear_name": "CTV",
+          "display_priority": 42,
+          "priority": 0,
+          "monetization_types": [
+            "ads"
+          ],
+          "icon_url": "/icon/142828658/{profile}",
+          "icon_blur_hash": "KeRp2u#A$^kBoMay~pTIIw",
+          "slug": "ctv",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "",
+              "tizenos": "enabled",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://seeklogo.com/images/C/cinemas-guzzo-movie-theatres-logo-6FD2B4E98B-seeklogo.com.png"
+        },
+        "offer": {
+          "jw_entity_id": "tm31297",
+          "monetization_type": "ads",
+          "provider_id": 326,
+          "package_short_name": "ctc",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://www.cinemaquebec.com/films/23-decembre-2022/horaires"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
+  },
+  {
     "title": "A Bad Moms Christmas",
     "full_path": "/ca/movie/a-bad-moms-christmas",
     "short_description": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own mothers.",
@@ -210,7 +262,54 @@
     "short_description": "The story of a man who returns home on Christmas to settle his estranged mother's estate. Once there, he discovers a diary that may hold secrets to his own past and of a beautiful young woman on a mysterious journey of her own.",
     "release_year": 2022,
     "poster": "https://images.justwatch.com/poster/301488647/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/301488649/s1440"
+    "backdrop": "https://images.justwatch.com/backdrop/301488649/s1440",
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "enabled",
+              "tizenos": "enabled",
+              "webos": "enabled",
+              "xbox": "enabled"
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm281935",
+          "monetization_type": "flatrate",
+          "provider_id": 8,
+          "package_short_name": "nfx",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://www.netflix.com/ca/title/81045305",
+            "deeplink_web": "http://www.netflix.com/watch/80177872",
+            "deeplink_rokuos": "launch/12?contentID=80177872&MediaType=movie"
+          },
+          "available_to": "2023-11-01",
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
   },
   {
     "title": "Thanks for Everything",
@@ -921,7 +1020,50 @@
     "release_year": 2015,
     "poster": "https://images.justwatch.com/poster/100721464/s592",
     "backdrop": "https://images.justwatch.com/backdrop/207253521/s1440",
-    "streamingOffers": []
+    "streamingOffers": [
+      {
+        "provider": {
+          "id": 326,
+          "technical_name": "ctv",
+          "short_name": "ctc",
+          "clear_name": "CTV",
+          "display_priority": 42,
+          "priority": 0,
+          "monetization_types": [
+            "ads"
+          ],
+          "icon_url": "/icon/142828658/{profile}",
+          "icon_blur_hash": "KeRp2u#A$^kBoMay~pTIIw",
+          "slug": "ctv",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "enabled",
+              "fire_tv": "enabled",
+              "tvos": "",
+              "tizenos": "enabled",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images.justwatch.com/icon/142828658/s100"
+        },
+        "offer": {
+          "jw_entity_id": "tm31297",
+          "monetization_type": "ads",
+          "provider_id": 326,
+          "package_short_name": "ctc",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://www.ctv.ca/movies/the-night-before/the-night-before"
+          },
+          "presentation_type": "hd",
+          "country": "CA"
+        }
+      }
+    ]
   },
   {
     "title": "Mickey's Christmas Carol",
@@ -1406,7 +1548,7 @@
     ]
   },
   {
-    "title": "Red Nose",
+    "title": "Nez Rouge",
     "full_path": "/ca/movie/red-nose",
     "short_description": "During the Christmas holiday season, Félix and Céline find themselves working as volunteers for the drive-home service Opération Nez Rouge. Right from the first, Félix falls for Céline. But Céline doesn't feel the same way: she can't forget the fact that Félix once wrote a scathing review of her first piece of writing, crushing her literary ambitions in the process. Worse, Félix doesn't even remember her name. Céline decides to take her revenge. Just as things seem to be going from bad to worse for Félix, Céline realizes that he is vulnerable, tender... and madly in love with her. She is ready to surrender to love... but a chance encounter causes her to wonder whether Félix isn't playing some twisted love game.",
     "release_year": 2003,

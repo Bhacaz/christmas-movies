@@ -3,7 +3,7 @@
     <header class="card-header">
       <p class="card-header-title">{{ movie.date }} décembre</p>
     </header>
-    <div class="card-content" v-if="showMovie()">
+    <div class="card-content" v-if="true">
       <!--      @click="showModal = !showModal"-->
       <div class="media">
         <div class="media-left">
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-    <div class="card-content gift-box" v-if="!showMovie()">
+    <div class="card-content gift-box" v-if="false">
       <img
         src="~@/assets/img/gift.png"
         style="object-fit: fill; width: 100%; height: 21em"
