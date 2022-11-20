@@ -67,18 +67,30 @@ export default {
     domId() {
       return "movie-" + this.movie.date;
     },
+    december() {
+      const d = new Date();
+      // JS return month 0-11
+      return d.getMonth() === 11;
+    },
     date() {
       const d = new Date();
       return d.getDate();
     },
     showGift() {
-      return false;
+      if (!this.december()) {
+        return true;
+      }
+
       if (this.movie.date < this.date()) {
         return false;
       }
       return true;
     },
     giftAnimation() {
+      if (!this.december()) {
+        return false;
+      }
+
       return this.movie.date === this.date();
     },
   },
