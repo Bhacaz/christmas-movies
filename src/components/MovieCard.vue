@@ -4,7 +4,7 @@
       <p class="card-header-title">{{ movie.date }} décembre</p>
     </header>
     <div class="card-content" style="position: relative">
-      <div class="movie-content">
+      <div class="movie-content" v-if="!showGift() || giftAnimation()">
         <div class="media">
           <div class="media-left">
             <figure class="image is-128x128">
@@ -70,7 +70,7 @@ export default {
     december() {
       const d = new Date();
       // JS return month 0-11
-      return d.getMonth() === 11;
+      return d.getMonth() === 10;
     },
     date() {
       const d = new Date();
