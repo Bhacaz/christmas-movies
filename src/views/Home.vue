@@ -9,7 +9,9 @@
             style="height: 125px; margin: 1em"
           />
           <div class="column is-four-quarter">
-            <div class="content">Bonus Movie: <strong>Spirited</strong></div>
+            <div class="content">
+              Bonus Movie: <strong>Spirited</strong> (2022)
+            </div>
             <div class="content">
               <a
                 href="https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F3031&context=library%3Acontent.library~0~2"
