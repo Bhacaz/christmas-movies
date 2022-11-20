@@ -18,24 +18,33 @@
         </div>
         <div class="source-container">
           <div
-              class="source-box"
-              v-for="source of movie.streamingOffers"
-              :key="source.provider.id"
+            class="source-box"
+            v-for="source of movie.streamingOffers"
+            :key="source.provider.id"
           >
             <a :href="source.offer.urls.standard_web" target="_blank">
               <img
-                  class="image is-52x52 logo"
-                  :src="source.provider.full_icon_url"
+                class="image is-52x52 logo"
+                :src="source.provider.full_icon_url"
               />
             </a>
           </div>
         </div>
       </div>
-      <div class="gift-box" :class="{ 'slide-out-top': giftAnimation() }" v-if="showGift()">
+      <div
+        class="gift-box"
+        :class="{ 'slide-out-top': giftAnimation() }"
+        v-if="showGift()"
+      >
         <img
-            :class="{ 'fade-out': giftAnimation() }"
-            src="~@/assets/img/gift.png"
-            style="object-fit: fill; width: 100%; height: 22em; margin-bottom: -1em"
+          :class="{ 'fade-out': giftAnimation() }"
+          src="~@/assets/img/gift.png"
+          style="
+            object-fit: fill;
+            width: 100%;
+            height: 22em;
+            margin-bottom: -1em;
+          "
         />
       </div>
     </div>
@@ -63,18 +72,16 @@ export default {
       return d.getDate();
     },
     showGift() {
+      return false;
       if (this.movie.date < this.date()) {
         return false;
       }
       return true;
     },
     giftAnimation() {
-      if (this.movie.date === this.date()) {
-        return true;
-      }
-      return false;
+      return this.movie.date === this.date();
     },
-  }
+  },
 };
 </script>
 
@@ -162,7 +169,7 @@ export default {
 }
 
 .slide-out-top {
-  animation: slide-out-top 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.5s both;
+  animation: slide-out-top 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2.5s both;
 }
 
 @keyframes slide-out-top {
@@ -203,5 +210,4 @@ export default {
     opacity: 0;
   }
 }
-
 </style>
