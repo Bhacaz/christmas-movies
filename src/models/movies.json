@@ -1487,6 +1487,48 @@
           "presentation_type": "hd",
           "country": "CA"
         }
+      },
+      {
+        "provider": {
+          "id": 469,
+          "technical_name": "clubillico",
+          "short_name": "cic",
+          "clear_name": "Club Illico",
+          "display_priority": 58,
+          "priority": 0,
+          "monetization_types": [
+            "flatrate"
+          ],
+          "icon_url": "/icon/258219092/{profile}",
+          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
+          "slug": "club-illico",
+          "data": {
+            "deeplink_data": [],
+            "packages": {
+              "android_tv": "",
+              "fire_tv": "",
+              "tvos": "",
+              "tizenos": "",
+              "webos": "",
+              "xbox": ""
+            }
+          },
+          "addon_packages": null,
+          "parent_packages": null,
+          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
+        },
+        "offer": {
+          "jw_entity_id": "tm231788",
+          "monetization_type": "flatrate",
+          "provider_id": 469,
+          "package_short_name": "cic",
+          "currency": "CAD",
+          "urls": {
+            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F3094&context=library%3Acontent.library~0~0"
+          },
+          "presentation_type": "4k",
+          "country": "CA"
+        }
       }
     ]
   },

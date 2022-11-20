@@ -70,7 +70,7 @@ export default {
     december() {
       const d = new Date();
       // JS return month 0-11
-      return d.getMonth() === 11;
+      return d.getMonth() === 10;
     },
     date() {
       const d = new Date();
@@ -81,10 +81,7 @@ export default {
         return true;
       }
 
-      if (this.movie.date < this.date()) {
-        return false;
-      }
-      return true;
+      return this.movie.date >= this.date();
     },
     giftAnimation() {
       if (!this.december()) {
