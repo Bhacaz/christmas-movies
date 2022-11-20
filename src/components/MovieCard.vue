@@ -70,7 +70,7 @@ export default {
     december() {
       const d = new Date();
       // JS return month 0-11
-      return d.getMonth() === 10;
+      return d.getMonth() === 11;
     },
     date() {
       const d = new Date();
