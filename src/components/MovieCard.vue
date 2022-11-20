@@ -1,90 +1,45 @@
 <template>
-  <div class="card">
+  <div class="card" v-bind:ref="domId()">
     <header class="card-header">
       <p class="card-header-title">{{ movie.date }} décembre</p>
     </header>
-    <div class="card-content" v-if="true">
-      <!--      @click="showModal = !showModal"-->
-      <div class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img :src="movie.poster" alt="Placeholder image" />
-          </figure>
+    <div class="card-content" style="position: relative">
+      <div class="movie-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-128x128">
+              <img :src="movie.poster" alt="Placeholder image" />
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-5">{{ movie.title }}</p>
+            <p class="movie-info">{{ movie.release_year }}</p>
+          </div>
         </div>
-        <div class="media-content">
-          <p class="title is-5">{{ movie.title }}</p>
-          <p class="movie-info">{{ movie.release_year }}</p>
-          <!--          <p>-->
-          <!--            <span v-if="movie.user_rating" class="tag is-info">{{-->
-          <!--              movie.user_rating-->
-          <!--            }}</span>-->
-          <!--            <span v-if="movie.critic_score" class="tag is-primary">{{-->
-          <!--              movie.critic_score-->
-          <!--            }}</span>-->
-          <!--          </p>-->
-        </div>
-      </div>
-      <div class="source-container">
-        <div
-          class="source-box"
-          v-for="source of movie.streamingOffers"
-          :key="source.provider.id"
-        >
-          <a :href="source.offer.urls.standard_web" target="_blank">
-            <img
-              class="image is-52x52 logo"
-              :src="source.provider.full_icon_url"
-            />
-          </a>
+        <div class="source-container">
+          <div
+              class="source-box"
+              v-for="source of movie.streamingOffers"
+              :key="source.provider.id"
+          >
+            <a :href="source.offer.urls.standard_web" target="_blank">
+              <img
+                  class="image is-52x52 logo"
+                  :src="source.provider.full_icon_url"
+              />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="card-content gift-box" v-if="false">
-      <img
-        src="~@/assets/img/gift.png"
-        style="object-fit: fill; width: 100%; height: 21em"
-      />
+      <div class="gift-box" :class="{ 'slide-out-top': giftAnimation() }" v-if="showGift()">
+        <img
+            :class="{ 'fade-out': giftAnimation() }"
+            src="~@/assets/img/gift.png"
+            style="object-fit: fill; width: 100%; height: 22em; margin-bottom: -1em"
+        />
+      </div>
     </div>
   </div>
-
-  <!--  <div class="modal" :class="{ 'is-active': showModal }">-->
-  <!--    <div class="modal-background" @click="showModal = !showModal"></div>-->
-  <!--    <div class="modal-card">-->
-  <!--      <header class="modal-card-head">-->
-  <!--        <p class="modal-card-title">{{ movie.title }}</p>-->
-  <!--        <button-->
-  <!--          class="delete"-->
-  <!--          aria-label="close"-->
-  <!--          @click="showModal = !showModal"-->
-  <!--        ></button>-->
-  <!--      </header>-->
-  <!--      <section class="modal-card-body">-->
-  <!--        <article class="media">-->
-  <!--          <figure class="media-left">-->
-  <!--            <p class="image is-128x128">-->
-  <!--              <img :src="movie.imdb_data.poster" />-->
-  <!--            </p>-->
-  <!--          </figure>-->
-  <!--          <div class="media-content">-->
-  <!--            <p class="movie-info">{{ movie.plot_overview }}</p>-->
-  <!--            <p class="movie-info">{{ movie.release_date }}</p>-->
-  <!--            <p class="movie-info">{{ movie.runtime_minutes }} minutes</p>-->
-  <!--          </div>-->
-  <!--        </article>-->
-  <!--        <div class="source-container">-->
-  <!--          <div-->
-  <!--            class="source-box"-->
-  <!--            v-for="source of movie.sources"-->
-  <!--            :key="source.info.id"-->
-  <!--          >-->
-  <!--            <a :href="source.web_url" target="_blank">-->
-  <!--              <img class="image is-32x32 logo" :src="source.info.logo_100px" />-->
-  <!--            </a>-->
-  <!--          </div>-->
-  <!--        </div>-->
-  <!--      </section>-->
-  <!--    </div>-->
-  <!--  </div>-->
 </template>
 
 <script>
@@ -96,16 +51,30 @@ export default {
       showModal: false,
     };
   },
+  mounted() {
+    this.$refs[this.domId()].scrollIntoView({ behavior: "smooth" });
+  },
   methods: {
-    showMovie() {
+    domId() {
+      return "movie-" + this.movie.date;
+    },
+    date() {
       const d = new Date();
-      const date = d.getDate();
-      if (this.movie.date === 1) {
+      return d.getDate();
+    },
+    showGift() {
+      if (this.movie.date < this.date()) {
+        return false;
+      }
+      return true;
+    },
+    giftAnimation() {
+      if (this.movie.date === this.date()) {
         return true;
       }
-      return date >= this.movie.date;
+      return false;
     },
-  },
+  }
 };
 </script>
 
@@ -154,8 +123,13 @@ export default {
 }
 
 .gift-box {
-  background-color: #fe757f33;
-  height: 320px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("~@/assets/img/wrap_gift.png");
+  background-size: contain;
+  /*height: 320px;*/
   /*background: radial-gradient(circle at center, #fff 20%, transparent 22%),#5EDEFF;*/
   /*background-size: 34px 34px;*/
   /*position: absolute;*/
@@ -186,4 +160,48 @@ export default {
   height: 52px;
   width: 52px;
 }
+
+.slide-out-top {
+  animation: slide-out-top 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.5s both;
+}
+
+@keyframes slide-out-top {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+
+.scale-out-center {
+  animation: scale-out-center 0.5s ease-in-out 1.5s both;
+}
+
+@keyframes scale-out-center {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fade-out 1s ease-out 1s both;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 </style>
