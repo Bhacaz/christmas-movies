@@ -19,7 +19,7 @@ export default {
 <style>
 #header-hero {
   /*https://app.haikei.app/*/
-  background-image: url("~@/assets/img/header-background-trees.jpg");
+  background-image: url("~@/assets/img/img.png");
   background-size: cover;
   /*background-color: #2fdb6a;*/
 }
