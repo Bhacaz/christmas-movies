@@ -1480,83 +1480,43 @@
     "streamingOffers": [
       {
         "provider": {
-          "id": 326,
-          "technical_name": "ctv",
-          "short_name": "ctc",
-          "clear_name": "CTV",
-          "display_priority": 42,
+          "id": 8,
+          "technical_name": "netflix",
+          "short_name": "nfx",
+          "clear_name": "Netflix",
+          "display_priority": 0,
           "priority": 0,
           "monetization_types": [
-            "ads"
+            "flatrate"
           ],
-          "icon_url": "/icon/142828658/{profile}",
-          "icon_blur_hash": "KeRp2u#A$^kBoMay~pTIIw",
-          "slug": "ctv",
+          "icon_url": "/icon/207360008/{profile}",
+          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
+          "slug": "netflix",
           "data": {
             "deeplink_data": [],
             "packages": {
               "android_tv": "enabled",
               "fire_tv": "enabled",
-              "tvos": "",
+              "tvos": "enabled",
               "tizenos": "enabled",
-              "webos": "",
-              "xbox": ""
+              "webos": "enabled",
+              "xbox": "enabled"
             }
           },
           "addon_packages": null,
           "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/142828658/s100"
+          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
         },
         "offer": {
-          "jw_entity_id": "tm31297",
-          "monetization_type": "ads",
-          "provider_id": 326,
-          "package_short_name": "ctc",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://www.ctv.ca/movies/the-night-before/the-night-before"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
-      },
-      {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
+          "jw_entity_id": "tm1088977",
           "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
+          "provider_id": 8,
+          "package_short_name": "nfx",
           "currency": "CAD",
           "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1087&context=library%3Acontent.library~4~1"
+            "standard_web": "https://www.netflix.com/ca/title/80059064",
+            "deeplink_web": "https://www.netflix.com/ca/title/80059064",
+            "deeplink_rokuos": "launch/12?contentID=81416312&MediaType=movie"
           },
           "presentation_type": "4k",
           "country": "CA"
