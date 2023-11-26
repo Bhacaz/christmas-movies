@@ -93,12 +93,6 @@
         "provider_id": 469,
         "provider_name": "Club Illico",
         "display_priority": 53
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix basic with Ads",
-        "display_priority": 115
       }
     ],
     "date": 1
@@ -174,22 +168,16 @@
     "vote_count": 66,
     "providers": [
       {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/gJ3yVMWouaVj6iHd59TISJ1TlM5.jpg",
         "provider_id": 230,
         "provider_name": "Crave",
         "display_priority": 4
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/sB5vHrmYmliwUvBwZe8HpXo9r8m.jpg",
-        "provider_id": 305,
-        "provider_name": "Crave Starz",
-        "display_priority": 5
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/x36C6aseF5l4uX99Kpse9dbPwBo.jpg",
-        "provider_id": 1794,
-        "provider_name": "Starz Amazon Channel",
-        "display_priority": 112
       },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/hNO6rEpZ9l2LQEkjacrpeoocKbX.jpg",
@@ -273,6 +261,12 @@
         "provider_id": 350,
         "provider_name": "Apple TV Plus",
         "display_priority": 7
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
       }
     ],
     "date": 3
@@ -347,6 +341,12 @@
     "vote_count": 2384,
     "providers": [
       {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg",
         "provider_id": 337,
         "provider_name": "Disney Plus",
@@ -357,18 +357,6 @@
         "provider_id": 230,
         "provider_name": "Crave",
         "display_priority": 4
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/sB5vHrmYmliwUvBwZe8HpXo9r8m.jpg",
-        "provider_id": 305,
-        "provider_name": "Crave Starz",
-        "display_priority": 5
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/x36C6aseF5l4uX99Kpse9dbPwBo.jpg",
-        "provider_id": 1794,
-        "provider_name": "Starz Amazon Channel",
-        "display_priority": 112
       }
     ],
     "date": 4
@@ -464,6 +452,12 @@
     "vote_count": 6107,
     "providers": [
       {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/gJ3yVMWouaVj6iHd59TISJ1TlM5.jpg",
         "provider_id": 230,
         "provider_name": "Crave",
@@ -537,12 +531,6 @@
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix basic with Ads",
-        "display_priority": 115
       }
     ],
     "date": 6
@@ -624,15 +612,9 @@
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix basic with Ads",
-        "display_priority": 115
       }
     ],
-    "date": 8
+    "date": 15
   },
   {
     "adult": false,
@@ -712,16 +694,10 @@
     "vote_count": 4640,
     "providers": [
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/8jzbtiXz0eZ6aPjxdmGW3ceqjon.jpg",
-        "provider_id": 182,
-        "provider_name": "Hollywood Suite",
-        "display_priority": 25
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/fTc12wQdF3tOgKE16Eai4vjOFPg.jpg",
-        "provider_id": 705,
-        "provider_name": "Hollywood Suite Amazon Channel",
-        "display_priority": 96
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
       },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/hNO6rEpZ9l2LQEkjacrpeoocKbX.jpg",
@@ -786,6 +762,12 @@
     "vote_average": 6.8,
     "vote_count": 35,
     "providers": [
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/emthp39XA2YScoYL1p0sdbAH2WA.jpg",
         "provider_id": 119,
@@ -855,6 +837,12 @@
     "vote_average": 7.633,
     "vote_count": 805,
     "providers": [
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg",
         "provider_id": 337,
@@ -945,6 +933,12 @@
     "vote_average": 6.087,
     "vote_count": 1572,
     "providers": [
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
         "provider_id": 8,
@@ -1043,15 +1037,9 @@
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix basic with Ads",
-        "display_priority": 115
       }
     ],
-    "date": 15
+    "date": 8
   },
   {
     "adult": false,
@@ -1128,6 +1116,12 @@
     "vote_count": 3451,
     "providers": [
       {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/6FWwq6rayak6g6rvzVVP1NnX9gf.jpg",
         "provider_id": 469,
         "provider_name": "Club Illico",
@@ -1202,10 +1196,10 @@
     "vote_count": 1029,
     "providers": [
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/aJ0b9BLU1Cvv5hIz9fEhKKc1x1D.jpg",
-        "provider_id": 212,
-        "provider_name": "Hoopla",
-        "display_priority": 9
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
       }
     ],
     "date": 7
@@ -1276,7 +1270,12 @@
     "vote_average": 0.0,
     "vote_count": 0,
     "providers": [
-
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/emthp39XA2YScoYL1p0sdbAH2WA.jpg",
+        "provider_id": 119,
+        "provider_name": "Amazon Prime Video",
+        "display_priority": 2
+      }
     ],
     "date": 18
   },
@@ -1367,12 +1366,6 @@
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix basic with Ads",
-        "display_priority": 115
       }
     ],
     "date": 20
@@ -1550,10 +1543,10 @@
     "vote_count": 736,
     "providers": [
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/aJ0b9BLU1Cvv5hIz9fEhKKc1x1D.jpg",
-        "provider_id": 212,
-        "provider_name": "Hoopla",
-        "display_priority": 9
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
       },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/nVly1ywNU2hMYLaieL6ixhEFTWh.jpg",
@@ -1622,6 +1615,12 @@
     "vote_average": 6.71,
     "vote_count": 917,
     "providers": [
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_id": 119,
+        "provider_name": "Plex",
+        "display_priority": 2
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg",
         "provider_id": 337,
