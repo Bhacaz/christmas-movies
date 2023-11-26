@@ -1,1676 +1,1632 @@
 [
   {
-    "title": "The Nutcracker and the Four Realms",
-    "full_path": "/ca/movie/the-nutcracker-and-the-four-realms",
-    "short_description": "When Clara’s mother leaves her a mysterious gift, she embarks on a journey to four secret realms—where she discovers her greatest strength could change the world.",
-    "release_year": 2018,
-    "poster": "https://images.justwatch.com/poster/107395164/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/88208616/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/i7W7x1EhLk0PXXFnHiCPBgUjBVC.jpg",
+    "belongs_to_collection": null,
+    "budget": 10000000,
+    "genres": [
       {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm327380",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fthe-nutcracker-and-the-four-realms%2F5dYD1WTOdnZm&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/b846534b-4fbc-40d9-b3d3-28fe79e38355",
-            "deeplink_rokuos": "launch/291097?contentID=b846534b-4fbc-40d9-b3d3-28fe79e38355&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 22
-  },
-  {
-    "title": "A Boy Called Christmas",
-    "full_path": "/ca/movie/a-boy-called-christmas",
-    "short_description": "In this origin story of Father Christmas, an ordinary boy (with a loyal pet mouse and a reindeer at his side) sets out on an extraordinary adventure to find his father who is on a quest to discover the fabled village of Elfhelm.",
-    "release_year": 2021,
-    "poster": "https://images.justwatch.com/poster/242702721/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/256347681/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm675820",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/81029733",
-            "deeplink_web": "http://www.netflix.com/watch/81029733",
-            "deeplink_rokuos": "launch/12?contentID=81029733&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 2
-  },
-  {
-    "title": "The Man Who Invented Christmas",
-    "full_path": "/ca/movie/the-man-who-invented-christmas",
-    "short_description": "In 1843, despite the fact that Dickens is a successful writer, the failure of his latest book puts his career at a crossroads, until the moment when, struggling with inspiration and confronting reality with his childhood memories, a new character is born in the depths of his troubled mind; an old, lonely, embittered man, so vivid, so human, that a whole world grows around him, a story so inspiring that changed the meaning of Christmas forever.",
-    "release_year": 2017,
-    "poster": "https://images.justwatch.com/poster/18807551/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/253113580/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 146,
-          "technical_name": "icitoutv",
-          "short_name": "itt",
-          "clear_name": "iciTouTV",
-          "display_priority": 13,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/5827076/{profile}",
-          "icon_blur_hash": "KaEhe9oz0LpIfka|0Lay-p",
-          "slug": "icitoutv",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/5827076/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm340212",
-          "monetization_type": "flatrate",
-          "provider_id": 146,
-          "package_short_name": "itt",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://ici.tou.tv/l-homme-qui-inventa-noel"
-          },
-          "presentation_type": "sd",
-          "country": "CA"
-        }
+        "id": 18,
+        "name": "Drame"
       },
       {
-        "provider": {
-          "id": 314,
-          "technical_name": "cbcgem",
-          "short_name": "cbc",
-          "clear_name": "CBC Gem",
-          "display_priority": 41,
-          "priority": 0,
-          "monetization_types": [
-            "ads"
-          ],
-          "icon_url": "/icon/140132304/{profile}",
-          "icon_blur_hash": "KTNhvg|_Mx{}o1ozVsayog",
-          "slug": "cbc-gem",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/140132304/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm340212",
-          "monetization_type": "ads",
-          "provider_id": 314,
-          "package_short_name": "cbc",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://gem.cbc.ca/media/the-man-who-invented-christmas"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
+        "id": 16,
+        "name": "Animation"
       },
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F3094&context=library%3Acontent.library~0~0"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 3
-  },
-  {
-    "title": "The Noel Diary",
-    "full_path": "/ca/movie/the-noel-diary",
-    "short_description": "The story of a man who returns home on Christmas to settle his estranged mother's estate. Once there, he discovers a diary that may hold secrets to his own past and of a beautiful young woman on a mysterious journey of her own.",
-    "release_year": 2022,
-    "poster": "https://images.justwatch.com/poster/301488647/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/301488649/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm281935",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://www.netflix.com/ca/title/81045305",
-            "deeplink_web": "http://www.netflix.com/watch/80177872",
-            "deeplink_rokuos": "launch/12?contentID=80177872&MediaType=movie"
-          },
-          "available_to": "2023-11-01",
-          "presentation_type": "hd",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 4
-  },
-  {
-    "title": "A Bad Moms Christmas",
-    "full_path": "/ca/movie/a-bad-moms-christmas",
-    "short_description": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own mothers.",
-    "release_year": 2017,
-    "poster": "https://images.justwatch.com/poster/18684531/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/26698014/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm281935",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/80177872",
-            "deeplink_web": "http://www.netflix.com/watch/80177872",
-            "deeplink_rokuos": "launch/12?contentID=80177872&MediaType=movie"
-          },
-          "available_to": "2023-11-01",
-          "presentation_type": "hd",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 5
-  },
-  {
-    "title": "Mickey's Once Upon a Christmas",
-    "full_path": "/ca/movie/mickeys-once-upon-a-christmas",
-    "short_description": "Mickey, Minnie, and their famous friends Goofy, Donald, Daisy and Pluto gather together to reminisce about the love, magic and surprises in three wonder-filled stories of Christmas past.",
-    "release_year": 1999,
-    "poster": "https://images.justwatch.com/poster/93321833/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/161664574/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm46480",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fmickeys-once-upon-a-christmas%2F72SAF9iLzQlT&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/952bd4cf-5705-4041-8af2-749f2b0389ab",
-            "deeplink_rokuos": "launch/291097?contentID=952bd4cf-5705-4041-8af2-749f2b0389ab&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 6
-  },
-  {
-    "title": "I'll Be Home for Christmas",
-    "full_path": "/ca/movie/ill-be-home-for-christmas-1998",
-    "short_description": "Estranged from his father, college student Jake is lured home to New York for Christmas with the promise of receiving a classic Porsche as a gift. When the bullying football team dumps him in the desert in a Santa suit, Jake is left without identification or money to help him make the journey. Meanwhile, his girlfriend, Allie, does not know where he is, and accepts a cross-country ride from Jake's rival, Eddie.",
-    "release_year": 1998,
-    "poster": "https://images.justwatch.com/poster/162824159/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/162824168/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm56602",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fill-be-home-for-christmas%2F4JnQ1UDM1qFD&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/5116e020-934e-42a6-811b-bc83e41e85a5",
-            "deeplink_rokuos": "launch/291097?contentID=5116e020-934e-42a6-811b-bc83e41e85a5&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 7
-  },
-  {
-    "title": "Mickey's Christmas Carol",
-    "full_path": "/ca/movie/mickeys-christmas-carol",
-    "short_description": "Ebenezer Scrooge is far too greedy to understand that Christmas is a time for kindness and generosity. But with the guidance of some new found friends, Scrooge learns to embrace the spirit of the season. A retelling of the classic Dickens tale with Disney's classic characters.",
-    "release_year": 1983,
-    "poster": "https://images.justwatch.com/poster/120294067/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/120294068/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm66657",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fmickeys-christmas-carol%2F7522gHd0GW3X&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/dec7fca2-7b4d-45ce-a9f9-93c5cd63cdf2",
-            "deeplink_rokuos": "launch/291097?contentID=dec7fca2-7b4d-45ce-a9f9-93c5cd63cdf2&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 8
-  },
-  {
-    "title": "Klaus",
-    "full_path": "/ca/movie/klaus",
-    "short_description": "When Jesper distinguishes himself as the Postal Academy's worst student, he is sent to Smeerensburg, a small village located on an icy island above the Arctic Circle, where grumpy inhabitants barely exchange words, let alone letters. Jesper is about to give up and abandon his duty as a postman when he meets local teacher Alva and Klaus, a mysterious carpenter who lives alone in a cabin full of handmade toys.",
-    "release_year": 2019,
-    "poster": "https://images.justwatch.com/poster/157065274/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/257473442/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm375883",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/80183187",
-            "deeplink_web": "http://www.netflix.com/watch/80183187",
-            "deeplink_rokuos": "launch/12?contentID=80183187&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 9
-  },
-  {
-    "title": "Fred Claus",
-    "full_path": "/ca/movie/fred-claus",
-    "short_description": "Fred Claus and Santa Claus have been estranged brothers for many years. Now Fred must reconcile his differences with his brother whom he believes overshadows him. When an efficiency expert assesses the workings at the North Pole and threatens to shut Santa down, Fred must help his brother to save Christmas.",
-    "release_year": 2007,
-    "poster": "https://images.justwatch.com/poster/11000953/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/11000945/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 230,
-          "technical_name": "crave",
-          "short_name": "crv",
-          "clear_name": "Crave",
-          "display_priority": 4,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/92692011/{profile}",
-          "icon_blur_hash": "KA0dm*fRZ~f+fQf6U[fQkr",
-          "slug": "crave",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": [
-            "crp",
-            "crs"
-          ],
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/92692011/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm76868",
-          "monetization_type": "flatrate",
-          "provider_id": 230,
-          "package_short_name": "crv",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://www.crave.ca//movies/fred-claus"
-          },
-          "presentation_type": "sd",
-          "country": "CA"
-        }
+        "id": 10751,
+        "name": "Familial"
       },
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F3030&context=library%3Acontent.library~0~3"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 35,
+        "name": "Comédie"
       }
     ],
-    "date": 10
-  },
-  {
-    "title": "Godmothered",
-    "full_path": "/ca/movie/godmothered",
-    "short_description": "A young and unskilled fairy godmother that ventures out on her own to prove her worth by tracking down a young girl whose request for help was ignored. What she discovers is that the girl has now become a grown woman in need of something very different than a \"prince charming.\"",
-    "release_year": 2020,
-    "poster": "https://images.justwatch.com/poster/239521142/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/239200398/s1440",
-    "streamingOffers": [
+    "homepage": "",
+    "id": 51052,
+    "imdb_id": "tt1430607",
+    "original_language": "en",
+    "original_title": "Arthur Christmas",
+    "overview": "Dans la nuit du 24 au 25 décembre, le Père Noël et ses lutins ont distribué tous les cadeaux aux enfants endormis. Il en reste cependant un qui a été oublié et qui appartient à une petite fille du Royaume-Uni. Aller lui porter ne sera pas évident, car le jour va bientôt se lever. Le fils du Père Noël décide de remplir cette périlleuse mission. En compagnie de son grand-père, d'un vieux renne et d'un elfe qui a plus d'un tour dans son sac, Arthur Noël s'embarque dans une aventure qui lui fera vivre de nombreuses sensations fortes.",
+    "popularity": 49.731,
+    "poster_path": "https://image.tmdb.org/t/p/original/kqed1i8MjX8zyXOnQLHatShGhVc.jpg",
+    "production_companies": [
       {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm974117",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fgodmothered%2F5xCSclU8XGKM&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/83420846-ad3a-4bbf-b057-da3b59e32f5c",
-            "deeplink_rokuos": "launch/291097?contentID=83420846-ad3a-4bbf-b057-da3b59e32f5c&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 5,
+        "logo_path": "/wrweLpBqRYcAM7kCSaHDJRxKGOP.png",
+        "name": "Columbia Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 2251,
+        "logo_path": "/5ilV5mH3gxTEU7p5wjxptHvXkyr.png",
+        "name": "Sony Pictures Animation",
+        "origin_country": "US"
+      },
+      {
+        "id": 297,
+        "logo_path": "/58TnhYZqbMYgkHM6lg7dJoYJ4RH.png",
+        "name": "Aardman",
+        "origin_country": "GB"
       }
     ],
-    "date": 11
+    "production_countries": [
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2011-11-10",
+    "revenue": 0,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Vous êtes-vous déjà demandé comment 2 milliard de cadeaux sont livrés en 1 nuit?",
+    "title": "Mission Noël",
+    "video": false,
+    "vote_average": 6.761,
+    "vote_count": 1328,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/6FWwq6rayak6g6rvzVVP1NnX9gf.jpg",
+        "provider_id": 469,
+        "provider_name": "Club Illico",
+        "display_priority": 53
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix basic with Ads",
+        "display_priority": 115
+      }
+    ],
+    "date": 1
   },
   {
-    "title": "Iron Man 3",
-    "full_path": "/ca/movie/iron-man-3",
-    "short_description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
-    "release_year": 2013,
-    "poster": "https://images.justwatch.com/poster/8662059/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/8662087/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/jjmNCDyeO4yEHAq7DnPXecuw0df.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
       {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm177964",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Firon-man-3%2F3s4Ihq7P2c6e&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/e8fbf24f-defb-41a6-b578-1b9edd6d301b",
-            "deeplink_rokuos": "launch/291097?contentID=e8fbf24f-defb-41a6-b578-1b9edd6d301b&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 22081,
+    "imdb_id": "tt0309372",
+    "original_language": "en",
+    "original_title": "Blizzard",
+    "overview": "",
+    "popularity": 10.476,
+    "poster_path": "https://image.tmdb.org/t/p/original/uLGrJDBi67Bb4e3mMGoH3duefhw.jpg",
+    "production_companies": [
+      {
+        "id": 84756,
+        "logo_path": null,
+        "name": "Ralph Winter Productions",
+        "origin_country": ""
+      },
+      {
+        "id": 2757,
+        "logo_path": null,
+        "name": "Holedigger Films",
+        "origin_country": ""
+      },
+      {
+        "id": 36613,
+        "logo_path": null,
+        "name": "Knightscove Entertainment",
+        "origin_country": ""
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2003-05-15",
+    "revenue": 0,
+    "runtime": 93,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Blizzard",
+    "video": false,
+    "vote_average": 5.9,
+    "vote_count": 66,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/gJ3yVMWouaVj6iHd59TISJ1TlM5.jpg",
+        "provider_id": 230,
+        "provider_name": "Crave",
+        "display_priority": 4
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/sB5vHrmYmliwUvBwZe8HpXo9r8m.jpg",
+        "provider_id": 305,
+        "provider_name": "Crave Starz",
+        "display_priority": 5
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/x36C6aseF5l4uX99Kpse9dbPwBo.jpg",
+        "provider_id": 1794,
+        "provider_name": "Starz Amazon Channel",
+        "display_priority": 112
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/hNO6rEpZ9l2LQEkjacrpeoocKbX.jpg",
+        "provider_id": 326,
+        "provider_name": "CTV",
+        "display_priority": 40
       }
     ],
     "date": 12
   },
   {
-    "title": "Thanks for Everything",
-    "full_path": "/ca/movie/thanks-for-everything",
-    "short_description": "Sisters Marianne and Christine take a road trip from Montreal to the Magdalen Islands to spread the ashes of their late father. He wasn’t exactly an angel, and his associates are hot on their trail.",
-    "release_year": 2019,
-    "poster": "https://images.justwatch.com/poster/172554752/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/161527008/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fHDvGGPFry65ou79WLi6JsjCZrM.jpg",
+    "belongs_to_collection": null,
+    "budget": 75000000,
+    "genres": [
       {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm840126",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/81572134",
-            "deeplink_web": "http://www.netflix.com/watch/81572134",
-            "deeplink_rokuos": "launch/12?contentID=81572134&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 632856,
+    "imdb_id": "tt10999120",
+    "original_language": "en",
+    "original_title": "Spirited",
+    "overview": "",
+    "popularity": 50.197,
+    "poster_path": "https://image.tmdb.org/t/p/original/r4p2HKvhBUXCE20eEiM1pBCnvDN.jpg",
+    "production_companies": [
+      {
+        "id": 104228,
+        "logo_path": "/hx0C1XcSxGgat8N62GpxoJGTkCk.png",
+        "name": "Maximum Effort",
+        "origin_country": "US"
       },
       {
-        "provider": {
-          "id": 146,
-          "technical_name": "icitoutv",
-          "short_name": "itt",
-          "clear_name": "iciTouTV",
-          "display_priority": 13,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/5827076/{profile}",
-          "icon_blur_hash": "KaEhe9oz0LpIfka|0Lay-p",
-          "slug": "icitoutv",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/5827076/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm840126",
-          "monetization_type": "flatrate",
-          "provider_id": 146,
-          "package_short_name": "itt",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://ici.tou.tv/merci-pour-tout"
-          },
-          "presentation_type": "sd",
-          "country": "CA"
-        }
+        "id": 77152,
+        "logo_path": "/dKwI9lYFR9tHRHnut7P52gIl3Sb.png",
+        "name": "Gloria Sanchez Productions",
+        "origin_country": "US"
       },
       {
-        "provider": {
-          "id": 314,
-          "technical_name": "cbcgem",
-          "short_name": "cbc",
-          "clear_name": "CBC Gem",
-          "display_priority": 41,
-          "priority": 0,
-          "monetization_types": [
-            "ads"
-          ],
-          "icon_url": "/icon/140132304/{profile}",
-          "icon_blur_hash": "KTNhvg|_Mx{}o1ozVsayog",
-          "slug": "cbc-gem",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/140132304/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm840126",
-          "monetization_type": "ads",
-          "provider_id": 314,
-          "package_short_name": "cbc",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://gem.cbc.ca/media/merci-pour-tout-thanks-for-everything"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
-      }
-    ],
-    "date": 13
-  },
-  {
-    "title": "The Grinch",
-    "full_path": "/ca/movie/the-grinch",
-    "short_description": "The Grinch hatches a scheme to ruin Christmas when the residents of Whoville plan their annual holiday celebration.",
-    "release_year": 2018,
-    "poster": "https://images.justwatch.com/poster/82774854/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/51155658/s1440",
-    "streamingOffers": [
-      {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/258219092/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://clubillico.videotron.com/club-illico/1271263/Dr.-Seuss-le-Grincheux"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 182915,
+        "logo_path": null,
+        "name": "Two Grown Men",
+        "origin_country": "US"
       },
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1254&context=library%3Acontent.library~1~2"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 194232,
+        "logo_path": "/oE7H93u8sy5vvW5EH3fpCp68vvB.png",
+        "name": "Apple Studios",
+        "origin_country": "US"
       }
     ],
-    "date": 14
-  },
-  {
-    "title": "The Santa Clause",
-    "full_path": "/ca/movie/the-santa-clause",
-    "short_description": "Scott Calvin is an ordinary man, who accidentally causes Santa Claus to fall from his roof on Christmas Eve and is knocked unconscious. When he and his young son finish Santa's trip and deliveries, they go to the North Pole, where Scott learns he must become the new Santa and convince those he loves that he is indeed, Father Christmas.",
-    "release_year": 1994,
-    "poster": "https://images.justwatch.com/poster/147273336/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/206724895/s1440",
-    "streamingOffers": [
+    "production_countries": [
       {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm115014",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fthe-santa-clause%2F3JPPheWC0SH5&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/343fdc18-57bd-4709-93f8-04be1b00a440",
-            "deeplink_rokuos": "launch/291097?contentID=343fdc18-57bd-4709-93f8-04be1b00a440&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "iso_3166_1": "US",
+        "name": "United States of America"
       }
     ],
-    "date": 15
-  },
-  {
-    "title": "23 décembre",
-    "full_path": "/ca/movie/the-holiday",
-    "short_description": "Two women, one from the United States and one from the United Kingdom, swap homes at Christmastime after bad breakups with their boyfriends. Each woman finds romance with a local man but realizes that the imminent return home may end the relationship.",
-    "release_year": 2022,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNWZhYTYzMmMtMGU5ZS00MmY0LWI5YjMtYWFlMzBmZTJhMWUzXkEyXkFqcGdeQXVyMTM1MDExOTE2._V1_.jpg",
-    "backdrop": "https://m.media-amazon.com/images/M/MV5BNWZhYTYzMmMtMGU5ZS00MmY0LWI5YjMtYWFlMzBmZTJhMWUzXkEyXkFqcGdeQXVyMTM1MDExOTE2._V1_.jpg",
-    "streamingOffers": [
+    "release_date": "2022-11-10",
+    "revenue": 0,
+    "runtime": 127,
+    "spoken_languages": [
       {
-        "provider": {
-          "id": 326,
-          "technical_name": "ctv",
-          "short_name": "ctc",
-          "clear_name": "CTV",
-          "display_priority": 42,
-          "priority": 0,
-          "monetization_types": [
-            "ads"
-          ],
-          "icon_url": "/icon/142828658/{profile}",
-          "icon_blur_hash": "KeRp2u#A$^kBoMay~pTIIw",
-          "slug": "ctv",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "",
-              "tizenos": "enabled",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://seeklogo.com/images/C/cinemas-guzzo-movie-theatres-logo-6FD2B4E98B-seeklogo.com.png"
-        },
-        "offer": {
-          "jw_entity_id": "tm31297",
-          "monetization_type": "ads",
-          "provider_id": 326,
-          "package_short_name": "ctc",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://www.cinemaquebec.com/films/23-decembre-2022/horaires"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
       }
     ],
-    "date": 16
+    "status": "Released",
+    "tagline": "",
+    "title": "Spirited, l'esprit de Noël",
+    "video": false,
+    "vote_average": 7.047,
+    "vote_count": 460,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/6uhKBfmtzFqOcLousHwZuzcrScK.jpg",
+        "provider_id": 350,
+        "provider_name": "Apple TV Plus",
+        "display_priority": 7
+      }
+    ],
+    "date": 3
   },
   {
-    "title": "Little Women",
-    "full_path": "/ca/movie/little-women-2019",
-    "short_description": "Four sisters come of age in America in the aftermath of the Civil War.",
-    "release_year": 2019,
-    "poster": "https://images.justwatch.com/poster/154480497/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/149991571/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/rnn6sGMGPpM8VfVmCMFxsjKvz7q.jpg",
+    "belongs_to_collection": {
+      "id": 307637,
+      "name": "Jingle All the Way Collection",
+      "poster_path": "/zpYYN8NklsFR3iO1raCKzV3tcGf.jpg",
+      "backdrop_path": "/grCEwz2sIneF1wlDtVx6UiLqtLc.jpg"
+    },
+    "budget": 60000000,
+    "genres": [
       {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm424851",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/81140933",
-            "deeplink_web": "http://www.netflix.com/watch/81140933",
-            "deeplink_rokuos": "launch/12?contentID=81140933&MediaType=movie"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
+        "id": 10751,
+        "name": "Familial"
       },
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/258219092/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm424851",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://clubillico.videotron.com/club-illico/1328869/Les-quatre-filles-du-docteur-March"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
       }
     ],
+    "homepage": "",
+    "id": 9279,
+    "imdb_id": "tt0116705",
+    "original_language": "en",
+    "original_title": "Jingle All the Way",
+    "overview": "Comme tous les enfants américains, et bientôt les autres, Jamie veut un Turbo Man pour Noël. Seulement son papa, homme d'affaires stressé, a oublié sa promesse. Il s'en souvient quelques heures avant la remise fatidique des cadeaux et part à la chasse au Turbo Man, qui n'est plus disponible dans aucun magasin. Une course contre le temps et d'autres acquéreurs du jouet s'engage.",
+    "popularity": 56.238,
+    "poster_path": "https://image.tmdb.org/t/p/original/pN98TAu71SfSVLPAUmWWDlKnTQx.jpg",
+    "production_companies": [
+      {
+        "id": 436,
+        "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "name": "1492 Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 25,
+        "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "name": "20th Century Fox",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1996-11-21",
+    "revenue": 129832389,
+    "runtime": 89,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "2 papas, 1 seul jouet et pas de quartier !",
+    "title": "La course au jouet",
+    "video": false,
+    "vote_average": 6.014,
+    "vote_count": 2384,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg",
+        "provider_id": 337,
+        "provider_name": "Disney Plus",
+        "display_priority": 1
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/gJ3yVMWouaVj6iHd59TISJ1TlM5.jpg",
+        "provider_id": 230,
+        "provider_name": "Crave",
+        "display_priority": 4
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/sB5vHrmYmliwUvBwZe8HpXo9r8m.jpg",
+        "provider_id": 305,
+        "provider_name": "Crave Starz",
+        "display_priority": 5
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/x36C6aseF5l4uX99Kpse9dbPwBo.jpg",
+        "provider_id": 1794,
+        "provider_name": "Starz Amazon Channel",
+        "display_priority": 112
+      }
+    ],
+    "date": 4
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
+    "belongs_to_collection": null,
+    "budget": 40000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 18,
+        "name": "Drame"
+      }
+    ],
+    "homepage": "",
+    "id": 508,
+    "imdb_id": "tt0314331",
+    "original_language": "en",
+    "original_title": "Love Actually",
+    "overview": "Quelques mois avant Noël, dix histoires d'amour évoluent. Du premier ministre au garçonnet, de la star de rock sur le déclin à la femme de ménage, tous explorent un amour naissant et incertain.",
+    "popularity": 44.184,
+    "poster_path": "https://image.tmdb.org/t/p/original/rJAML5icaPEkj8CU4wLHjpL4RWd.jpg",
+    "production_companies": [
+      {
+        "id": 10163,
+        "logo_path": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "name": "Working Title Films",
+        "origin_country": "GB"
+      },
+      {
+        "id": 284,
+        "logo_path": null,
+        "name": "DNA Films",
+        "origin_country": "GB"
+      },
+      {
+        "id": 33,
+        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 694,
+        "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+        "name": "StudioCanal",
+        "origin_country": "FR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
+      },
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      }
+    ],
+    "release_date": "2003-09-07",
+    "revenue": 247933248,
+    "runtime": 135,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
+      },
+      {
+        "english_name": "Portuguese",
+        "iso_639_1": "pt",
+        "name": "Português"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Réellement l'amour",
+    "video": false,
+    "vote_average": 7.108,
+    "vote_count": 6107,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/gJ3yVMWouaVj6iHd59TISJ1TlM5.jpg",
+        "provider_id": 230,
+        "provider_name": "Crave",
+        "display_priority": 4
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/xbhHHa1YgtpwhC8lb1NQ3ACVcLd.jpg",
+        "provider_id": 531,
+        "provider_name": "Paramount Plus",
+        "display_priority": 10
+      }
+    ],
+    "date": 5
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8veOfB9RbSzFki0Rq3IQIGsFfhC.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 615665,
+    "imdb_id": "tt9866072",
+    "original_language": "en",
+    "original_title": "Holidate",
+    "overview": "",
+    "popularity": 41.224,
+    "poster_path": "https://image.tmdb.org/t/p/original/iFAadA0xvzntOx2ecYkAgr1Yz2p.jpg",
+    "production_companies": [
+      {
+        "id": 4022,
+        "logo_path": "/q6Xts6ztGkTHrY1WfHttlhL3Pfc.png",
+        "name": "Wonderland Sound and Vision",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2020-10-27",
+    "revenue": 0,
+    "runtime": 104,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Holidate",
+    "video": false,
+    "vote_average": 7.05,
+    "vote_count": 1992,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix basic with Ads",
+        "display_priority": 115
+      }
+    ],
+    "date": 6
+  },
+  {
+    "title": "Activité: Marche dehors pour regarder les décorations de noël et partager tes photos dans le groupe messenger",
+    "poster_path": "https://edito.seloger.com/sites/default/files/styles/480x/public/edito_migrate/article/image/maison-noel-lumineuse_0.jpg?itok=8oNciQ2-",
     "date": 17
   },
   {
-    "title": "Noelle",
-    "full_path": "/ca/movie/noelle-2019",
-    "short_description": "Kris Kringle's daughter, Noelle, sets off on a mission to find and bring back her brother, after he gets cold feet when it's his turn to take over as Santa.",
-    "release_year": 2019,
-    "poster": "https://images.justwatch.com/poster/146805598/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/152733569/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/mxVpkHclXPgWxo62SJ0a0YcUzgC.jpg",
+    "belongs_to_collection": {
+      "id": 743824,
+      "name": "The Christmas Chronicles Collection",
+      "poster_path": "/k3LJrMujUHa2PmasQIcYKE5f2BD.jpg",
+      "backdrop_path": "/trlzfJap4hSnqQwLO0yL3hous1X.jpg"
+    },
+    "budget": 0,
+    "genres": [
       {
-        "provider": {
-          "id": 337,
-          "technical_name": "disneyplus",
-          "short_name": "dnp",
-          "clear_name": "Disney Plus",
-          "display_priority": 1,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/147638351/{profile}",
-          "icon_blur_hash": "KQ5=;uogRNR1f5ohIUWBt6",
-          "slug": "disney-plus",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/147638351/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm319217",
-          "monetization_type": "flatrate",
-          "provider_id": 337,
-          "package_short_name": "dnp",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://disneyplus.bn5x.net/c/1206980/705874/9358?u=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fnoelle%2F1NOwi3epkH6X&subId3=justappsvod",
-            "deeplink_web": "https://www.disneyplus.com/video/ed8faabe-93a4-4eb9-9041-85802c1f0c53",
-            "deeplink_rokuos": "launch/291097?contentID=ed8faabe-93a4-4eb9-9041-85802c1f0c53&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 10751,
+        "name": "Familial"
       },
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1171&context=library%3Acontent.library~4~4"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 14,
+        "name": "Fantastique"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
       }
     ],
-    "date": 18
+    "homepage": "",
+    "id": 654028,
+    "imdb_id": "tt11057644",
+    "original_language": "en",
+    "original_title": "The Christmas Chronicles: Part Two",
+    "overview": "Kate Pierce passe Noël à Cancún avec son frère, sa mère, le nouveau conjoint de celle-ci et le fils de ce dernier. Comme elle n'accepte pas que sa mère ait remplacé son père si vite, elle décide de retourner chez elle sur un coup de tête, sans en parler aux adultes. Ses plans sont, par contre, contrecarrés par un mystérieux G.O. qui la propulse dans un étrange vortex. Elle se retrouve alors au Pôle Nord où elle retrouve son ami le père Noël. Elle devra aider ce dernier à sauver son royaume et la fête de Noël, menacés par un intelligent voyou assoiffé de vengeance.",
+    "popularity": 58.48,
+    "poster_path": "https://image.tmdb.org/t/p/original/AawUeviXf2hRi9d4K2IxgJUfUO9.jpg",
+    "production_companies": [
+      {
+        "id": 436,
+        "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "name": "1492 Pictures",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2020-11-18",
+    "revenue": 0,
+    "runtime": 112,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Les chroniques de Noël : Deuxième partie",
+    "video": false,
+    "vote_average": 6.479,
+    "vote_count": 909,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix basic with Ads",
+        "display_priority": 115
+      }
+    ],
+    "date": 8
   },
   {
-    "title": "Nez Rouge",
-    "full_path": "/ca/movie/red-nose",
-    "short_description": "During the Christmas holiday season, Félix and Céline find themselves working as volunteers for the drive-home service Opération Nez Rouge. Right from the first, Félix falls for Céline. But Céline doesn't feel the same way: she can't forget the fact that Félix once wrote a scathing review of her first piece of writing, crushing her literary ambitions in the process. Worse, Félix doesn't even remember her name. Céline decides to take her revenge. Just as things seem to be going from bad to worse for Félix, Céline realizes that he is vulnerable, tender... and madly in love with her. She is ready to surrender to love... but a chance encounter causes her to wonder whether Félix isn't playing some twisted love game.",
-    "release_year": 2003,
-    "poster": "https://images.justwatch.com/poster/138614292/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/244252543/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9Ebn8atCcGk5OZrx4xmoTobAxoh.jpg",
+    "belongs_to_collection": null,
+    "budget": 85000000,
+    "genres": [
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F1234&context=search%3Ahub.mediaServers~0~0"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 1581,
+    "imdb_id": "tt0457939",
+    "original_language": "en",
+    "original_title": "The Holiday",
+    "overview": "Amanda est une Américaine qui a de la difficulté à trouver un homme. Un jour, elle rencontre Iris, une Anglaise qui a le même problème. Elles décident alors de s'échanger leurs maisons pour voir ce qui pourrait bien arriver. Et elles tombent amoureuses... toutes les deux.",
+    "popularity": 40.622,
+    "poster_path": "https://image.tmdb.org/t/p/original/wpjqSv3I364qjEOhzktSaUQEyKS.jpg",
+    "production_companies": [
+      {
+        "id": 735,
+        "logo_path": null,
+        "name": "Waverly Films",
+        "origin_country": "US"
+      },
+      {
+        "id": 5,
+        "logo_path": "/wrweLpBqRYcAM7kCSaHDJRxKGOP.png",
+        "name": "Columbia Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 33,
+        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 7295,
+        "logo_path": "/62E1B91PxZw8q4KNkge5Qemo7EM.png",
+        "name": "Relativity Media",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2006-12-08",
+    "revenue": 194168700,
+    "runtime": 136,
+    "spoken_languages": [
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Les Vacances",
+    "video": false,
+    "vote_average": 7.079,
+    "vote_count": 4640,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/8jzbtiXz0eZ6aPjxdmGW3ceqjon.jpg",
+        "provider_id": 182,
+        "provider_name": "Hollywood Suite",
+        "display_priority": 25
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/fTc12wQdF3tOgKE16Eai4vjOFPg.jpg",
+        "provider_id": 705,
+        "provider_name": "Hollywood Suite Amazon Channel",
+        "display_priority": 96
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/hNO6rEpZ9l2LQEkjacrpeoocKbX.jpg",
+        "provider_id": 326,
+        "provider_name": "CTV",
+        "display_priority": 40
       }
     ],
     "date": 19
   },
   {
-    "title": "The Holiday",
-    "full_path": "/ca/movie/the-holiday",
-    "short_description": "Two women, one from the United States and one from the United Kingdom, swap homes at Christmastime after bad breakups with their boyfriends. Each woman finds romance with a local man but realizes that the imminent return home may end the relationship.",
-    "release_year": 2006,
-    "poster": "https://images.justwatch.com/poster/101462527/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/158213912/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/rQLwcuKZYjqADTbQedJMvQZ4wgC.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
       {
-        "provider": {
-          "id": 326,
-          "technical_name": "ctv",
-          "short_name": "ctc",
-          "clear_name": "CTV",
-          "display_priority": 42,
-          "priority": 0,
-          "monetization_types": [
-            "ads"
-          ],
-          "icon_url": "/icon/142828658/{profile}",
-          "icon_blur_hash": "KeRp2u#A$^kBoMay~pTIIw",
-          "slug": "ctv",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "",
-              "tizenos": "enabled",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/142828658/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm31297",
-          "monetization_type": "ads",
-          "provider_id": 326,
-          "package_short_name": "ctc",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://www.ctv.ca/movies/the-holiday-2006"
-          },
-          "presentation_type": "hd",
-          "country": "CA"
-        }
+        "id": 10749,
+        "name": "Romance"
       },
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F3044&context=library%3Acontent.library~0~0"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 1192745,
+    "imdb_id": "tt29536228",
+    "original_language": "en",
+    "original_title": "EXmas",
+    "overview": "",
+    "popularity": 237.289,
+    "poster_path": "https://image.tmdb.org/t/p/original/m3sApQZ2Pumkn5eUUlyUgJvt0Fo.jpg",
+    "production_companies": [
+      {
+        "id": 125401,
+        "logo_path": "/zqK2m6vgqAOVyKCGWHkEpqf3GeE.png",
+        "name": "BuzzFeed Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2023-11-17",
+    "revenue": 0,
+    "runtime": 93,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "EXmas",
+    "video": false,
+    "vote_average": 6.8,
+    "vote_count": 35,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/emthp39XA2YScoYL1p0sdbAH2WA.jpg",
+        "provider_id": 119,
+        "provider_name": "Amazon Prime Video",
+        "display_priority": 2
+      }
+    ],
+    "date": 10
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/41ocXijKgjMS17QXydzKdwCaTsU.jpg",
+    "belongs_to_collection": null,
+    "budget": 3000000,
+    "genres": [
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 16,
+        "name": "Animation"
+      }
+    ],
+    "homepage": "",
+    "id": 14813,
+    "imdb_id": "tt0085936",
+    "original_language": "en",
+    "original_title": "Mickey's Christmas Carol",
+    "overview": "Le soir de Noël, Ebenezer Scrooge reçoit la visite du fantôme de son ancien associé, Jacob Marley. Il tente de lui faire entendre raison de son comportement d'usurpateur qui ne pourra jamais le rendre heureux.",
+    "popularity": 42.643,
+    "poster_path": "https://image.tmdb.org/t/p/original/vQowq4sfY082UEU1zccHAjIOjb8.jpg",
+    "production_companies": [
+      {
+        "id": 2,
+        "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "name": "Walt Disney Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 3166,
+        "logo_path": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "name": "Walt Disney Productions",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1983-10-19",
+    "revenue": 21000000,
+    "runtime": 25,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Le Noël de Mickey",
+    "video": false,
+    "vote_average": 7.633,
+    "vote_count": 805,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg",
+        "provider_id": 337,
+        "provider_name": "Disney Plus",
+        "display_priority": 1
+      }
+    ],
+    "date": 11
+  },
+  {
+    "title": "Activité: Dessert dans une tasse!",
+    "poster_path": "https://www.parfaitemamanimparfaite.com/wp-content/uploads/2022/11/AB18A838-7438-48CF-B626-D2038F7DD4B0-670x970.jpg",
+    "date": 2
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/spQjZHP7lMVAMLun98W4YA1c2jL.jpg",
+    "belongs_to_collection": null,
+    "budget": 25000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
+      }
+    ],
+    "homepage": "",
+    "id": 296100,
+    "imdb_id": "tt3530002",
+    "original_language": "en",
+    "original_title": "The Night Before",
+    "overview": "Ethan, Isaac et Chris sont amis depuis l'enfance. Quand les parents de Ethan décèdent alors que les garçons sont encore adolescents, les trois complices se promettent de passer chaque veille de Noël ensemble, faisant de cette fête un rendez-vous amical plutôt que familial. Devenus adultes, Ethan, Isaac et Chris considèrent qu'il est temps désormais d'abolir la tradition. Il ne leur reste donc plus qu'une seule veille de Noël à passer ensemble. Comble de bonheur, Ethan déniche trois billets pour le bal Casse-Noisette, un évènement auquel ils rêvent d'aller depuis les dix dernières années. Bien des embûches les attendent sur la route qui les mènera au bal.",
+    "popularity": 28.749,
+    "poster_path": "https://image.tmdb.org/t/p/original/fAHpxenDKQ1cZt3X6XFdqnXMEuA.jpg",
+    "production_companies": [
+      {
+        "id": 34,
+        "logo_path": "/GagSvqWlyPdkFHMfQ3pNq6ix9P.png",
+        "name": "Sony Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 17393,
+        "logo_path": "/k28sCof6kheeOicLqL6EXX2GHov.png",
+        "name": "Good Universe",
+        "origin_country": "US"
+      },
+      {
+        "id": 16615,
+        "logo_path": "/5au3v0r2brGaegO9EQ0nodLkmQ1.png",
+        "name": "Point Grey Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 5,
+        "logo_path": "/wrweLpBqRYcAM7kCSaHDJRxKGOP.png",
+        "name": "Columbia Pictures",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2015-11-20",
+    "revenue": 52395996,
+    "runtime": 101,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "La veille",
+    "video": false,
+    "vote_average": 6.087,
+    "vote_count": 1572,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      }
+    ],
+    "date": 13
+  },
+  {
+    "title": "Activité: Cuisiner des biscuits de Noël (et en donner à quelqu'un!)",
+    "poster_path": "https://www.supermarche-match.lu/uploads/recipes/images/_header/casey-chae-3DrCZblTGoQ-unsplash.jpg",
+    "date": 16
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/brENMyyhk13WLzKHBK20rBKx0u7.jpg",
+    "belongs_to_collection": {
+      "id": 743824,
+      "name": "The Christmas Chronicles Collection",
+      "poster_path": "/k3LJrMujUHa2PmasQIcYKE5f2BD.jpg",
+      "backdrop_path": "/trlzfJap4hSnqQwLO0yL3hous1X.jpg"
+    },
+    "budget": 0,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
+      }
+    ],
+    "homepage": "https://www.netflix.com/ca-fr/title/80199682",
+    "id": 527435,
+    "imdb_id": "tt2990140",
+    "original_language": "en",
+    "original_title": "The Christmas Chronicles",
+    "overview": "Après avoir causé un accident avec le traîneau du père Noël, un frère et une sœur s'efforcent toute la nuit de sauver Noël avec un Saint Nicolas déluré et direct.",
+    "popularity": 73.952,
+    "poster_path": "https://image.tmdb.org/t/p/original/aRLLpm2zlbgsiIt1ZMmFq2XnXLg.jpg",
+    "production_companies": [
+      {
+        "id": 436,
+        "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "name": "1492 Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 12199,
+        "logo_path": "/gYYIgHpgRsyhyUkeFev1GnwBqHb.png",
+        "name": "Madhouse Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 36434,
+        "logo_path": "/o4fijISk0q8D84I2OJpeYA7vH0d.png",
+        "name": "Ocean Blue Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2018-11-22",
+    "revenue": 0,
+    "runtime": 104,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Le père Noël est en avance cette année",
+    "title": "Les chroniques de Noël",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1963,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix basic with Ads",
+        "display_priority": 115
+      }
+    ],
+    "date": 15
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5lWIYxYEqWi8j3ZloxXntw3ImBo.jpg",
+    "belongs_to_collection": null,
+    "budget": 75000000,
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
+      }
+    ],
+    "homepage": "",
+    "id": 360920,
+    "imdb_id": "tt2709692",
+    "original_language": "en",
+    "original_title": "The Grinch",
+    "overview": "Le Grincheux habite dans une caverne au sommet d'une montagne qui surplombe le village de Chouville. Les habitants de ce patelin sont reconnus pour fêter Noël en grand. Mais, le Grincheux, lui, déteste Noël de tout son coeur. Exaspéré par la joie, les chants et les décorations des habitants de Chouville, il décide de gâcher leurs festivités avec l'aide de son fidèle compagnon, Max. Pour y arriver, il se déguise en père Noël et pille tous les foyers du village lors de la veille de Noël. Sans leurs cadeaux et leurs sapins, les Chou seront dévastés et le vilain Grincheux n'entendra plus parler de cette fête ignoble... enfin c'est ce qu'il aimerait croire.",
+    "popularity": 187.233,
+    "poster_path": "https://image.tmdb.org/t/p/original/36a2GG5L0QW7iP2g8OCYoAW9PJ.jpg",
+    "production_companies": [
+      {
+        "id": 6704,
+        "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+        "name": "Illumination",
+        "origin_country": "US"
+      },
+      {
+        "id": 180651,
+        "logo_path": null,
+        "name": "Dr. Seuss Enterprises",
+        "origin_country": ""
+      },
+      {
+        "id": 5556,
+        "logo_path": "/AtHcoKwxqH6wHrgodaPtZqRirIX.png",
+        "name": "Universal Animation Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2018-11-08",
+    "revenue": 508575295,
+    "runtime": 85,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Il est encore plus méchant.",
+    "title": "Le grincheux",
+    "video": false,
+    "vote_average": 6.83,
+    "vote_count": 3451,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/6FWwq6rayak6g6rvzVVP1NnX9gf.jpg",
+        "provider_id": 469,
+        "provider_name": "Club Illico",
+        "display_priority": 53
+      }
+    ],
+    "date": 14
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/lcFar2tdF9Lir12R0K3Dvw6uABu.jpg",
+    "belongs_to_collection": null,
+    "budget": 60000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      }
+    ],
+    "homepage": "",
+    "id": 13673,
+    "imdb_id": "tt0388419",
+    "original_language": "en",
+    "original_title": "Christmas with the Kranks",
+    "overview": "Lassé des aspects commerciaux de Noël, Luther Krank et sa femme Nora décident de zapper cette fête, de renoncer aux cadeaux, décorations, cartes, parties et de s'offrir à la place une croisière dans les Caraîbes. Évidemment, ça poserait un problème majeur aux voisins. Si la maison des Krank n'est pas décorée, le quartier ne gagnera jamais le concours de décorations de Noël et ça, personne ne l'accepte. Entre les Krank et les voisins, la guerre est déclarée...",
+    "popularity": 56.418,
+    "poster_path": "https://image.tmdb.org/t/p/original/NUWJk8uaEjNVCagwsNpdBXdLnp.jpg",
+    "production_companies": [
+      {
+        "id": 497,
+        "logo_path": "/dcDGGHcPFBZopi7EB68UQC0VW6v.png",
+        "name": "Revolution Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 436,
+        "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "name": "1492 Pictures",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2004-11-24",
+    "revenue": 0,
+    "runtime": 99,
+    "spoken_languages": [
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Noël chez les Kranks",
+    "video": false,
+    "vote_average": 6.14,
+    "vote_count": 1029,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/aJ0b9BLU1Cvv5hIz9fEhKKc1x1D.jpg",
+        "provider_id": 212,
+        "provider_name": "Hoopla",
+        "display_priority": 9
+      }
+    ],
+    "date": 7
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/iIPAlUZNigPt638h5PzUeRTclYX.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
+      }
+    ],
+    "homepage": "",
+    "id": 1022964,
+    "imdb_id": "tt21328106",
+    "original_language": "en",
+    "original_title": "Candy Cane Lane",
+    "overview": "",
+    "popularity": 33.965,
+    "poster_path": "https://image.tmdb.org/t/p/original/psOszcONHSkXYfXOqOvYmrBVRXv.jpg",
+    "production_companies": [
+      {
+        "id": 23,
+        "logo_path": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+        "name": "Imagine Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 30,
+        "logo_path": null,
+        "name": "Eddie Murphy Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 210099,
+        "logo_path": "/mzh9qlZdu9FaiapbK5iw2I9uUPk.png",
+        "name": "Amazon MGM Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2023-11-29",
+    "revenue": 0,
+    "runtime": 117,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Candy Cane Lane",
+    "video": false,
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "providers": [
+
+    ],
+    "date": 18
+  },
+  {
+    "title": "Activité: Préparer et boire un chocolat chaud extra guimauves",
+    "poster_path": "https://www.immersionvegetale.com/wp-content/uploads/2020/12/recette-chocolat-chaud-vegan-guimauve-1.jpg",
+    "date": 9
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/2u1YG0pgm5bIOXO2OVWLNdMl23f.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
+      }
+    ],
+    "homepage": "",
+    "id": 508965,
+    "imdb_id": "tt4729430",
+    "original_language": "en",
+    "original_title": "Klaus",
+    "overview": "Jesper, qui s'est distingué comme le pire élève de son école de facteurs, écope d'une mission sur une île enneigée, au nord du Cercle arctique. Là-bas, les habitants ne s'entendent pas et ne se parlent presque jamais. Autant dire qu'ils n'entretiennent pas non plus de correspondance ! Alors que Jesper est sur le point d'abandonner, il trouve une alliée en la personne d'Alva, l'institutrice de l'île, et fait la connaissance de Klaus, mystérieux menuisier qui vit seul dans son chalet regorgeant de jouets artisanaux. Grâce à ces relations amicales inattendues, la petite ville de Smeerensburg retrouve la joie de vivre. C'est ainsi que ses habitants découvrent la générosité entre voisins, les contes de fée et la tradition des chaussettes soigneusement accrochées à la cheminée pour Noël !",
+    "popularity": 56.529,
+    "poster_path": "https://image.tmdb.org/t/p/original/qb0eCUtvi2Rn5etdqFbaYzvIPYn.jpg",
+    "production_companies": [
+      {
+        "id": 29566,
+        "logo_path": "/wHbtRtUnXGNzX0riQIpq1fcgueq.png",
+        "name": "Atresmedia",
+        "origin_country": "ES"
+      },
+      {
+        "id": 101644,
+        "logo_path": null,
+        "name": "The SPA Studios",
+        "origin_country": "ES"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "ES",
+        "name": "Spain"
+      }
+    ],
+    "release_date": "2019-11-08",
+    "revenue": 0,
+    "runtime": 96,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Northern Sami",
+        "iso_639_1": "se",
+        "name": ""
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Klaus",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 3590,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/t2yyOv40HZeVlLjYsCsPHnWLk4W.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/mShqQVDhHoK7VUbfYG3Un6xE8Mv.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix basic with Ads",
+        "display_priority": 115
       }
     ],
     "date": 20
   },
   {
-    "title": "The Night Before",
-    "full_path": "/ca/movie/the-night-before",
-    "short_description": "In New York City for their annual tradition of Christmas Eve debauchery, three lifelong best friends set out to find the Holy Grail of Christmas parties since their yearly reunion might be coming to an end.",
-    "release_year": 2015,
-    "poster": "https://images.justwatch.com/poster/100721464/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/207253521/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/pnkcE3Q3fPNM9XzWEN1gJJRYYX4.jpg",
+    "belongs_to_collection": {
+      "id": 9888,
+      "name": "Collection Maman, j'ai raté l'avion !",
+      "poster_path": "/vNcyUr5pTxINZIToTCXpWq80FGc.jpg",
+      "backdrop_path": "/tpmfRWL1ecFxFOOeqvp6hDf41ac.jpg"
+    },
+    "budget": 18000000,
+    "genres": [
       {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm1088977",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://www.netflix.com/ca/title/80059064",
-            "deeplink_web": "https://www.netflix.com/ca/title/80059064",
-            "deeplink_rokuos": "launch/12?contentID=81416312&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
+      }
+    ],
+    "homepage": "",
+    "id": 772,
+    "imdb_id": "tt0104431",
+    "original_language": "en",
+    "original_title": "Home Alone 2: Lost in New York",
+    "overview": "Après Paris, c'est à Miami que la tribu McCallister décide de passer les fêtes de Noël. À l'aube du jour J, toute la famille est sur le pied de guerre et file à l'aéroport en prenant bien garde de ne pas oublier Kevin. Mais celui-ci s'éclipse pour acheter des piles pour son walkman, il ne retrouve plus les siens et s'embarque par mégarde pour New York...",
+    "popularity": 137.076,
+    "poster_path": "https://image.tmdb.org/t/p/original/gFhf8NwvEKCbNIOQZxLqj1i5DMy.jpg",
+    "production_companies": [
+      {
+        "id": 25,
+        "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "name": "20th Century Fox",
+        "origin_country": "US"
+      },
+      {
+        "id": 477,
+        "logo_path": null,
+        "name": "Hughes Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1992-11-19",
+    "revenue": 358994850,
+    "runtime": 120,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Maman, j'ai encore raté l'avion !",
+    "video": false,
+    "vote_average": 6.709,
+    "vote_count": 8772,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg",
+        "provider_id": 337,
+        "provider_name": "Disney Plus",
+        "display_priority": 1
       }
     ],
     "date": 21
   },
   {
-    "title": "Falling for Christmas",
-    "full_path": "/ca/movie/falling-for-christmas",
-    "short_description": "In the days leading up to Christmas, a young & newly engaged heiress experiences a skiing accident. After being diagnosed with amnesia, she finds herself in the care of the handsome lodge owner and his daughter.",
-    "release_year": 2022,
-    "poster": "https://images.justwatch.com/poster/301542461/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/301011089/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/hOssG1gSPiFdemIiu9Rt3sh5vyl.jpg",
+    "belongs_to_collection": null,
+    "budget": 17000000,
+    "genres": [
       {
-        "provider": {
-          "id": 8,
-          "technical_name": "netflix",
-          "short_name": "nfx",
-          "clear_name": "Netflix",
-          "display_priority": 0,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/207360008/{profile}",
-          "icon_blur_hash": "KVBJXFjt1^jto1a|A;a|,Z",
-          "slug": "netflix",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "enabled",
-              "fire_tv": "enabled",
-              "tvos": "enabled",
-              "tizenos": "enabled",
-              "webos": "enabled",
-              "xbox": "enabled"
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/207360008/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm1088977",
-          "monetization_type": "flatrate",
-          "provider_id": 8,
-          "package_short_name": "nfx",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "http://www.netflix.com/title/81416312",
-            "deeplink_web": "http://www.netflix.com/watch/81416312",
-            "deeplink_rokuos": "launch/12?contentID=81416312&MediaType=movie"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 18,
+        "name": "Drame"
+      },
+      {
+        "id": 36,
+        "name": "Histoire"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      }
+    ],
+    "homepage": "http://entractfilms.com/films/lhomme-qui-inventa-no%C3%ABl",
+    "id": 450322,
+    "imdb_id": "tt6225520",
+    "original_language": "en",
+    "original_title": "The Man Who Invented Christmas",
+    "overview": "Charles Dickens est en panne d'inspiration. Après avoir entendu la nounou de ses enfants, leur raconter une légende du temps des fêtes, il se met en tête d'écrire un conte de Noël. Alors que les éditeurs ne paraissent pas emballés par sa proposition, il décide de faire cavalier seul et de produire lui-même son nouveau livre. Il n'a que très peu de temps pour rédiger ce qu'il espère être sa plus grande oeuvre. Pendant qu'il imagine son histoire, ses personnages, dont l'avare Scrooge, se métamorphosent en chair et en os dans son bureau pour l'aider à construire son univers.",
+    "popularity": 25.536,
+    "poster_path": "https://image.tmdb.org/t/p/original/7PbTcrgLZMfljcWJmd75i7uGhoI.jpg",
+    "production_companies": [
+      {
+        "id": 164,
+        "logo_path": "/v3zcUepvKC7Vz36yjklk1rw6k8Q.png",
+        "name": "Rhombus Media",
+        "origin_country": "CA"
+      },
+      {
+        "id": 69686,
+        "logo_path": null,
+        "name": "Mazur / Kaplan Company",
+        "origin_country": ""
+      },
+      {
+        "id": 3647,
+        "logo_path": null,
+        "name": "The Mob Film Company",
+        "origin_country": ""
+      },
+      {
+        "id": 5122,
+        "logo_path": null,
+        "name": "Parallel Films",
+        "origin_country": "IE"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "IE",
+        "name": "Ireland"
+      },
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      }
+    ],
+    "release_date": "2017-10-12",
+    "revenue": 8100000,
+    "runtime": 105,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Découvrez comment Charles Dickens a écrit \"Contes de Noël\" qui deviendra une véritable tradition.",
+    "title": "L'homme qui inventa Noël",
+    "video": false,
+    "vote_average": 6.8,
+    "vote_count": 736,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/aJ0b9BLU1Cvv5hIz9fEhKKc1x1D.jpg",
+        "provider_id": 212,
+        "provider_name": "Hoopla",
+        "display_priority": 9
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/nVly1ywNU2hMYLaieL6ixhEFTWh.jpg",
+        "provider_id": 314,
+        "provider_name": "CBC Gem",
+        "display_priority": 39
       }
     ],
     "date": 22
   },
   {
-    "title": "The Polar Express",
-    "full_path": "/ca/movie/the-polar-express",
-    "short_description": "When a doubting young boy takes an extraordinary train ride to the North Pole, he embarks on a journey of self-discovery that shows him that the wonder of life never fades for those who believe.",
-    "release_year": 2004,
-    "poster": "https://images.justwatch.com/poster/9179717/s592",
-    "backdrop": "https://images.justwatch.com/backdrop/93113675/s1440",
-    "streamingOffers": [
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/oU0lGpUukjNOgZeuIqueNM3QiBE.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images.justwatch.com/icon/258219092/s100"
-        },
-        "offer": {
-          "jw_entity_id": "tm78713",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://clubillico.videotron.com/club-illico/677113/Boreal-express"
-          },
-          "presentation_type": "sd",
-          "country": "CA"
-        }
+        "id": 14,
+        "name": "Fantastique"
       },
       {
-        "provider": {
-          "id": 469,
-          "technical_name": "clubillico",
-          "short_name": "cic",
-          "clear_name": "Club Illico",
-          "display_priority": 58,
-          "priority": 0,
-          "monetization_types": [
-            "flatrate"
-          ],
-          "icon_url": "/icon/258219092/{profile}",
-          "icon_blur_hash": "K85}Z^oeWEoLjuaz0PWDoc",
-          "slug": "club-illico",
-          "data": {
-            "deeplink_data": [],
-            "packages": {
-              "android_tv": "",
-              "fire_tv": "",
-              "tvos": "",
-              "tizenos": "",
-              "webos": "",
-              "xbox": ""
-            }
-          },
-          "addon_packages": null,
-          "parent_packages": null,
-          "full_icon_url": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg"
-        },
-        "offer": {
-          "jw_entity_id": "tm231788",
-          "monetization_type": "flatrate",
-          "provider_id": 469,
-          "package_short_name": "cic",
-          "currency": "CAD",
-          "urls": {
-            "standard_web": "https://plex.bhacaz.com/web/index.html#!/server/9dd2699f7cdb1babe626db5d8ddacbaf638ae519/details?key=%2Flibrary%2Fmetadata%2F3032&context=library%3Acontent.library~0~1"
-          },
-          "presentation_type": "4k",
-          "country": "CA"
-        }
+        "id": 18,
+        "name": "Drame"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      }
+    ],
+    "homepage": "",
+    "id": 10510,
+    "imdb_id": "tt0110527",
+    "original_language": "en",
+    "original_title": "Miracle on 34th Street",
+    "overview": "Un homme se prétendant être le Père Noël est interné dans un institut spécialisé. Persuadé de son identité, un jeune avocat décide prendre sa défense.",
+    "popularity": 43.38,
+    "poster_path": "https://image.tmdb.org/t/p/original/lp3nQW0UdUbporTOp6m3biNnOt2.jpg",
+    "production_companies": [
+      {
+        "id": 25,
+        "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+        "name": "20th Century Fox",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1994-11-18",
+    "revenue": 46264384,
+    "runtime": 114,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Le miracle de la 34e rue",
+    "video": false,
+    "vote_average": 6.71,
+    "vote_count": 917,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/7rwgEs15tFwyR9NPQ5vpzxTj19Q.jpg",
+        "provider_id": 337,
+        "provider_name": "Disney Plus",
+        "display_priority": 1
       }
     ],
     "date": 23

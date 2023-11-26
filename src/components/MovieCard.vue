@@ -8,26 +8,23 @@
         <div class="media">
           <div class="media-left">
             <figure class="image is-128x128">
-              <img :src="movie.poster" alt="Placeholder image" />
+              <img :src="movie.poster_path" alt="Placeholder image" />
             </figure>
           </div>
           <div class="media-content">
             <p class="title is-5">{{ movie.title }}</p>
-            <p class="movie-info">{{ movie.release_year }}</p>
+            <p class="movie-info">
+              {{ movie.release_date && movie.release_date.split("-")[0] }}
+            </p>
           </div>
         </div>
         <div class="source-container">
           <div
             class="source-box"
-            v-for="source of movie.streamingOffers"
-            :key="source.provider.id"
+            v-for="source of movie.providers"
+            :key="source.provider_id"
           >
-            <a :href="source.offer.urls.standard_web" target="_blank">
-              <img
-                class="image is-52x52 logo"
-                :src="source.provider.full_icon_url"
-              />
-            </a>
+            <img class="image is-52x52 logo" :src="source.logo_path" />
           </div>
         </div>
       </div>

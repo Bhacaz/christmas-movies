@@ -12,7 +12,8 @@
 <script>
 import Header from "../components/Header";
 import MovieCard from "../components/MovieCard";
-import Movie from "../models/movie";
+// import Movie from "../models/movie";
+import Movies from "../models/movies.json";
 
 export default {
   name: "Home",
@@ -26,7 +27,9 @@ export default {
     };
   },
   created() {
-    this.movies = Movie.fromJson();
+    this.movies = Movies.sort((a, b) => {
+      return a.date - b.date;
+    });
   },
 };
 </script>
