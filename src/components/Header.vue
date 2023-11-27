@@ -1,7 +1,7 @@
 <template>
   <section id="header-hero" class="hero is-primary">
     <div class="hero-body">
-      <p class="title">Christmas Movies 2022</p>
+      <p class="title">Calendrier de l'avent 2023</p>
     </div>
     <ChristmasLights />
   </section>

@@ -58,7 +58,11 @@ export default {
     };
   },
   mounted() {
-    this.$refs[this.domId()].scrollIntoView({ behavior: "smooth" });
+    if (this.giftAnimation()) {
+      setTimeout(() => {
+        this.$refs[this.domId()].scrollIntoView({ behavior: "smooth" });
+      }, 500);
+    }
   },
   methods: {
     domId() {
@@ -74,7 +78,6 @@ export default {
       return d.getDate();
     },
     showGift() {
-      return false;
       if (!this.december()) {
         return true;
       }
@@ -116,7 +119,7 @@ export default {
 }
 
 .card-header {
-  background-color: #ff3c4a;
+  background-color: #fc5966;
   font-family: "Courgette", cursive;
 }
 
@@ -143,7 +146,7 @@ export default {
   left: 0;
   background-image: url("~@/assets/img/wrap_gift.png");
   background-size: contain;
-  /*height: 320px;*/
+  height: 22em;
   /*background: radial-gradient(circle at center, #fff 20%, transparent 22%),#5EDEFF;*/
   /*background-size: 34px 34px;*/
   /*position: absolute;*/
@@ -206,7 +209,7 @@ export default {
 }
 
 .fade-out {
-  animation: fade-out 1s ease-out 1s both;
+  animation: fade-out 1.5s ease-out 1s both;
 }
 
 @keyframes fade-out {
