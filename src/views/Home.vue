@@ -41,6 +41,13 @@ export default {
   justify-content: center;
 }
 
+.home {
+  background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .bonus-movie {
   /*width: 25em;*/
 }
