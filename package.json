@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "justwatch": "^1.0.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
@@ -21,8 +20,8 @@
     "@vue/cli-plugin-router": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "eslint": "^6.7.2",
+    "@vue/eslint-config-prettier": "^5.0",
+    "eslint": "^7.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
     "justwatch-api": "^1.0.7",
