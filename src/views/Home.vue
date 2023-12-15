@@ -42,7 +42,7 @@ export default {
 }
 
 .home {
-  background-image: url("~@/assets/img/background.jpeg");
+  background-image: url("~@/assets/img/background.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

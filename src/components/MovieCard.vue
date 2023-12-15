@@ -35,7 +35,7 @@
       >
         <img
           :class="{ 'fade-out': giftAnimation() }"
-          src="~@/assets/img/gift.png"
+          src="~@/assets/img/gift.webp"
           style="
             object-fit: fill;
             width: 100%;
@@ -144,7 +144,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("~@/assets/img/wrap_gift.png");
+  background-image: url("~@/assets/img/wrap_gift.webp");
   background-size: contain;
   height: 22em;
   /*background: radial-gradient(circle at center, #fff 20%, transparent 22%),#5EDEFF;*/
