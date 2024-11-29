@@ -2,7 +2,7 @@ require 'uri'
 require 'net/http'
 require 'json'
 require 'csv'
-
+require 'active_support/all'
 
 data = CSV.read('movies_all.csv', headers: true)
 movies = []
@@ -11,10 +11,10 @@ data = data.select { |row| row['included'] == true.to_s }
 
 selected, to_sample = data.partition { |row| row['most'] == true.to_s }
 
-# 23 films
+# 21 films
 # 4 activités
 
-selected.concat to_sample.sample(23 - 4 - selected.size)
+selected.concat to_sample.sample(21 - selected.size)
 
 class Tmdb
   def get_movie(id)
@@ -48,7 +48,7 @@ class Tmdb
 
     request = Net::HTTP::Get.new(url)
     request["accept"] = 'application/json'
-    request["Authorization"] = 'Bearer tmp/api_key.txt'
+    request["Authorization"] = "Bearer #{File.read('../tmp/api_key.txt')}"
 
     JSON.parse(http.request(request).read_body)
   end
@@ -64,7 +64,7 @@ end
 activities = [
   {
     title: "Activité: Cuisiner des biscuits de Noël (et en donner à quelqu'un!)",
-    poster_path: "https://www.supermarche-match.lu/uploads/recipes/images/_header/casey-chae-3DrCZblTGoQ-unsplash.jpg",
+    poster_path: "https://fac.img.pmdstatic.net/fit/~1~fac~2019~11~04~42b98114-9129-4483-92c5-9283cdaab22b.jpeg/750x562/quality/80/crop-from/center/cr/wqkgSXN0b2NrIC8gRmVtbWUgQWN0dWVsbGU%3D/biscuits-de-noel-alsaciens.jpeg",
   },
   {
     title: "Activité: Préparer et boire un chocolat chaud extra guimauves",
@@ -80,10 +80,22 @@ activities = [
   }
 ]
 
-movies.concat activities
+activities = activities.shuffle
 movies = movies.shuffle
-movies.each_with_index do |movie, index|
-  movie['date'] = index + 1
+current_year = Time.now.year
+first_of_month = Date.new(current_year, 12, 1)
+
+final_result = []
+(0..23).each do |index|
+  date = first_of_month + index.days
+  if date.wday == 0
+    movie = activities.pop
+    movie['date'] = index + 1
+  else
+    movie = movies.pop
+    movie['date'] = index + 1
+  end
+  final_result << movie
 end
 
-File.write('../src/models/movies.json', JSON.pretty_generate(movies))
+File.write('../src/models/movies.json', JSON.pretty_generate(final_result))
