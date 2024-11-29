@@ -8,7 +8,11 @@
         <div class="media">
           <div class="media-left">
             <figure class="image is-128x128">
-              <img :src="movie.poster_path" alt="Placeholder image" />
+              <img
+                loading="lazy"
+                :src="movie.poster_path"
+                alt="Placeholder image"
+              />
             </figure>
           </div>
           <div class="media-content">
@@ -24,7 +28,11 @@
             v-for="source of movie.providers"
             :key="source.provider_id"
           >
-            <img class="image is-52x52 logo" :src="source.logo_path" />
+            <img
+              loading="lazy"
+              class="image is-52x52 logo"
+              :src="source.logo_path"
+            />
           </div>
         </div>
       </div>

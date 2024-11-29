@@ -91,6 +91,10 @@
         "provider_id": 337,
         "provider_name": "Disney Plus",
         "display_priority": 1
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 2
@@ -191,6 +195,10 @@
         "provider_id": 1796,
         "provider_name": "Netflix basic with Ads",
         "display_priority": 110
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 3
@@ -245,7 +253,12 @@
     "video": false,
     "vote_average": 5.4,
     "vote_count": 9,
-    "providers": [],
+    "providers": [
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
+      }
+    ],
     "date": 4
   },
   {
@@ -406,6 +419,10 @@
         "provider_id": 337,
         "provider_name": "Disney Plus",
         "display_priority": 1
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 6
@@ -481,8 +498,15 @@
     "video": false,
     "vote_average": 10.0,
     "vote_count": 1,
-    "providers": [],
-    "date": 7
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      }
+    ],
+    "date": 9
   },
   {
     "title": "Activité: Préparer et boire un chocolat chaud extra guimauves",
@@ -554,8 +578,13 @@
     "video": false,
     "vote_average": 6.1,
     "vote_count": 8,
-    "providers": [],
-    "date": 9
+    "providers": [
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
+      }
+    ],
+    "date": 7
   },
   {
     "adult": false,
@@ -636,6 +665,10 @@
         "provider_id": 1853,
         "provider_name": "Paramount Plus Apple TV Channel ",
         "display_priority": 116
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 10
@@ -743,6 +776,10 @@
         "provider_id": 326,
         "provider_name": "CTV",
         "display_priority": 45
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 11
@@ -828,6 +865,10 @@
         "provider_id": 1853,
         "provider_name": "Paramount Plus Apple TV Channel ",
         "display_priority": 116
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 12
@@ -1053,6 +1094,10 @@
         "provider_id": 1796,
         "provider_name": "Netflix basic with Ads",
         "display_priority": 110
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 14
@@ -1138,6 +1183,10 @@
         "provider_id": 350,
         "provider_name": "Apple TV Plus",
         "display_priority": 7
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 16
@@ -1221,6 +1270,10 @@
         "provider_id": 326,
         "provider_name": "CTV",
         "display_priority": 45
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 17
@@ -1323,6 +1376,10 @@
         "provider_id": 1794,
         "provider_name": "Starz Amazon Channel",
         "display_priority": 108
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 18
@@ -1411,7 +1468,12 @@
     "video": false,
     "vote_average": 8.286,
     "vote_count": 7,
-    "providers": [],
+    "providers": [
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
+      }
+    ],
     "date": 19
   },
   {
@@ -1660,6 +1722,10 @@
         "provider_id": 337,
         "provider_name": "Disney Plus",
         "display_priority": 1
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 23
@@ -1760,6 +1826,10 @@
         "provider_id": 1794,
         "provider_name": "Starz Amazon Channel",
         "display_priority": 108
+      },
+      {
+        "logo_path": "https://images-na.ssl-images-amazon.com/images/I/3131ceEdnOL.jpg",
+        "provider_name": "Plex"
       }
     ],
     "date": 24
