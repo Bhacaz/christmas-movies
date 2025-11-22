@@ -61,7 +61,7 @@ export default {
         const currentMonth = today.getMonth();
         const currentDay = today.getDate();
 
-        // Check if it's November (10)
+        // Check if it's December (11)
         if (currentMonth === 11) {
           const el = document.getElementById("movie-" + currentDay);
           if (el) {
