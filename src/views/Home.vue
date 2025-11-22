@@ -3,7 +3,12 @@
     <Header :initial-shrunk="shouldStartShrunk" />
     <section class="section main-content">
       <div id="movie-card-container">
-        <MovieCard v-for="movie of movies" :key="movie.id" :movie="movie" />
+        <MovieCard
+          v-for="(movie, index) in movies"
+          :key="movie.id"
+          :movie="movie"
+          :animation-index="index"
+        />
       </div>
     </section>
   </div>

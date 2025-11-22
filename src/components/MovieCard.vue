@@ -49,7 +49,7 @@
         <div class="gift-ribbon ribbon-horizontal"></div>
         <div class="gift-ribbon ribbon-vertical"></div>
         <div class="gift-content">
-          <GiftBox class="gift-icon" />
+          <GiftBox class="gift-icon" :class="giftAnimationClass" />
         </div>
       </div>
     </div>
@@ -62,7 +62,16 @@ import GiftBox from "./GiftBox.vue";
 export default {
   name: "MovieCard",
   components: { GiftBox },
-  props: ["movie"],
+  props: {
+    movie: {
+      type: Object,
+      required: true,
+    },
+    animationIndex: {
+      type: Number,
+      default: 0,
+    },
+  },
   data() {
     return {
       shouldUnwrap: false,
@@ -84,6 +93,24 @@ export default {
       } else {
         return false; // Past date, revealed
       }
+    },
+    giftAnimationClass() {
+      const animationClasses = [
+        "gift-animation-float",
+        "gift-animation-bounce",
+        "gift-animation-sway",
+        "gift-animation-twist",
+        "gift-animation-pulse",
+      ];
+      const totalAnimations = animationClasses.length;
+      if (totalAnimations === 0) {
+        return "";
+      }
+
+      const index =
+        ((this.animationIndex % totalAnimations) + totalAnimations) %
+        totalAnimations;
+      return animationClasses[index];
     },
   },
   mounted() {
@@ -323,8 +350,27 @@ export default {
   width: 150px;
   height: 150px;
   margin-bottom: 1rem;
-  animation: float 3s ease-in-out infinite;
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
+}
+
+.gift-animation-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.gift-animation-bounce {
+  animation: bounce 2.4s ease-in-out infinite;
+}
+
+.gift-animation-sway {
+  animation: sway 2.6s ease-in-out infinite;
+}
+
+.gift-animation-twist {
+  animation: twist 3.2s linear infinite;
+}
+
+.gift-animation-pulse {
+  animation: pulse 2.8s ease-in-out infinite;
 }
 
 .gift-text {
@@ -378,6 +424,75 @@ export default {
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  35% {
+    transform: translateY(-14px) scale(1.05);
+  }
+  55% {
+    transform: translateY(0) scale(0.98);
+  }
+  75% {
+    transform: translateY(-8px) scale(1.03);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-8px) rotate(-4deg);
+  }
+  50% {
+    transform: translateX(0) rotate(0deg);
+  }
+  75% {
+    transform: translateX(8px) rotate(4deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes twist {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  40% {
+    transform: rotate(180deg) scale(1.05);
+  }
+  60% {
+    transform: rotate(200deg) scale(0.97);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  55% {
+    transform: scale(0.94);
+  }
+  80% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
