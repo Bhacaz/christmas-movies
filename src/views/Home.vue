@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Header />
+    <Header :initial-shrunk="shouldStartShrunk" />
     <section class="section main-content">
       <div id="movie-card-container">
         <MovieCard v-for="movie of movies" :key="movie.id" :movie="movie" />
@@ -25,6 +25,19 @@ export default {
     return {
       movies: [],
     };
+  },
+  computed: {
+    shouldStartShrunk() {
+      const today = new Date();
+      const currentMonth = today.getMonth();
+      const currentDay = today.getDate();
+
+      // Check if it's November (10) and there is a movie for today
+      if (currentMonth === 10) {
+        return this.movies.some((movie) => movie.date === currentDay);
+      }
+      return false;
+    },
   },
   created() {
     this.movies = Movies.sort((a, b) => {
