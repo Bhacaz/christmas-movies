@@ -9,20 +9,20 @@ tmdb_id,title,year,included,most
 360920,The Grinch,2018,true,true
 11395,The Santa Clause,1994,true
 296100,The Night Before,2015,true
-14813,Mickey's Christmas Carol,1983,false
+14813,Mickey's Christmas Carol,1983,true
 454467,Noelle,2019,true,
 450322,The Man Who Invented Christmas,2017,true
-50041,Nez Rouge,2003,true,true
-15400,Mickey's Once Upon a Christmas,1999,true
+50041,Nez Rouge,2003,true,
+15400,Mickey's Once Upon a Christmas,1999,true,true
 943053,23 décembre,2022,true
-10719,Elf,2003,false
+10719,Elf,2003,true
 10033,Just Friends,2005,false
 771,Home Alone,1990,true
-12193,Four Christmases,2008,false
+12193,Four Christmases,2008,true
 13673,Christmas with the Kranks,2004,true
 10510,Miracle on 34th Street,1994,false
 51052,Arthur Christmas,2011,true
-81188,Rise of the Guardians,2012,true,
+81188,Rise of the Guardians,2012,false,
 22081,Blizzard,2003,false
 17007,Call Me Claus,2001,false
 220910,Il était une fois les Boys,2013,false
@@ -30,17 +30,22 @@ tmdb_id,title,year,included,most
 9279,Jingle All the Way,1996,true
 9043,The Family Stone,2005,false
 508,Love Actually,2003,false
-615665,Holidate,2020,false,
+615665,Holidate,2020,true,
 527435,The Christmas Chronicles,2018,false
-772,Home Alone 2: Lost in New York,1992,false,
+772,Home Alone 2: Lost in New York,1992,true,
 1022964,Candy Cane Lane,2023,true,
-632856,Spirited,2022,true,
+632856,Spirited,2022,true,true
 654028,The Christmas Chronicles: Part Two,2020,false,
 645757,That Christmas,2024,true,true
 1206617,The Best Christmas Pageant Ever,2024,true,true
-1234811,Our Little Secret,2024,true,true
-1290486,The Merry Gentlemen,2024,true,true
+1234811,Our Little Secret,2024,true,
+1290486,The Merry Gentlemen,2024,true,
 5825,National Lampoon's Christmas Vacation,1989,true,
 9745,Jack Frost,1998,true,
 13187,A Charlie Brown Christmas,1965,true,
-384682,Office Christmas Party,2016,true,true
+384682,Office Christmas Party,2016,true,
+1401318,A Merry Little Ex-Mas,2025,true,true
+1218762,Jingle Bell Heist,2025,true,true
+1425122,A Very Jonas Christmas Movie,2025,true,true
+1550797,Prep & Landing: The Snowball Protocol,2025,true,true
+1261825,Oh. What. Fun.,2025,true,true
