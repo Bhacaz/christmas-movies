@@ -86,6 +86,7 @@ export default {
       return d.getDate();
     },
     showGift() {
+      return false;
       if (!this.december()) {
         return true;
       }
