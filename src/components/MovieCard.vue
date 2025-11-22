@@ -43,13 +43,17 @@
         class="gift-overlay"
         :class="{ unwrap: shouldUnwrap }"
         v-if="isGiftVisible"
+        @click="handleGiftClick"
       >
         <div class="gift-flap flap-left"></div>
         <div class="gift-flap flap-right"></div>
         <div class="gift-ribbon ribbon-horizontal"></div>
         <div class="gift-ribbon ribbon-vertical"></div>
         <div class="gift-content">
-          <GiftBox class="gift-icon" :class="giftAnimationClass" />
+          <GiftBox
+            class="gift-icon"
+            :class="[giftAnimationClass, { 'shake-no': isShaking }]"
+          />
         </div>
       </div>
     </div>
@@ -75,6 +79,7 @@ export default {
   data() {
     return {
       shouldUnwrap: false,
+      isShaking: false,
     };
   },
   computed: {
@@ -151,6 +156,17 @@ export default {
           this.observer.observe(el);
         }
       }
+    },
+    handleGiftClick() {
+      if (!this.shouldUnwrap) {
+        this.triggerShake();
+      }
+    },
+    triggerShake() {
+      this.isShaking = true;
+      setTimeout(() => {
+        this.isShaking = false;
+      }, 500);
     },
   },
 };
@@ -493,6 +509,30 @@ export default {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+.shake-no {
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
   }
 }
 
