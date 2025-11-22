@@ -44,6 +44,10 @@
         :class="{ unwrap: shouldUnwrap }"
         v-if="isGiftVisible"
       >
+        <div class="gift-flap flap-left"></div>
+        <div class="gift-flap flap-right"></div>
+        <div class="gift-ribbon ribbon-horizontal"></div>
+        <div class="gift-ribbon ribbon-vertical"></div>
         <div class="gift-content">
           <GiftBox class="gift-icon" />
         </div>
@@ -106,29 +110,60 @@ export default {
     },
   },
   mounted() {
-    this.checkAnimation();
+    this.initialScroll();
+    this.setupObserver();
+  },
+  beforeUnmount() {
+    if (this.observer) {
+      this.observer.disconnect();
+    }
   },
   methods: {
     domId() {
       return "movie-" + this.movie.date;
     },
-    checkAnimation() {
+    initialScroll() {
       const today = new Date();
       const currentMonth = today.getMonth();
       const currentDay = today.getDate();
 
       if (currentMonth === 10 && this.movie.date === currentDay) {
-        // It's today! Unwrap it.
-        setTimeout(() => {
-          this.shouldUnwrap = true;
-          // Scroll into view
-          if (this.$refs[this.domId()]) {
-            this.$refs[this.domId()].scrollIntoView({
-              behavior: "smooth",
+        this.$nextTick(() => {
+          const el = this.$refs[this.domId()];
+          if (el) {
+            el.scrollIntoView({
+              behavior: "auto",
               block: "center",
             });
           }
-        }, 1000);
+        });
+      }
+    },
+    setupObserver() {
+      const today = new Date();
+      const currentMonth = today.getMonth();
+      const currentDay = today.getDate();
+
+      if (currentMonth === 10 && this.movie.date === currentDay) {
+        const options = {
+          root: null,
+          rootMargin: "-20% 0px -20% 0px",
+          threshold: 0.1,
+        };
+
+        this.observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              this.shouldUnwrap = true;
+              this.observer.disconnect();
+            }
+          });
+        }, options);
+
+        const el = this.$refs[this.domId()];
+        if (el) {
+          this.observer.observe(el);
+        }
       }
     },
   },
@@ -259,20 +294,70 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #165b33; /* Green */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10;
-  transition: transform 2.5s cubic-bezier(0.55, 0.085, 0.68, 0.53),
-    opacity 1s ease-out 1.5s;
-  transform-origin: top;
+  overflow: hidden;
+}
+
+.gift-flap {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #165b33; /* Green */
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  border-bottom: 4px solid #124a2a;
+}
+
+.flap-left {
+  left: 0;
+  transform-origin: left;
+  border-right: 1px solid #124a2a;
+}
+
+.flap-right {
+  right: 0;
+  transform-origin: right;
+  border-left: 1px solid #124a2a;
+}
+
+/* Ribbons */
+.gift-ribbon {
+  position: absolute;
+  background: #f8b229; /* Gold */
+  z-index: 2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.ribbon-horizontal {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  transform: translateY(-50%);
+  transform-origin: right center;
+}
+
+.ribbon-vertical {
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 40px;
+  transform: translateX(-50%);
+  transform-origin: top center;
 }
 
 .gift-content {
+  position: relative;
+  z-index: 3;
   text-align: center;
   color: #fff;
   padding: 2rem;
+  transition: transform 0.8s ease-in, opacity 0.8s ease-in;
 }
 
 .gift-icon {
@@ -280,6 +365,7 @@ export default {
   height: 150px;
   margin-bottom: 1rem;
   animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
 }
 
 .gift-text {
@@ -288,9 +374,39 @@ export default {
   color: #f8b229; /* Gold */
 }
 
-.gift-overlay.unwrap {
-  transform: translateY(-150%) rotate(10deg);
+/* Unwrap Animation Sequence */
+
+/* 1. Gift Icon: Spin and minimize (0s - 0.8s) */
+.gift-overlay.unwrap .gift-content {
+  transform: scale(0) rotate(720deg);
   opacity: 0;
+}
+
+/* 2. Ribbons: Disappear (0.8s - 1.4s) */
+.gift-overlay.unwrap .ribbon-vertical {
+  transform: translateX(-50%) scaleY(0);
+  opacity: 0;
+  transition-delay: 0.8s;
+}
+
+.gift-overlay.unwrap .ribbon-horizontal {
+  transform: translateY(-50%) scaleX(0);
+  opacity: 0;
+  transition-delay: 0.8s;
+}
+
+/* 3. Flaps: Open (1.4s - 2.2s) */
+.gift-overlay.unwrap .flap-left {
+  transform: translateX(-100%);
+  transition-delay: 1.4s;
+}
+
+.gift-overlay.unwrap .flap-right {
+  transform: translateX(100%);
+  transition-delay: 1.4s;
+}
+
+.gift-overlay.unwrap {
   pointer-events: none;
 }
 
