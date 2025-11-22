@@ -7,7 +7,7 @@
 
     <div class="movie-card">
       <!-- Content -->
-      <div class="movie-content">
+      <div v-if="!isGiftVisible" class="movie-content">
         <div class="poster-container">
           <img
             loading="lazy"

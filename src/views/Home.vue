@@ -95,7 +95,7 @@ export default {
 <style>
 .home {
   min-height: 100vh;
-  background-image: url("~@/assets/img/background.webp");
+  background-image: url("/public/background.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

@@ -61,8 +61,7 @@ export default {
 
 <style scoped>
 #header-hero {
-  /*https://app.haikei.app/*/
-  background-image: url("~@/assets/img/img.png");
+  background-image: url("/public/img.png");
   background-size: cover;
   background-position: center;
   position: sticky;
