@@ -1,6 +1,91 @@
 [
   {
     "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/1KYDPOC6ENDWCkW3TGCdca104hi.jpg",
+    "belongs_to_collection": {
+      "id": 108693,
+      "name": "Bonjour les vacances - Collection",
+      "poster_path": "/bqq204TMgHYyg6f3P3jRfFEdGKV.jpg",
+      "backdrop_path": "/9dJ4bYLaFRnpvyDVWKfgHoNpQ5f.jpg"
+    },
+    "budget": 27000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 5825,
+    "imdb_id": "tt0097958",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "National Lampoon's Christmas Vacation",
+    "overview": "Cette année, Clark Griswold a décidé de fêter Noël comme il se doit : il va couper lui-même son sapin avec sa petite famille, il invite ses parents, ses beaux-parents, sa tante et son oncle, et il a même décidé de décorer la maison entière de 25 000 ampoules ! Mais tout ne se passe pas comme prévu : les ampoules refusent de s'allumer, son cousin Eddie débarque à l'improviste du Kansas, et il attend désespérément la prime de Noël qui lui permettra enfin de payer la piscine qu'il a commandée en secret !",
+    "popularity": 6.8743,
+    "poster_path": "https://image.tmdb.org/t/p/original/r0IGOSk0JGOar2JEILjL2JuVqv0.jpg",
+    "production_companies": [
+      {
+        "id": 477,
+        "logo_path": "/4wfCdggcE3ZG26uJpnAvyI0vEeL.png",
+        "name": "Hughes Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 174,
+        "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
+        "name": "Warner Bros. Pictures",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1989-11-30",
+    "revenue": 74542088,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Un film dédié à tous ceux que la neige, la dinde et la messe de minuit font flipper",
+    "title": "Le sapin a des boules",
+    "video": false,
+    "vote_average": 7.234,
+    "vote_count": 2552,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
+        "provider_id": 230,
+        "provider_name": "Crave",
+        "display_priority": 4
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/cQjWvOiKRPeSuWRNGegcBjyqVbR.jpg",
+        "provider_id": 469,
+        "provider_name": "Club Illico",
+        "display_priority": 51
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
+        "provider_id": 1794,
+        "provider_name": "Starz Amazon Channel",
+        "display_priority": 93
+      }
+    ],
+    "date": 1
+  },
+  {
+    "adult": false,
     "backdrop_path": "https://image.tmdb.org/t/p/original/ajYw16ISz3qsdYTg4zy5rob1iAQ.jpg",
     "belongs_to_collection": null,
     "budget": 0,
@@ -93,58 +178,69 @@
         "display_priority": 1
       }
     ],
-    "date": 1
+    "date": 2
   },
   {
     "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/1KYDPOC6ENDWCkW3TGCdca104hi.jpg",
-    "belongs_to_collection": {
-      "id": 108693,
-      "name": "Bonjour les vacances - Collection",
-      "poster_path": "/bqq204TMgHYyg6f3P3jRfFEdGKV.jpg",
-      "backdrop_path": "/9dJ4bYLaFRnpvyDVWKfgHoNpQ5f.jpg"
-    },
-    "budget": 27000000,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/1rpyQcniNIJgsE0wKLOqPk2n7b7.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
     "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
       {
         "id": 35,
         "name": "Comédie"
-      }
-    ],
-    "homepage": "",
-    "id": 5825,
-    "imdb_id": "tt0097958",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "National Lampoon's Christmas Vacation",
-    "overview": "Cette année, Clark Griswold a décidé de fêter Noël comme il se doit : il va couper lui-même son sapin avec sa petite famille, il invite ses parents, ses beaux-parents, sa tante et son oncle, et il a même décidé de décorer la maison entière de 25 000 ampoules ! Mais tout ne se passe pas comme prévu : les ampoules refusent de s'allumer, son cousin Eddie débarque à l'improviste du Kansas, et il attend désespérément la prime de Noël qui lui permettra enfin de payer la piscine qu'il a commandée en secret !",
-    "popularity": 6.8743,
-    "poster_path": "https://image.tmdb.org/t/p/original/r0IGOSk0JGOar2JEILjL2JuVqv0.jpg",
-    "production_companies": [
-      {
-        "id": 477,
-        "logo_path": "/4wfCdggcE3ZG26uJpnAvyI0vEeL.png",
-        "name": "Hughes Entertainment",
-        "origin_country": "US"
       },
       {
-        "id": 174,
-        "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
-        "name": "Warner Bros. Pictures",
-        "origin_country": "US"
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
+      }
+    ],
+    "homepage": "https://www.netflix.com/ca-fr/title/81309564",
+    "id": 645757,
+    "imdb_id": "tt14855468",
+    "origin_country": [
+      "GB"
+    ],
+    "original_language": "en",
+    "original_title": "That Christmas",
+    "overview": "Lorsque la pire tempête de neige de l'histoire bouleverse les plans de tout le monde, les habitants de Wellington-on-Sea vivent un Noël inoubliable.",
+    "popularity": 7.4353,
+    "poster_path": "https://image.tmdb.org/t/p/original/uxVCEWQtDTHG9Np0h5obdVeuw70.jpg",
+    "production_companies": [
+      {
+        "id": 121605,
+        "logo_path": "/4rc0vsJWygNm9ojrxSdPVU9jKyj.png",
+        "name": "Locksmith Animation",
+        "origin_country": "GB"
+      },
+      {
+        "id": 31922,
+        "logo_path": "/omWPoru2LNayUOBqjMBLP9KrFrP.png",
+        "name": "DNEG",
+        "origin_country": "GB"
       }
     ],
     "production_countries": [
       {
-        "iso_3166_1": "US",
-        "name": "United States of America"
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
       }
     ],
-    "release_date": "1989-11-30",
-    "revenue": 74542088,
-    "runtime": 97,
+    "release_date": "2024-11-27",
+    "revenue": 0,
+    "runtime": 95,
     "spoken_languages": [
       {
         "english_name": "English",
@@ -153,32 +249,222 @@
       }
     ],
     "status": "Released",
-    "tagline": "Un film dédié à tous ceux que la neige, la dinde et la messe de minuit font flipper",
-    "title": "Le sapin a des boules",
+    "tagline": "",
+    "title": "Ce Noël-là",
     "video": false,
-    "vote_average": 7.234,
-    "vote_count": 2552,
+    "vote_average": 7.2,
+    "vote_count": 370,
     "providers": [
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
-        "provider_id": 230,
-        "provider_name": "Crave",
-        "display_priority": 4
+        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
       },
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/cQjWvOiKRPeSuWRNGegcBjyqVbR.jpg",
-        "provider_id": 469,
-        "provider_name": "Club Illico",
-        "display_priority": 51
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
-        "provider_id": 1794,
-        "provider_name": "Starz Amazon Channel",
-        "display_priority": 93
+        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix Standard with Ads",
+        "display_priority": 94
       }
     ],
-    "date": 2
+    "date": 3
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/hm8Gux0946IfeJ1PZwztOo6lVHH.jpg",
+    "belongs_to_collection": null,
+    "budget": 17000000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drame"
+      },
+      {
+        "id": 36,
+        "name": "Histoire"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      }
+    ],
+    "homepage": "http://entractfilms.com/films/lhomme-qui-inventa-no%C3%ABl",
+    "id": 450322,
+    "imdb_id": "tt6225520",
+    "origin_country": [
+      "CA",
+      "IE"
+    ],
+    "original_language": "en",
+    "original_title": "The Man Who Invented Christmas",
+    "overview": "Charles Dickens est en panne d'inspiration. Après avoir entendu la nounou de ses enfants, leur raconter une légende du temps des fêtes, il se met en tête d'écrire un conte de Noël. Alors que les éditeurs ne paraissent pas emballés par sa proposition, il décide de faire cavalier seul et de produire lui-même son nouveau livre. Il n'a que très peu de temps pour rédiger ce qu'il espère être sa plus grande oeuvre. Pendant qu'il imagine son histoire, ses personnages, dont l'avare Scrooge, se métamorphosent en chair et en os dans son bureau pour l'aider à construire son univers.",
+    "popularity": 1.379,
+    "poster_path": "https://image.tmdb.org/t/p/original/7PbTcrgLZMfljcWJmd75i7uGhoI.jpg",
+    "production_companies": [
+      {
+        "id": 164,
+        "logo_path": "/v3zcUepvKC7Vz36yjklk1rw6k8Q.png",
+        "name": "Rhombus Media",
+        "origin_country": "CA"
+      },
+      {
+        "id": 69686,
+        "logo_path": null,
+        "name": "The Mazur Kaplan Company",
+        "origin_country": "US"
+      },
+      {
+        "id": 3647,
+        "logo_path": null,
+        "name": "The Mob Film Company",
+        "origin_country": ""
+      },
+      {
+        "id": 5122,
+        "logo_path": null,
+        "name": "Parallel Films",
+        "origin_country": "IE"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "IE",
+        "name": "Ireland"
+      },
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      }
+    ],
+    "release_date": "2017-10-12",
+    "revenue": 8100000,
+    "runtime": 104,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Découvrez comment Charles Dickens a écrit \"Contes de Noël\" qui deviendra une véritable tradition.",
+    "title": "L'homme qui inventa Noël",
+    "video": false,
+    "vote_average": 6.835,
+    "vote_count": 835,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix Standard with Ads",
+        "display_priority": 94
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
+        "provider_id": 73,
+        "provider_name": "Tubi TV",
+        "display_priority": 19
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/a7O0Z1uhFjgGydRrgT6ucBisP4K.jpg",
+        "provider_id": 314,
+        "provider_name": "CBC Gem",
+        "display_priority": 42
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/dB8G41Q6tSL5NBisrIeqByfepBc.jpg",
+        "provider_id": 300,
+        "provider_name": "Pluto TV",
+        "display_priority": 98
+      }
+    ],
+    "date": 4
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/tombkp3ir9tmm5v9QLnHaDZCWa7.jpg",
+    "belongs_to_collection": {
+      "id": 93788,
+      "name": "Prep & Landing Collection",
+      "poster_path": "/qmokWUJsPR21PqMsssROmlzTAMn.jpg",
+      "backdrop_path": "/kmsH4aq0lwgryQBoCfXZzyp6z4O.jpg"
+    },
+    "budget": 0,
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      }
+    ],
+    "homepage": "",
+    "id": 1550797,
+    "imdb_id": "tt32594892",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Prep & Landing: The Snowball Protocol",
+    "overview": "",
+    "popularity": 0.5506,
+    "poster_path": "https://image.tmdb.org/t/p/original/g5ga2b2HZ2Q04AOaeOF1ort4DIl.jpg",
+    "production_companies": [
+      {
+        "id": 79543,
+        "logo_path": "/xxQesITWRfZ0rETKHJ13WfD5AEn.png",
+        "name": "ICON Creative Studio",
+        "origin_country": "CA"
+      },
+      {
+        "id": 3475,
+        "logo_path": "/jTPNzDEn7eHmp3nEXEEtkHm6jLg.png",
+        "name": "Disney Television Animation",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-11-27",
+    "revenue": 0,
+    "runtime": 22,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Post Production",
+    "tagline": "",
+    "title": "Prep & Landing: The Snowball Protocol",
+    "video": false,
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "providers": [],
+    "date": 5
   },
   {
     "adult": false,
@@ -248,162 +534,7 @@
         "display_priority": 1
       }
     ],
-    "date": 3
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/8x16xGu1p2vqfkSNRhGJNlBz8Fz.jpg",
-    "belongs_to_collection": null,
-    "budget": 3000000,
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Familial"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      }
-    ],
-    "homepage": "",
-    "id": 14813,
-    "imdb_id": "tt0085936",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Mickey's Christmas Carol",
-    "overview": "Le soir de Noël, Ebenezer Scrooge reçoit la visite du fantôme de son ancien associé, Jacob Marley. Il tente de lui faire entendre raison de son comportement d'usurpateur qui ne pourra jamais le rendre heureux.",
-    "popularity": 2.3441,
-    "poster_path": "https://image.tmdb.org/t/p/original/vQowq4sfY082UEU1zccHAjIOjb8.jpg",
-    "production_companies": [
-      {
-        "id": 2,
-        "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-        "name": "Walt Disney Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 3166,
-        "logo_path": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
-        "name": "Walt Disney Productions",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "1983-10-19",
-    "revenue": 21000000,
-    "runtime": 25,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "",
-    "title": "Le Noël de Mickey",
-    "video": false,
-    "vote_average": 7.645,
-    "vote_count": 951,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-        "provider_id": 337,
-        "provider_name": "Disney Plus",
-        "display_priority": 1
-      }
-    ],
-    "date": 4
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/kVM45FdWgirD08xJAwnRRWMC3QL.jpg",
-    "belongs_to_collection": null,
-    "budget": 27000000,
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comédie"
-      },
-      {
-        "id": 10751,
-        "name": "Familial"
-      },
-      {
-        "id": 18,
-        "name": "Drame"
-      },
-      {
-        "id": 14,
-        "name": "Fantastique"
-      }
-    ],
-    "homepage": "",
-    "id": 9745,
-    "imdb_id": "tt0141109",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Jack Frost",
-    "overview": "Jack Frost est mort sans avoir pu partager enfin un Noël avec son fils Charlie. Un an plus tard, inconsolable, le garçon fabrique un bonhomme de neige à l'effigie de son père et joue de l'harmonica \"magique\" qu'il lui a légué avant de mourir. Et là, le miracle s'accomplit : l'âme de Jack investit le bonhomme de neige, qui prend vie...",
-    "popularity": 9.0453,
-    "poster_path": "https://image.tmdb.org/t/p/original/5tXCMX9dYxK4abIqmUWQok1f0ld.jpg",
-    "production_companies": [
-      {
-        "id": 22351,
-        "logo_path": null,
-        "name": "The Canton Company",
-        "origin_country": "US"
-      },
-      {
-        "id": 10619,
-        "logo_path": null,
-        "name": "Azoff Films",
-        "origin_country": ""
-      },
-      {
-        "id": 174,
-        "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
-        "name": "Warner Bros. Pictures",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      },
-      {
-        "iso_3166_1": "GB",
-        "name": "United Kingdom"
-      }
-    ],
-    "release_date": "1998-11-15",
-    "revenue": 34562925,
-    "runtime": 101,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Jack Frost a une deuxième chance d'être le père le plus cool du monde... s'il ne fond pas avant.",
-    "title": "Jack, le bonhomme de neige",
-    "video": false,
-    "vote_average": 6.02,
-    "vote_count": 1188,
-    "providers": [],
-    "date": 5
+    "date": 6
   },
   {
     "adult": false,
@@ -503,827 +634,73 @@
         "display_priority": 93
       }
     ],
-    "date": 6
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/2q7nDTb31Pmo22bwsZNP5opEFu9.jpg",
-    "belongs_to_collection": null,
-    "budget": 0,
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comédie"
-      }
-    ],
-    "homepage": "",
-    "id": 1261825,
-    "imdb_id": "tt31998881",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Oh. What. Fun.",
-    "overview": "C'est Noël. Claire Clauster est la clef de voûte d'un édifice familial attachant, mais agité. Cette année, elle a prévu une sortie exceptionnelle en famille, mais cette dernière fait la grave erreur de l'oublier seule à la maison. Lassée d'être méprisée, elle part pour une aventure imprévue. Alors que sa famille fait tout pour la retrouver, Claire découvre la magie inattendue d'un Noël improvisé.",
-    "popularity": 4.5088,
-    "poster_path": "https://image.tmdb.org/t/p/original/gPB1QrMDHwnrxNNPLOHjhp07Pub.jpg",
-    "production_companies": [
-      {
-        "id": 112037,
-        "logo_path": "/tEjXfABMQ01K1T6YQienJMe0QRH.png",
-        "name": "Semi-Formal Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 11391,
-        "logo_path": "/t6m0uRTzaFHCsvEpikENE0PWJGb.png",
-        "name": "Tribeca Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 210099,
-        "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
-        "name": "Amazon MGM Studios",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2025-12-02",
-    "revenue": 0,
-    "runtime": 0,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Post Production",
-    "tagline": "",
-    "title": "Joyeux Noël, Maman !",
-    "video": false,
-    "vote_average": 0.0,
-    "vote_count": 0,
-    "providers": [],
     "date": 7
   },
   {
     "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/ucWnzjWWWd6CmRal8J3tWz6m1A7.jpg",
-    "belongs_to_collection": null,
-    "budget": 96000,
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Familial"
-      },
-      {
-        "id": 35,
-        "name": "Comédie"
-      },
-      {
-        "id": 10770,
-        "name": "Téléfilm"
-      }
-    ],
-    "homepage": "",
-    "id": 13187,
-    "imdb_id": "tt0059026",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "A Charlie Brown Christmas",
-    "overview": "En route pour rejoindre leurs amis en train de patiner sur un étang gelé, Charlie Brown confie à Linus qu'il se sent toujours déprimé durant la période de Noël. Il visite le stand psychiatrique de Lucy et lui raconte son problème. Elle lui suggère de s'impliquer dans un projet de Noël, l'invitant à diriger le spectacle de Noël.",
-    "popularity": 5.5233,
-    "poster_path": "https://image.tmdb.org/t/p/original/98vwY5YM68gJnaeJ1QHP8gcoifn.jpg",
-    "production_companies": [
-      {
-        "id": 52263,
-        "logo_path": null,
-        "name": "United Feature Syndicate",
-        "origin_country": "US"
-      },
-      {
-        "id": 16340,
-        "logo_path": null,
-        "name": "Lee Mendelson Film Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 16341,
-        "logo_path": null,
-        "name": "Bill Melendez Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 4898,
-        "logo_path": "/nm8d7P7MJNiBLdgIzUK0gkuEA4r.png",
-        "name": "CBS",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "1965-12-09",
-    "revenue": 0,
-    "runtime": 25,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "",
-    "title": "Joyeux Noël, Charlie Brown !",
-    "video": false,
-    "vote_average": 7.7,
-    "vote_count": 736,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
-        "provider_id": 350,
-        "provider_name": "Apple TV",
-        "display_priority": 6
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mHrYMgnZIp6lgW2aXg7ix9zGOnA.jpg",
-        "provider_id": 2243,
-        "provider_name": "Apple TV Amazon Channel",
-        "display_priority": 124
-      }
-    ],
-    "date": 8
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/rnn6sGMGPpM8VfVmCMFxsjKvz7q.jpg",
-    "belongs_to_collection": {
-      "id": 307637,
-      "name": "Jingle All the Way Collection",
-      "poster_path": "/zpYYN8NklsFR3iO1raCKzV3tcGf.jpg",
-      "backdrop_path": "/grCEwz2sIneF1wlDtVx6UiLqtLc.jpg"
-    },
-    "budget": 60000000,
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Familial"
-      },
-      {
-        "id": 35,
-        "name": "Comédie"
-      },
-      {
-        "id": 12,
-        "name": "Aventure"
-      }
-    ],
-    "homepage": "",
-    "id": 9279,
-    "imdb_id": "tt0116705",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Jingle All the Way",
-    "overview": "Comme tous les enfants américains, et bientôt les autres, Jamie veut un Turbo Man pour Noël. Seulement son papa, homme d'affaires stressé, a oublié sa promesse. Il s'en souvient quelques heures avant la remise fatidique des cadeaux et part à la chasse au Turbo Man, qui n'est plus disponible dans aucun magasin. Une course contre le temps et d'autres acquéreurs du jouet s'engage.",
-    "popularity": 8.6972,
-    "poster_path": "https://image.tmdb.org/t/p/original/dO7JHsyzxS670PrCSsH2VKFQ1FA.jpg",
-    "production_companies": [
-      {
-        "id": 436,
-        "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
-        "name": "1492 Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 25,
-        "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-        "name": "20th Century Fox",
-        "origin_country": "US"
-      },
-      {
-        "id": 11232,
-        "logo_path": null,
-        "name": "Fox Family Films",
-        "origin_country": ""
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "1996-11-21",
-    "revenue": 129800000,
-    "runtime": 89,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "2 papas, 1 seul jouet et pas de quartier !",
-    "title": "La course au jouet",
-    "video": false,
-    "vote_average": 6.056,
-    "vote_count": 2815,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-        "provider_id": 337,
-        "provider_name": "Disney Plus",
-        "display_priority": 1
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
-        "provider_id": 230,
-        "provider_name": "Crave",
-        "display_priority": 4
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
-        "provider_id": 1794,
-        "provider_name": "Starz Amazon Channel",
-        "display_priority": 93
-      }
-    ],
-    "date": 9
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/tombkp3ir9tmm5v9QLnHaDZCWa7.jpg",
-    "belongs_to_collection": {
-      "id": 93788,
-      "name": "Prep & Landing Collection",
-      "poster_path": "/qmokWUJsPR21PqMsssROmlzTAMn.jpg",
-      "backdrop_path": "/kmsH4aq0lwgryQBoCfXZzyp6z4O.jpg"
-    },
-    "budget": 0,
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      }
-    ],
-    "homepage": "",
-    "id": 1550797,
-    "imdb_id": "tt32594892",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Prep & Landing: The Snowball Protocol",
-    "overview": "",
-    "popularity": 0.5506,
-    "poster_path": "https://image.tmdb.org/t/p/original/g5ga2b2HZ2Q04AOaeOF1ort4DIl.jpg",
-    "production_companies": [
-      {
-        "id": 79543,
-        "logo_path": "/xxQesITWRfZ0rETKHJ13WfD5AEn.png",
-        "name": "ICON Creative Studio",
-        "origin_country": "CA"
-      },
-      {
-        "id": 3475,
-        "logo_path": "/jTPNzDEn7eHmp3nEXEEtkHm6jLg.png",
-        "name": "Disney Television Animation",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "CA",
-        "name": "Canada"
-      },
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2025-11-27",
-    "revenue": 0,
-    "runtime": 22,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Post Production",
-    "tagline": "",
-    "title": "Prep & Landing: The Snowball Protocol",
-    "video": false,
-    "vote_average": 0.0,
-    "vote_count": 0,
-    "providers": [],
-    "date": 10
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/pvVpR8lPRAPbeVU6hqJwD4r9roo.jpg",
-    "belongs_to_collection": null,
-    "budget": 85000000,
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comédie"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
-    ],
-    "homepage": "",
-    "id": 1581,
-    "imdb_id": "tt0457939",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "The Holiday",
-    "overview": "Amanda est une Américaine qui a de la difficulté à trouver un homme. Un jour, elle rencontre Iris, une Anglaise qui a le même problème. Elles décident alors de s'échanger leurs maisons pour voir ce qui pourrait bien arriver. Et elles tombent amoureuses... toutes les deux.",
-    "popularity": 6.617,
-    "poster_path": "https://image.tmdb.org/t/p/original/wpjqSv3I364qjEOhzktSaUQEyKS.jpg",
-    "production_companies": [
-      {
-        "id": 5,
-        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-        "name": "Columbia Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 33,
-        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-        "name": "Universal Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 7295,
-        "logo_path": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
-        "name": "Relativity Media",
-        "origin_country": "US"
-      },
-      {
-        "id": 735,
-        "logo_path": null,
-        "name": "Waverly Films",
-        "origin_country": "US"
-      },
-      {
-        "id": 20475,
-        "logo_path": null,
-        "name": "GH One",
-        "origin_country": ""
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2006-12-05",
-    "revenue": 205219880,
-    "runtime": 136,
-    "spoken_languages": [
-      {
-        "english_name": "French",
-        "iso_639_1": "fr",
-        "name": "Français"
-      },
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "C'est la veille de Noël et nous allons célébrer la jeunesse et la vie.",
-    "title": "Les Vacances",
-    "video": false,
-    "vote_average": 7.09,
-    "vote_count": 5393,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
-        "provider_id": 230,
-        "provider_name": "Crave",
-        "display_priority": 4
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/qsOM361vYHE7pcNFG7bCJHyievG.jpg",
-        "provider_id": 182,
-        "provider_name": "Hollywood Suite",
-        "display_priority": 27
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/p5xtRLEzPyRhqOPpiW1sFy4FyPc.jpg",
-        "provider_id": 705,
-        "provider_name": "Hollywood Suite Amazon Channel",
-        "display_priority": 88
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
-        "provider_id": 1794,
-        "provider_name": "Starz Amazon Channel",
-        "display_priority": 93
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/a7O0Z1uhFjgGydRrgT6ucBisP4K.jpg",
-        "provider_id": 314,
-        "provider_name": "CBC Gem",
-        "display_priority": 42
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/xoFyQOXR3qINRsdnCQyd7jGx8Wo.jpg",
-        "provider_id": 326,
-        "provider_name": "CTV",
-        "display_priority": 43
-      }
-    ],
-    "date": 11
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/6ZuYKN5wJKcuCw7o1WsbjYo68vz.jpg",
-    "belongs_to_collection": null,
-    "budget": 80000000,
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comédie"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 18,
-        "name": "Drame"
-      }
-    ],
-    "homepage": "",
-    "id": 12193,
-    "imdb_id": "tt0369436",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Four Christmases",
-    "overview": "Kate et Brad se battent pour pouvoir fêter Noël en famille. Un véritable casse-tête, surtout lorsque la famille en question est composée uniquement de parents divorcés et qu'il faut organiser pas moins de quatre repas différents.",
-    "popularity": 2.7841,
-    "poster_path": "https://image.tmdb.org/t/p/original/81skD7aYJ6gWqCAL0Dx2ihX7y0z.jpg",
-    "production_companies": [
-      {
-        "id": 158,
-        "logo_path": "/6SHlNIype9zmyEMRsBtoueUtLsq.png",
-        "name": "Spyglass Entertainment",
-        "origin_country": "US"
-      },
-      {
-        "id": 2796,
-        "logo_path": null,
-        "name": "Wild West Picture Show Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 2308,
-        "logo_path": null,
-        "name": "Type A Films",
-        "origin_country": ""
-      },
-      {
-        "id": 58262,
-        "logo_path": null,
-        "name": "Birnbaum/Barber Productions",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2008-11-26",
-    "revenue": 164112721,
-    "runtime": 88,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Son père à lui, sa mère à elle, sa mère à lui et son père à elle. Tous la même journée.",
-    "title": "Quatre noël",
-    "video": false,
-    "vote_average": 5.814,
-    "vote_count": 1196,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-        "provider_id": 8,
-        "provider_name": "Netflix",
-        "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/h5DcR0J2EESLitnhR8xLG1QymTE.jpg",
-        "provider_id": 531,
-        "provider_name": "Paramount Plus",
-        "display_priority": 9
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/fts6X10Jn4QT0X6ac3udKEn2tJA.jpg",
-        "provider_id": 2303,
-        "provider_name": "Paramount Plus Premium",
-        "display_priority": 122
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/rl6zez5rCeyelt1I46JRYk6B9Ed.jpg",
-        "provider_id": 2304,
-        "provider_name": "Paramount Plus Basic with Ads",
-        "display_priority": 123
-      }
-    ],
-    "date": 12
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/vFuKWgYAKzqp9jKPbVR9ZRoX824.jpg",
-    "belongs_to_collection": null,
-    "budget": 10000000,
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drame"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Familial"
-      },
-      {
-        "id": 35,
-        "name": "Comédie"
-      }
-    ],
-    "homepage": "",
-    "id": 51052,
-    "imdb_id": "tt1430607",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Arthur Christmas",
-    "overview": "Dans la nuit du 24 au 25 décembre, le Père Noël et ses lutins ont distribué tous les cadeaux aux enfants endormis. Il en reste cependant un qui a été oublié et qui appartient à une petite fille du Royaume-Uni. Aller lui porter ne sera pas évident, car le jour va bientôt se lever. Le fils du Père Noël décide de remplir cette périlleuse mission. En compagnie de son grand-père, d'un vieux renne et d'un elfe qui a plus d'un tour dans son sac, Arthur Noël s'embarque dans une aventure qui lui fera vivre de nombreuses sensations fortes.",
-    "popularity": 13.0398,
-    "poster_path": "https://image.tmdb.org/t/p/original/yu2Dv0atK44LTeRio64HfEY6Qzy.jpg",
-    "production_companies": [
-      {
-        "id": 5,
-        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-        "name": "Columbia Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 2251,
-        "logo_path": "/5ilV5mH3gxTEU7p5wjxptHvXkyr.png",
-        "name": "Sony Pictures Animation",
-        "origin_country": "US"
-      },
-      {
-        "id": 297,
-        "logo_path": "/8ixoR3cvroUqNDLjaX6AZmJIdRY.png",
-        "name": "Aardman",
-        "origin_country": "GB"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "GB",
-        "name": "United Kingdom"
-      },
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2011-11-10",
-    "revenue": 151300000,
-    "runtime": 97,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      },
-      {
-        "english_name": "Spanish",
-        "iso_639_1": "es",
-        "name": "Español"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Vous êtes-vous déjà demandé comment 2 milliard de cadeaux sont livrés en 1 nuit?",
-    "title": "Mission Noël",
-    "video": false,
-    "vote_average": 6.768,
-    "vote_count": 1559,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
-        "provider_id": 230,
-        "provider_name": "Crave",
-        "display_priority": 4
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/cQjWvOiKRPeSuWRNGegcBjyqVbR.jpg",
-        "provider_id": 469,
-        "provider_name": "Club Illico",
-        "display_priority": 51
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
-        "provider_id": 1794,
-        "provider_name": "Starz Amazon Channel",
-        "display_priority": 93
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/a7O0Z1uhFjgGydRrgT6ucBisP4K.jpg",
-        "provider_id": 314,
-        "provider_name": "CBC Gem",
-        "display_priority": 42
-      }
-    ],
-    "date": 13
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/xz9d71CvFHkKIDSzv4rztPPsVKn.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/9kUagP3B5Z0wnTeljdJbrmHCBke.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
       {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
-        "id": 35,
-        "name": "Comédie"
-      }
-    ],
-    "homepage": "",
-    "id": 1218762,
-    "imdb_id": "tt24852126",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Jingle Bell Heist",
-    "overview": "",
-    "popularity": 1.8801,
-    "poster_path": "https://image.tmdb.org/t/p/original/w2gsk9B7AJHKaN47IULaIbNHFdx.jpg",
-    "production_companies": [
-      {
-        "id": 172977,
-        "logo_path": "/4FOQ0au99xFZw4uCOJekJAp1We.png",
-        "name": "ACE Entertainment",
-        "origin_country": "US"
-      },
-      {
-        "id": 216224,
-        "logo_path": null,
-        "name": "TeaShop Films",
-        "origin_country": "GB"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2025-11-26",
-    "revenue": 0,
-    "runtime": 96,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Post Production",
-    "tagline": "",
-    "title": "Jingle Bell Heist",
-    "video": false,
-    "vote_average": 0.0,
-    "vote_count": 0,
-    "providers": [],
-    "date": 14
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/2fP8yZHl3FxJUouMCTBqTnSUrno.jpg",
-    "belongs_to_collection": null,
-    "budget": 30000000,
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comédie"
-      },
-      {
         "id": 10751,
         "name": "Familial"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
       }
     ],
     "homepage": "",
-    "id": 17037,
-    "imdb_id": "tt0155753",
+    "id": 454467,
+    "imdb_id": "tt5097410",
     "origin_country": [
       "US"
     ],
     "original_language": "en",
-    "original_title": "I'll Be Home for Christmas",
-    "overview": "",
-    "popularity": 1.2057,
-    "poster_path": "https://image.tmdb.org/t/p/original/fIy6f7a8DNCpX4efcqxDqchdSfW.jpg",
+    "original_title": "Noelle",
+    "overview": "Kris Kringle, le père Noël, nous a quitté et le poste est hérité par son fils, Nick. Mais ce dernier est extrêmement stressé à l'idée de reprendre l'affaire familiale. Sa sœur, Noelle, lui propose de prendre un petit week-end pour se changer les idées avant de commencer. Nick en profite alors pour prendre la fuite.  Noelle est obligée de quitter le Pôle Nord pour la première fois de sa vie pour essayer de retrouver son frère avant Noël. Pendant ce temps, leur cousin Gabriel a pour projet de transformer l'atelier du père Noël en service de livraison par internet.",
+    "popularity": 2.2923,
+    "poster_path": "https://image.tmdb.org/t/p/original/ia3ClvGBhfB3hfOzGsAdHTflj6B.jpg",
     "production_companies": [
       {
         "id": 2,
         "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
         "name": "Walt Disney Pictures",
         "origin_country": "US"
-      },
-      {
-        "id": 10227,
-        "logo_path": "/3YfRy3DBl4abcqkzGx4RVNz12yl.png",
-        "name": "Mandeville Films",
-        "origin_country": "US"
       }
     ],
     "production_countries": [
-      {
-        "iso_3166_1": "CA",
-        "name": "Canada"
-      },
       {
         "iso_3166_1": "US",
         "name": "United States of America"
       }
     ],
-    "release_date": "1998-11-13",
+    "release_date": "2019-11-12",
     "revenue": 0,
-    "runtime": 86,
+    "runtime": 100,
     "spoken_languages": [
       {
         "english_name": "English",
         "iso_639_1": "en",
         "name": "English"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
       }
     ],
     "status": "Released",
-    "tagline": "",
-    "title": "I'll Be Home for Christmas",
+    "tagline": "Sauver Noël ensemble ?",
+    "title": "Noëlle",
     "video": false,
-    "vote_average": 5.954,
-    "vote_count": 342,
+    "vote_average": 6.593,
+    "vote_count": 709,
     "providers": [
       {
         "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
@@ -1332,115 +709,53 @@
         "display_priority": 1
       }
     ],
-    "date": 15
+    "date": 8
   },
   {
     "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/1wTHiFa9LkZ9rYL7fBxGug5BIuR.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/kVM45FdWgirD08xJAwnRRWMC3QL.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 27000000,
     "genres": [
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
       {
         "id": 35,
         "name": "Comédie"
-      }
-    ],
-    "homepage": "",
-    "id": 50041,
-    "imdb_id": "tt0380585",
-    "origin_country": [
-      "CA",
-      "FR"
-    ],
-    "original_language": "fr",
-    "original_title": "Nez Rouge",
-    "overview": "Après avoir été trouvé ivre au volant, un critique littéraire doit travailler, durant le temps des fêtes, pour Opération Nez rouge avec une auteure, dont il a sévèrement critiqué une pièce de théâtre, et son avocat plutôt étrange qui propose de l'aider. Le critique ne reconnaît pas tout de suite l'écrivaine, alors que celle-ci cherche à se venger de lui. Se sentant tomber amoureuse, elle laisse peu à peu tomber ses plans de vengeance.",
-    "popularity": 4.3283,
-    "poster_path": "https://image.tmdb.org/t/p/original/A1GJiiYM1GUH37z4FKJwHqjz5vy.jpg",
-    "production_companies": [],
-    "production_countries": [
-      {
-        "iso_3166_1": "CA",
-        "name": "Canada"
-      }
-    ],
-    "release_date": "2003-11-28",
-    "revenue": 0,
-    "runtime": 114,
-    "spoken_languages": [
-      {
-        "english_name": "French",
-        "iso_639_1": "fr",
-        "name": "Français"
-      }
-    ],
-    "status": "Released",
-    "tagline": "",
-    "title": "Nez Rouge",
-    "video": false,
-    "vote_average": 5.5,
-    "vote_count": 11,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/7rJJlPpuGz0DV5OLjVW1HzYaFj9.jpg",
-        "provider_id": 146,
-        "provider_name": "iciTouTV",
-        "display_priority": 12
-      }
-    ],
-    "date": 16
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/nf9Y9KtrSFqUz3gNbsrgmFJV1S4.jpg",
-    "belongs_to_collection": null,
-    "budget": 100000000,
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
       },
       {
-        "id": 35,
-        "name": "Comédie"
+        "id": 10751,
+        "name": "Familial"
       },
       {
         "id": 18,
         "name": "Drame"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
       }
     ],
     "homepage": "",
-    "id": 5375,
-    "imdb_id": "tt0486583",
+    "id": 9745,
+    "imdb_id": "tt0141109",
     "origin_country": [
       "US"
     ],
     "original_language": "en",
-    "original_title": "Fred Claus",
-    "overview": "Les frauduleuses combines de Fred, le frère du Père Noël, finissent par le conduire derrière les barreaux où il se met à réfléchir aux manières de se racheter.",
-    "popularity": 6.8054,
-    "poster_path": "https://image.tmdb.org/t/p/original/cAhaW95F4BLrRzTNPhPyNDxrTfg.jpg",
+    "original_title": "Jack Frost",
+    "overview": "Jack Frost est mort sans avoir pu partager enfin un Noël avec son fils Charlie. Un an plus tard, inconsolable, le garçon fabrique un bonhomme de neige à l'effigie de son père et joue de l'harmonica \"magique\" qu'il lui a légué avant de mourir. Et là, le miracle s'accomplit : l'âme de Jack investit le bonhomme de neige, qui prend vie...",
+    "popularity": 9.0453,
+    "poster_path": "https://image.tmdb.org/t/p/original/5tXCMX9dYxK4abIqmUWQok1f0ld.jpg",
     "production_companies": [
       {
-        "id": 53061,
+        "id": 22351,
         "logo_path": null,
-        "name": "Jessie Nelson Productions",
-        "origin_country": ""
-      },
-      {
-        "id": 1885,
-        "logo_path": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
-        "name": "Silver Pictures",
+        "name": "The Canton Company",
         "origin_country": "US"
       },
       {
-        "id": 53062,
+        "id": 10619,
         "logo_path": null,
-        "name": "David Dobkin Productions",
+        "name": "Azoff Films",
         "origin_country": ""
       },
       {
@@ -1454,11 +769,15 @@
       {
         "iso_3166_1": "US",
         "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
       }
     ],
-    "release_date": "2007-11-09",
-    "revenue": 97800000,
-    "runtime": 116,
+    "release_date": "1998-11-15",
+    "revenue": 34562925,
+    "runtime": 101,
     "spoken_languages": [
       {
         "english_name": "English",
@@ -1467,85 +786,95 @@
       }
     ],
     "status": "Released",
-    "tagline": "",
-    "title": "Le Frère Noël",
+    "tagline": "Jack Frost a une deuxième chance d'être le père le plus cool du monde... s'il ne fond pas avant.",
+    "title": "Jack, le bonhomme de neige",
     "video": false,
-    "vote_average": 5.847,
-    "vote_count": 883,
+    "vote_average": 6.02,
+    "vote_count": 1188,
     "providers": [],
-    "date": 17
+    "date": 9
   },
   {
     "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5YnjZy7ywX69mnIolamzwS8hmoZ.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
       {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
         "id": 35,
         "name": "Comédie"
+      },
+      {
+        "id": 18,
+        "name": "Drame"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
       }
     ],
-    "homepage": "https://www.netflix.com/ca-fr/title/81735104",
-    "id": 1401318,
-    "imdb_id": "tt34992378",
+    "homepage": "http://mercipourtout-lefilm.com",
+    "id": 642532,
+    "imdb_id": "tt11349958",
     "origin_country": [
-      "US"
+      "CA"
     ],
-    "original_language": "en",
-    "original_title": "A Merry Little Ex-Mas",
-    "overview": "Ce que souhaitent Kate et Everett pour Noël? Un divorce amical et de dernières fêtes en famille – mais de nouvelles flammes et de vieux sentiments vont compliquer leurs plans.",
-    "popularity": 36.9598,
-    "poster_path": "https://image.tmdb.org/t/p/original/qa6E9wldSaTZKVjxQ6MV3NPrYht.jpg",
+    "original_language": "fr",
+    "original_title": "Merci pour tout",
+    "overview": "Marianne et Christine Cyr sont en froid depuis un an quand elles apprennent le décès de leur père, un abonné aux affaires croches. Les sœurs se mettent en route vers les Îles de la Madeleine où elles vont répandre ses cendres et fuient leurs problèmes personnels… sans réaliser qu’elles les transportent avec elles, au propre comme au figuré.",
+    "popularity": 0.4684,
+    "poster_path": "https://image.tmdb.org/t/p/original/8FZMxK3mDSg6TF93uYGYQJuCs4k.jpg",
     "production_companies": [
       {
-        "id": 5452,
-        "logo_path": "/piIgZnVf0h0PoHY7wpHXQtFZ3O9.png",
-        "name": "Hartbreak Films",
-        "origin_country": "US"
+        "id": 80797,
+        "logo_path": "/mfrPH8quIs8BXeqePQq3iG3DOg6.png",
+        "name": "Amalga",
+        "origin_country": "CA"
+      },
+      {
+        "id": 806,
+        "logo_path": "/kcNh09qqR2Pkw1JAzRW4CommrW4.png",
+        "name": "Téléfilm Canada",
+        "origin_country": "CA"
       }
     ],
     "production_countries": [
       {
-        "iso_3166_1": "US",
-        "name": "United States of America"
+        "iso_3166_1": "CA",
+        "name": "Canada"
       }
     ],
-    "release_date": "2025-11-12",
+    "release_date": "2019-12-25",
     "revenue": 0,
-    "runtime": 91,
+    "runtime": 99,
     "spoken_languages": [
       {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
       }
     ],
     "status": "Released",
-    "tagline": "",
-    "title": "Un ex pour Noël",
+    "tagline": "Sœurs un jour, sœurs toujours",
+    "title": "Merci pour tout",
     "video": false,
-    "vote_average": 6.394,
-    "vote_count": 66,
+    "vote_average": 6.9,
+    "vote_count": 13,
     "providers": [
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-        "provider_id": 8,
-        "provider_name": "Netflix",
-        "display_priority": 0
+        "logo_path": "https://image.tmdb.org/t/p/original/7rJJlPpuGz0DV5OLjVW1HzYaFj9.jpg",
+        "provider_id": 146,
+        "provider_name": "iciTouTV",
+        "display_priority": 12
       },
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
+        "logo_path": "https://image.tmdb.org/t/p/original/a7O0Z1uhFjgGydRrgT6ucBisP4K.jpg",
+        "provider_id": 314,
+        "provider_name": "CBC Gem",
+        "display_priority": 42
       }
     ],
-    "date": 18
+    "date": 10
   },
   {
     "adult": false,
@@ -1664,190 +993,14 @@
         "display_priority": 112
       }
     ],
-    "date": 19
+    "date": 11
   },
   {
     "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/dGiPJO75b9GmXqxvusbKlcYrDcg.jpg",
-    "belongs_to_collection": {
-      "id": 9888,
-      "name": "Maman, j'ai raté l'avion ! - Collection",
-      "poster_path": "/vNcyUr5pTxINZIToTCXpWq80FGc.jpg",
-      "backdrop_path": "/tpmfRWL1ecFxFOOeqvp6hDf41ac.jpg"
-    },
-    "budget": 18000000,
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comédie"
-      },
-      {
-        "id": 10751,
-        "name": "Familial"
-      },
-      {
-        "id": 12,
-        "name": "Aventure"
-      }
-    ],
-    "homepage": "",
-    "id": 772,
-    "imdb_id": "tt0104431",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Home Alone 2: Lost in New York",
-    "overview": "Après Paris, c'est à Miami que la tribu McCallister décide de passer les fêtes de Noël. À l'aube du jour J, toute la famille est sur le pied de guerre et file à l'aéroport en prenant bien garde de ne pas oublier Kevin. Mais celui-ci s'éclipse pour acheter des piles pour son walkman, il ne retrouve plus les siens et s'embarque par mégarde pour New York...",
-    "popularity": 20.2125,
-    "poster_path": "https://image.tmdb.org/t/p/original/gFhf8NwvEKCbNIOQZxLqj1i5DMy.jpg",
-    "production_companies": [
-      {
-        "id": 25,
-        "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-        "name": "20th Century Fox",
-        "origin_country": "US"
-      },
-      {
-        "id": 477,
-        "logo_path": "/4wfCdggcE3ZG26uJpnAvyI0vEeL.png",
-        "name": "Hughes Entertainment",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "1992-11-15",
-    "revenue": 358994850,
-    "runtime": 120,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      },
-      {
-        "english_name": "French",
-        "iso_639_1": "fr",
-        "name": "Français"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Dans la ville qui ne dort jamais, il a dépassé l'heure du coucher.",
-    "title": "Maman, j'ai encore raté l'avion !",
-    "video": false,
-    "vote_average": 6.769,
-    "vote_count": 10194,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-        "provider_id": 337,
-        "provider_name": "Disney Plus",
-        "display_priority": 1
-      }
-    ],
-    "date": 20
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/fHDvGGPFry65ou79WLi6JsjCZrM.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/lKkKaGnKdahSGPMOngMIGM1fNJN.jpg",
     "belongs_to_collection": null,
-    "budget": 75000000,
+    "budget": 32000000,
     "genres": [
-      {
-        "id": 35,
-        "name": "Comédie"
-      }
-    ],
-    "homepage": "https://tv.apple.com/ca/movie/umc.cmc.3lp7wqowerzdbej98tveildi3?l=fr-CA",
-    "id": 632856,
-    "imdb_id": "tt10999120",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Spirited",
-    "overview": "Imaginez un monsieur Scrooge qui reçoit la visite de quatre fantômes pour le réveillon de Noël, dans un conte réconfortant à la Dickens... mais en plus drôle. Et avec Will Ferrell, Ryan Reynolds et Octavia Spencer. Sans oublier des chansons incroyables. OK, on en demande beaucoup. Vous savez quoi ? Regardez la bande-annonce.",
-    "popularity": 5.6863,
-    "poster_path": "https://image.tmdb.org/t/p/original/AiSmfZ6Dql9YmjEjnkOqhxM1HhD.jpg",
-    "production_companies": [
-      {
-        "id": 104228,
-        "logo_path": "/hx0C1XcSxGgat8N62GpxoJGTkCk.png",
-        "name": "Maximum Effort",
-        "origin_country": "US"
-      },
-      {
-        "id": 77152,
-        "logo_path": "/uFQRkYWX3xBON0BZ8DxKUDqLrmn.png",
-        "name": "Gloria Sanchez Productions",
-        "origin_country": "US"
-      },
-      {
-        "id": 182915,
-        "logo_path": null,
-        "name": "Two Grown Men",
-        "origin_country": "US"
-      },
-      {
-        "id": 194232,
-        "logo_path": "/oE7H93u8sy5vvW5EH3fpCp68vvB.png",
-        "name": "Apple Studios",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2022-11-10",
-    "revenue": 0,
-    "runtime": 127,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Une nouvelle comédie musicale inspirée d’un classique des Fêtes.",
-    "title": "Spirited – L’esprit de Noël",
-    "video": false,
-    "vote_average": 6.866,
-    "vote_count": 688,
-    "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
-        "provider_id": 350,
-        "provider_name": "Apple TV",
-        "display_priority": 6
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/mHrYMgnZIp6lgW2aXg7ix9zGOnA.jpg",
-        "provider_id": 2243,
-        "provider_name": "Apple TV Amazon Channel",
-        "display_priority": 124
-      }
-    ],
-    "date": 21
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/1rpyQcniNIJgsE0wKLOqPk2n7b7.jpg",
-    "belongs_to_collection": null,
-    "budget": 0,
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
       {
         "id": 35,
         "name": "Comédie"
@@ -1859,46 +1012,120 @@
       {
         "id": 14,
         "name": "Fantastique"
-      },
-      {
-        "id": 12,
-        "name": "Aventure"
       }
     ],
-    "homepage": "https://www.netflix.com/ca-fr/title/81309564",
-    "id": 645757,
-    "imdb_id": "tt14855468",
+    "homepage": "",
+    "id": 10719,
+    "imdb_id": "tt0319343",
     "origin_country": [
-      "GB"
+      "US"
     ],
     "original_language": "en",
-    "original_title": "That Christmas",
-    "overview": "Lorsque la pire tempête de neige de l'histoire bouleverse les plans de tout le monde, les habitants de Wellington-on-Sea vivent un Noël inoubliable.",
-    "popularity": 7.4353,
-    "poster_path": "https://image.tmdb.org/t/p/original/uxVCEWQtDTHG9Np0h5obdVeuw70.jpg",
+    "original_title": "Elf",
+    "overview": "Buddy, un être humain, est élevé par les lutins du Père Noël depuis sa plus tendre enfance. Lorsqu'il atteint l'âge et la taille adulte, ces derniers s'aperçoivent que cette différence physique commence à poser quelques problèmes : anormalement grand pour ce lieu légendaire, l'homme provoque en effet un joli scandale au Pôle Nord ! Renvoyé dans son pays d'origine, il se lance à la recherche de son père biologique, un sinistre éditeur, à New York.",
+    "popularity": 9.3417,
+    "poster_path": "https://image.tmdb.org/t/p/original/p0yaDplFwyk9Ml11MxZuzwFopkz.jpg",
     "production_companies": [
       {
-        "id": 121605,
-        "logo_path": "/4rc0vsJWygNm9ojrxSdPVU9jKyj.png",
-        "name": "Locksmith Animation",
-        "origin_country": "GB"
+        "id": 12,
+        "logo_path": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "name": "New Line Cinema",
+        "origin_country": "US"
       },
       {
-        "id": 31922,
-        "logo_path": "/omWPoru2LNayUOBqjMBLP9KrFrP.png",
-        "name": "DNEG",
-        "origin_country": "GB"
+        "id": 2645,
+        "logo_path": null,
+        "name": "Guy Walks into a Bar Productions",
+        "origin_country": ""
       }
     ],
     "production_countries": [
       {
-        "iso_3166_1": "GB",
-        "name": "United Kingdom"
+        "iso_3166_1": "US",
+        "name": "United States of America"
       }
     ],
-    "release_date": "2024-11-27",
-    "revenue": 0,
-    "runtime": 95,
+    "release_date": "2003-11-07",
+    "revenue": 228500000,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Pour les fêtes de fin d'année, découvrez le lutin qui sommeille en vous.",
+    "title": "Le lutin",
+    "video": false,
+    "vote_average": 6.657,
+    "vote_count": 4309,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+        "provider_id": 119,
+        "provider_name": "Amazon Prime Video",
+        "display_priority": 2
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
+        "provider_id": 2100,
+        "provider_name": "Amazon Prime Video with Ads",
+        "display_priority": 112
+      }
+    ],
+    "date": 12
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8x16xGu1p2vqfkSNRhGJNlBz8Fz.jpg",
+    "belongs_to_collection": null,
+    "budget": 3000000,
+    "genres": [
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 16,
+        "name": "Animation"
+      }
+    ],
+    "homepage": "",
+    "id": 14813,
+    "imdb_id": "tt0085936",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Mickey's Christmas Carol",
+    "overview": "Le soir de Noël, Ebenezer Scrooge reçoit la visite du fantôme de son ancien associé, Jacob Marley. Il tente de lui faire entendre raison de son comportement d'usurpateur qui ne pourra jamais le rendre heureux.",
+    "popularity": 2.3441,
+    "poster_path": "https://image.tmdb.org/t/p/original/vQowq4sfY082UEU1zccHAjIOjb8.jpg",
+    "production_companies": [
+      {
+        "id": 2,
+        "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "name": "Walt Disney Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 3166,
+        "logo_path": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
+        "name": "Walt Disney Productions",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1983-10-19",
+    "revenue": 21000000,
+    "runtime": 25,
     "spoken_languages": [
       {
         "english_name": "English",
@@ -1908,25 +1135,19 @@
     ],
     "status": "Released",
     "tagline": "",
-    "title": "Ce Noël-là",
+    "title": "Le Noël de Mickey",
     "video": false,
-    "vote_average": 7.166,
-    "vote_count": 370,
+    "vote_average": 7.645,
+    "vote_count": 951,
     "providers": [
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
-        "provider_id": 8,
-        "provider_name": "Netflix",
-        "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
+        "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
+        "provider_id": 337,
+        "provider_name": "Disney Plus",
+        "display_priority": 1
       }
     ],
-    "date": 22
+    "date": 13
   },
   {
     "adult": false,
@@ -2044,55 +1265,114 @@
         "display_priority": 112
       }
     ],
-    "date": 23
+    "date": 14
   },
   {
     "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/spQjZHP7lMVAMLun98W4YA1c2jL.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xz9d71CvFHkKIDSzv4rztPPsVKn.jpg",
     "belongs_to_collection": null,
-    "budget": 25000000,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 1218762,
+    "imdb_id": "tt24852126",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Jingle Bell Heist",
+    "overview": "",
+    "popularity": 1.8801,
+    "poster_path": "https://image.tmdb.org/t/p/original/w2gsk9B7AJHKaN47IULaIbNHFdx.jpg",
+    "production_companies": [
+      {
+        "id": 172977,
+        "logo_path": "/4FOQ0au99xFZw4uCOJekJAp1We.png",
+        "name": "ACE Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 216224,
+        "logo_path": null,
+        "name": "TeaShop Films",
+        "origin_country": "GB"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-11-26",
+    "revenue": 0,
+    "runtime": 96,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Post Production",
+    "tagline": "",
+    "title": "Jingle Bell Heist",
+    "video": false,
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "providers": [],
+    "date": 15
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/lcFar2tdF9Lir12R0K3Dvw6uABu.jpg",
+    "belongs_to_collection": null,
+    "budget": 60000000,
     "genres": [
       {
         "id": 35,
         "name": "Comédie"
       },
       {
-        "id": 12,
-        "name": "Aventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantastique"
+        "id": 10751,
+        "name": "Familial"
       }
     ],
     "homepage": "",
-    "id": 296100,
-    "imdb_id": "tt3530002",
+    "id": 13673,
+    "imdb_id": "tt0388419",
     "origin_country": [
       "US"
     ],
     "original_language": "en",
-    "original_title": "The Night Before",
-    "overview": "Ethan, Isaac et Chris sont amis depuis l'enfance. Quand les parents de Ethan décèdent alors que les garçons sont encore adolescents, les trois complices se promettent de passer chaque veille de Noël ensemble, faisant de cette fête un rendez-vous amical plutôt que familial. Devenus adultes, Ethan, Isaac et Chris considèrent qu'il est temps désormais d'abolir la tradition. Il ne leur reste donc plus qu'une seule veille de Noël à passer ensemble. Comble de bonheur, Ethan déniche trois billets pour le bal Casse-Noisette, un évènement auquel ils rêvent d'aller depuis les dix dernières années. Bien des embûches les attendent sur la route qui les mènera au bal.",
-    "popularity": 4.0961,
-    "poster_path": "https://image.tmdb.org/t/p/original/fAHpxenDKQ1cZt3X6XFdqnXMEuA.jpg",
+    "original_title": "Christmas with the Kranks",
+    "overview": "Lassé des aspects commerciaux de Noël, Luther Krank et sa femme Nora décident de zapper cette fête, de renoncer aux cadeaux, décorations, cartes, parties et de s'offrir à la place une croisière dans les Caraîbes. Évidemment, ça poserait un problème majeur aux voisins. Si la maison des Krank n'est pas décorée, le quartier ne gagnera jamais le concours de décorations de Noël et ça, personne ne l'accepte. Entre les Krank et les voisins, la guerre est déclarée...",
+    "popularity": 4.2368,
+    "poster_path": "https://image.tmdb.org/t/p/original/nO22xxg9L3SG6TQGW0amxLqRcF9.jpg",
     "production_companies": [
       {
-        "id": 17393,
-        "logo_path": "/k28sCof6kheeOicLqL6EXX2GHov.png",
-        "name": "Good Universe",
+        "id": 497,
+        "logo_path": "/wmxHM7w6JxbPwaopC6Sl4QSG2uH.png",
+        "name": "Revolution Studios",
         "origin_country": "US"
       },
       {
-        "id": 16615,
-        "logo_path": "/dbxHaOtibTKvP6dUMRYdwUOULgY.png",
-        "name": "Point Grey Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 5,
-        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-        "name": "Columbia Pictures",
+        "id": 436,
+        "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
+        "name": "1492 Pictures",
         "origin_country": "US"
       }
     ],
@@ -2102,10 +1382,15 @@
         "name": "United States of America"
       }
     ],
-    "release_date": "2015-11-20",
-    "revenue": 52395996,
-    "runtime": 101,
+    "release_date": "2004-11-24",
+    "revenue": 0,
+    "runtime": 99,
     "spoken_languages": [
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      },
       {
         "english_name": "English",
         "iso_639_1": "en",
@@ -2113,18 +1398,12 @@
       }
     ],
     "status": "Released",
-    "tagline": "",
-    "title": "La veille",
+    "tagline": "Leur Noël va mettre la ville sens dessus dessous !",
+    "title": "Noël chez les Kranks",
     "video": false,
-    "vote_average": 6.089,
-    "vote_count": 1761,
+    "vote_average": 6.15,
+    "vote_count": 1235,
     "providers": [
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
-        "provider_id": 230,
-        "provider_name": "Crave",
-        "display_priority": 4
-      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
         "provider_id": 1794,
@@ -2136,6 +1415,684 @@
         "provider_id": 326,
         "provider_name": "CTV",
         "display_priority": 43
+      }
+    ],
+    "date": 16
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/mlxKite1x1PgmIhJgAxNS9eHmH8.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 12,
+        "name": "Aventure"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 14,
+        "name": "Fantastique"
+      }
+    ],
+    "homepage": "https://www.netflix.com/ca-fr/title/80183187",
+    "id": 508965,
+    "imdb_id": "tt4729430",
+    "origin_country": [
+      "ES"
+    ],
+    "original_language": "en",
+    "original_title": "Klaus",
+    "overview": "Un facteur égoïste et un fabricant de jouet solitaire tissent une amitié improbable et sèment la joie dans une ville froide et sombre qui en a grand besoin.",
+    "popularity": 5.2881,
+    "poster_path": "https://image.tmdb.org/t/p/original/qb0eCUtvi2Rn5etdqFbaYzvIPYn.jpg",
+    "production_companies": [
+      {
+        "id": 29566,
+        "logo_path": "/wHbtRtUnXGNzX0riQIpq1fcgueq.png",
+        "name": "Atresmedia",
+        "origin_country": "ES"
+      },
+      {
+        "id": 101644,
+        "logo_path": null,
+        "name": "The SPA Studios",
+        "origin_country": "ES"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "ES",
+        "name": "Spain"
+      }
+    ],
+    "release_date": "2019-11-08",
+    "revenue": 0,
+    "runtime": 96,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Northern Sami",
+        "iso_639_1": "se",
+        "name": ""
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Klaus",
+    "video": false,
+    "vote_average": 8.23,
+    "vote_count": 4396,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix Standard with Ads",
+        "display_priority": 94
+      }
+    ],
+    "date": 17
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/fHDvGGPFry65ou79WLi6JsjCZrM.jpg",
+    "belongs_to_collection": null,
+    "budget": 75000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "https://tv.apple.com/ca/movie/umc.cmc.3lp7wqowerzdbej98tveildi3?l=fr-CA",
+    "id": 632856,
+    "imdb_id": "tt10999120",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Spirited",
+    "overview": "Imaginez un monsieur Scrooge qui reçoit la visite de quatre fantômes pour le réveillon de Noël, dans un conte réconfortant à la Dickens... mais en plus drôle. Et avec Will Ferrell, Ryan Reynolds et Octavia Spencer. Sans oublier des chansons incroyables. OK, on en demande beaucoup. Vous savez quoi ? Regardez la bande-annonce.",
+    "popularity": 5.6863,
+    "poster_path": "https://image.tmdb.org/t/p/original/AiSmfZ6Dql9YmjEjnkOqhxM1HhD.jpg",
+    "production_companies": [
+      {
+        "id": 104228,
+        "logo_path": "/hx0C1XcSxGgat8N62GpxoJGTkCk.png",
+        "name": "Maximum Effort",
+        "origin_country": "US"
+      },
+      {
+        "id": 77152,
+        "logo_path": "/uFQRkYWX3xBON0BZ8DxKUDqLrmn.png",
+        "name": "Gloria Sanchez Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 182915,
+        "logo_path": null,
+        "name": "Two Grown Men",
+        "origin_country": "US"
+      },
+      {
+        "id": 194232,
+        "logo_path": "/oE7H93u8sy5vvW5EH3fpCp68vvB.png",
+        "name": "Apple Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2022-11-10",
+    "revenue": 0,
+    "runtime": 127,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Une nouvelle comédie musicale inspirée d’un classique des Fêtes.",
+    "title": "Spirited – L’esprit de Noël",
+    "video": false,
+    "vote_average": 6.866,
+    "vote_count": 688,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
+        "provider_id": 350,
+        "provider_name": "Apple TV",
+        "display_priority": 6
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/mHrYMgnZIp6lgW2aXg7ix9zGOnA.jpg",
+        "provider_id": 2243,
+        "provider_name": "Apple TV Amazon Channel",
+        "display_priority": 124
+      }
+    ],
+    "date": 18
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/2q7nDTb31Pmo22bwsZNP5opEFu9.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 1261825,
+    "imdb_id": "tt31998881",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Oh. What. Fun.",
+    "overview": "C'est Noël. Claire Clauster est la clef de voûte d'un édifice familial attachant, mais agité. Cette année, elle a prévu une sortie exceptionnelle en famille, mais cette dernière fait la grave erreur de l'oublier seule à la maison. Lassée d'être méprisée, elle part pour une aventure imprévue. Alors que sa famille fait tout pour la retrouver, Claire découvre la magie inattendue d'un Noël improvisé.",
+    "popularity": 4.5088,
+    "poster_path": "https://image.tmdb.org/t/p/original/gPB1QrMDHwnrxNNPLOHjhp07Pub.jpg",
+    "production_companies": [
+      {
+        "id": 112037,
+        "logo_path": "/tEjXfABMQ01K1T6YQienJMe0QRH.png",
+        "name": "Semi-Formal Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 11391,
+        "logo_path": "/t6m0uRTzaFHCsvEpikENE0PWJGb.png",
+        "name": "Tribeca Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 210099,
+        "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+        "name": "Amazon MGM Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-12-02",
+    "revenue": 0,
+    "runtime": 0,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Post Production",
+    "tagline": "",
+    "title": "Joyeux Noël, Maman !",
+    "video": false,
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "providers": [],
+    "date": 19
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/wOoZPg0ZCJ1z1KZhVXRvX1eDZqb.jpg",
+    "belongs_to_collection": {
+      "id": 53159,
+      "name": "Sur les traces du Père Noël - Collection",
+      "poster_path": "/dJaAG9JtxTbKLwdu1vgZdjbNAbg.jpg",
+      "backdrop_path": "/oE29RMXjXApDsQkqhdewM9nb4zx.jpg"
+    },
+    "budget": 22000000,
+    "genres": [
+      {
+        "id": 14,
+        "name": "Fantastique"
+      },
+      {
+        "id": 18,
+        "name": "Drame"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      }
+    ],
+    "homepage": "",
+    "id": 11395,
+    "imdb_id": "tt0111070",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Santa Clause",
+    "overview": "Scott Calvin, un père divorcé partage avec sa femme Laura la garde de leur fils Charlie. Le soir de Noël, il cause sans le vouloir la chute du père Noël qui avait posé son traîneau sur le toit de sa maison afin d'aller déposer les cadeaux par le trou de la cheminée. Le père Noël disparaît alors mystérieusement, ne laissant que son costume rouge et blanc. Trouvant sur le vêtement des instructions à suivre",
+    "popularity": 4.9114,
+    "poster_path": "https://image.tmdb.org/t/p/original/hWWggLAwCapxQHbX9I8BRIzneOy.jpg",
+    "production_companies": [
+      {
+        "id": 2,
+        "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "name": "Walt Disney Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 915,
+        "logo_path": "/4neXXpjSJDZPBGBnfWtqysB5htV.png",
+        "name": "Hollywood Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 889,
+        "logo_path": "/aqba7mtkseSCXByZiULc0aF2Djq.png",
+        "name": "Outlaw Productions",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1994-11-11",
+    "revenue": 189833357,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Et si ton père était le Père Noël ?",
+    "title": "Sur les traces du père Noël",
+    "video": false,
+    "vote_average": 6.504,
+    "vote_count": 2177,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
+        "provider_id": 337,
+        "provider_name": "Disney Plus",
+        "display_priority": 1
+      }
+    ],
+    "date": 20
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/vFuKWgYAKzqp9jKPbVR9ZRoX824.jpg",
+    "belongs_to_collection": null,
+    "budget": 10000000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drame"
+      },
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 51052,
+    "imdb_id": "tt1430607",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Arthur Christmas",
+    "overview": "Dans la nuit du 24 au 25 décembre, le Père Noël et ses lutins ont distribué tous les cadeaux aux enfants endormis. Il en reste cependant un qui a été oublié et qui appartient à une petite fille du Royaume-Uni. Aller lui porter ne sera pas évident, car le jour va bientôt se lever. Le fils du Père Noël décide de remplir cette périlleuse mission. En compagnie de son grand-père, d'un vieux renne et d'un elfe qui a plus d'un tour dans son sac, Arthur Noël s'embarque dans une aventure qui lui fera vivre de nombreuses sensations fortes.",
+    "popularity": 13.0398,
+    "poster_path": "https://image.tmdb.org/t/p/original/yu2Dv0atK44LTeRio64HfEY6Qzy.jpg",
+    "production_companies": [
+      {
+        "id": 5,
+        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "name": "Columbia Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 2251,
+        "logo_path": "/5ilV5mH3gxTEU7p5wjxptHvXkyr.png",
+        "name": "Sony Pictures Animation",
+        "origin_country": "US"
+      },
+      {
+        "id": 297,
+        "logo_path": "/8ixoR3cvroUqNDLjaX6AZmJIdRY.png",
+        "name": "Aardman",
+        "origin_country": "GB"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2011-11-10",
+    "revenue": 151300000,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Vous êtes-vous déjà demandé comment 2 milliard de cadeaux sont livrés en 1 nuit?",
+    "title": "Mission Noël",
+    "video": false,
+    "vote_average": 6.768,
+    "vote_count": 1559,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
+        "provider_id": 230,
+        "provider_name": "Crave",
+        "display_priority": 4
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/cQjWvOiKRPeSuWRNGegcBjyqVbR.jpg",
+        "provider_id": 469,
+        "provider_name": "Club Illico",
+        "display_priority": 51
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
+        "provider_id": 1794,
+        "provider_name": "Starz Amazon Channel",
+        "display_priority": 93
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/a7O0Z1uhFjgGydRrgT6ucBisP4K.jpg",
+        "provider_id": 314,
+        "provider_name": "CBC Gem",
+        "display_priority": 42
+      }
+    ],
+    "date": 21
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/cgH0j8T5NG5VBzok8erdP8mq0SI.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "",
+    "id": 1290486,
+    "imdb_id": "tt32368345",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Merry Gentlemen",
+    "overview": "",
+    "popularity": 2.8666,
+    "poster_path": "https://image.tmdb.org/t/p/original/7wZ0kS8dKOQXhwuZpizpQJnopSP.jpg",
+    "production_companies": [
+      {
+        "id": 7119,
+        "logo_path": "/2aFVtrHVcqGOq1qwYlPZ7VQ67Oi.png",
+        "name": "Hybrid",
+        "origin_country": "US"
+      },
+      {
+        "id": 241322,
+        "logo_path": null,
+        "name": "Gentlemen Media Group",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2024-11-20",
+    "revenue": 0,
+    "runtime": 88,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "The Merry Gentlemen",
+    "video": false,
+    "vote_average": 5.8,
+    "vote_count": 221,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix Standard with Ads",
+        "display_priority": 94
+      }
+    ],
+    "date": 22
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/2fP8yZHl3FxJUouMCTBqTnSUrno.jpg",
+    "belongs_to_collection": null,
+    "budget": 30000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 10751,
+        "name": "Familial"
+      }
+    ],
+    "homepage": "",
+    "id": 17037,
+    "imdb_id": "tt0155753",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "I'll Be Home for Christmas",
+    "overview": "",
+    "popularity": 1.2057,
+    "poster_path": "https://image.tmdb.org/t/p/original/fIy6f7a8DNCpX4efcqxDqchdSfW.jpg",
+    "production_companies": [
+      {
+        "id": 2,
+        "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "name": "Walt Disney Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 10227,
+        "logo_path": "/3YfRy3DBl4abcqkzGx4RVNz12yl.png",
+        "name": "Mandeville Films",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1998-11-13",
+    "revenue": 0,
+    "runtime": 86,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "I'll Be Home for Christmas",
+    "video": false,
+    "vote_average": 5.954,
+    "vote_count": 342,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
+        "provider_id": 337,
+        "provider_name": "Disney Plus",
+        "display_priority": 1
+      }
+    ],
+    "date": 23
+  },
+  {
+    "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      }
+    ],
+    "homepage": "https://www.netflix.com/ca-fr/title/81735104",
+    "id": 1401318,
+    "imdb_id": "tt34992378",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "A Merry Little Ex-Mas",
+    "overview": "Ce que souhaitent Kate et Everett pour Noël? Un divorce amical et de dernières fêtes en famille – mais de nouvelles flammes et de vieux sentiments vont compliquer leurs plans.",
+    "popularity": 36.9598,
+    "poster_path": "https://image.tmdb.org/t/p/original/qa6E9wldSaTZKVjxQ6MV3NPrYht.jpg",
+    "production_companies": [
+      {
+        "id": 5452,
+        "logo_path": "/piIgZnVf0h0PoHY7wpHXQtFZ3O9.png",
+        "name": "Hartbreak Films",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2025-11-12",
+    "revenue": 0,
+    "runtime": 91,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Un ex pour Noël",
+    "video": false,
+    "vote_average": 6.388,
+    "vote_count": 67,
+    "providers": [
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix Standard with Ads",
+        "display_priority": 94
       }
     ],
     "date": 24
