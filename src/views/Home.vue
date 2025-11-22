@@ -102,6 +102,7 @@ export default {
 <style>
 .home {
   min-height: 100vh;
+  background-color: #0a1118;
 }
 
 .home::before {
@@ -110,7 +111,8 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-color: #0a1118;
   background-image: url("/public/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
