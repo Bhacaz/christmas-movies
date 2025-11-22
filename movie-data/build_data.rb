@@ -68,7 +68,6 @@ selected.each do |row|
 end
 
 movies = movies.shuffle
-current_year = Time.now.year
 
 final_result = []
 (0..23).each do |index|

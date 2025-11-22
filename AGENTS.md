@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is an **Advent Christmas Calendar** web application that displays a curated collection of Christmas movies (25 total: 21 films + 4 activities) throughout December. Each day reveals a movie card with:
+This is an **Advent Christmas Calendar** web application that displays a curated collection of Christmas movies (24 films) throughout December. Each day reveals a movie card with:
 
 - Movie poster, title, and release year from TMDB API
 - Streaming provider logos (where to watch)
@@ -10,7 +10,7 @@ This is an **Advent Christmas Calendar** web application that displays a curated
 - French language interface ("Calendrier de l'avent")
 - Festive UI with snowflakes, Christmas lights, and themed styling using Bulma CSS
 
-**Movie data** is generated via Ruby script (`movie-data/build-data.rb`) that fetches from TMDB and outputs to `movies.json`.
+**Movie data** is generated via Ruby script (`movie-data/build_data.rb`) that fetches from TMDB and outputs to `movies.json`.
 
 ## Build/Lint/Test Commands
 

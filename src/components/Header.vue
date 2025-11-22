@@ -24,19 +24,35 @@ export default {
     return {
       year: new Date().getFullYear(),
       isShrunk: this.initialShrunk,
+      scrollRafId: null,
     };
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
     if (!this.initialShrunk) {
-      this.handleScroll();
+      this.updateShrinkState();
     }
   },
   beforeUnmount() {
     window.removeEventListener("scroll", this.handleScroll);
+    if (this.scrollRafId !== null) {
+      cancelAnimationFrame(this.scrollRafId);
+      this.scrollRafId = null;
+    }
   },
   methods: {
     handleScroll() {
+      if (this.scrollRafId !== null) {
+        return;
+      }
+
+      // Throttle updates so we only recalc once per frame.
+      this.scrollRafId = requestAnimationFrame(() => {
+        this.updateShrinkState();
+        this.scrollRafId = null;
+      });
+    },
+    updateShrinkState() {
       this.isShrunk = window.scrollY > 50;
     },
   },

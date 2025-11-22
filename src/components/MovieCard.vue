@@ -70,33 +70,10 @@ export default {
   },
   computed: {
     isGiftVisible() {
-      // Logic to determine if the gift box should be shown initially
-      // If it's not December, show everything unwrapped (or maybe wrapped? let's stick to logic)
-      // If it is December, show wrapped if date > today
-
-      // For development/demo purposes, let's assume we want to see the wrapping
-      // unless it's the specific day to unwrap.
-
-      // Original logic:
-      // if (!this.december()) return true; // Wait, original said if !december return true?
-      // Let's look at original:
-      // showGift() { return false; ... } -> disabled.
-      // if (!this.december()) { return true; } -> If not december, show gift? That's weird. Maybe "waiting for december".
-
-      // New Logic:
-      // Always show gift if the date hasn't passed.
-      // If date is today, animate unwrap.
-      // If date is past, show unwrapped.
-
       const today = new Date();
       const currentMonth = today.getMonth(); // 0-11
       const currentDay = today.getDate();
-      // If not December, maybe show all revealed? Or all hidden?
-      // Let's assume we are in December for the app to make sense, or testing.
-      // If we are not in December, let's just show them all revealed for now, or hidden?
       if (currentMonth !== 10) {
-        // If not December, show as gift? Or revealed?
-        // Let's say revealed for now.
         return false;
       }
 
