@@ -102,7 +102,6 @@ export default {
 <style>
 .home {
   min-height: 100vh;
-  background-color: #0a1118;
 }
 
 .home::before {
