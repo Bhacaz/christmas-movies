@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <Header />
-    <section class="section main-content">
+    <section
+      class="section main-content"
+      :style="{ paddingTop: `calc(3rem + ${headerHeight}px)` }"
+    >
       <div id="movie-card-container">
         <MovieCard
           v-for="(movie, index) in movies"
@@ -29,6 +32,7 @@ export default {
   data() {
     return {
       movies: [],
+      headerHeight: 0,
     };
   },
   created() {
@@ -37,9 +41,20 @@ export default {
     });
   },
   mounted() {
+    this.updateHeaderHeight();
+    window.addEventListener("resize", this.updateHeaderHeight);
     this.scrollToCurrentDay();
   },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.updateHeaderHeight);
+  },
   methods: {
+    updateHeaderHeight() {
+      const header = document.getElementById("header-hero");
+      if (header) {
+        this.headerHeight = header.offsetHeight;
+      }
+    },
     scrollToCurrentDay() {
       const scrollLogic = () => {
         const today = new Date();
@@ -87,11 +102,20 @@ export default {
 <style>
 .home {
   min-height: 100vh;
+}
+
+.home::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url("/public/background.webp");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 
 .main-content {
