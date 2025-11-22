@@ -44,6 +44,51 @@ export default {
       return a.date - b.date;
     });
   },
+  mounted() {
+    this.scrollToCurrentDay();
+  },
+  methods: {
+    scrollToCurrentDay() {
+      const scrollLogic = () => {
+        const today = new Date();
+        const currentMonth = today.getMonth();
+        const currentDay = today.getDate();
+
+        // Check if it's November (10)
+        if (currentMonth === 10) {
+          const el = document.getElementById("movie-" + currentDay);
+          if (el) {
+            const header = document.getElementById("header-hero");
+            let headerHeight = 0;
+            if (header) {
+              headerHeight = header.offsetHeight;
+            }
+
+            const elementRect = el.getBoundingClientRect();
+            const absoluteElementTop = elementRect.top + window.pageYOffset;
+            const viewportHeight = window.innerHeight;
+            const elementHeight = el.offsetHeight;
+
+            const targetScrollY =
+              absoluteElementTop +
+              elementHeight / 2 -
+              (viewportHeight + headerHeight) / 2;
+
+            window.scrollTo({
+              top: targetScrollY,
+              behavior: "smooth",
+            });
+          }
+        }
+      };
+
+      if (document.readyState === "complete") {
+        scrollLogic();
+      } else {
+        window.addEventListener("load", scrollLogic);
+      }
+    },
+  },
 };
 </script>
 

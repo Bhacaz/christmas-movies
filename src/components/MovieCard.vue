@@ -1,5 +1,5 @@
 <template>
-  <div class="movie-card-wrapper" :ref="domId()">
+  <div class="movie-card-wrapper" :id="domId()">
     <div class="date-badge">
       <span class="day">{{ movie.date }}</span>
       <span class="month">DÉC</span>
@@ -110,7 +110,6 @@ export default {
     },
   },
   mounted() {
-    this.initialScroll();
     this.setupObserver();
   },
   beforeUnmount() {
@@ -121,23 +120,6 @@ export default {
   methods: {
     domId() {
       return "movie-" + this.movie.date;
-    },
-    initialScroll() {
-      const today = new Date();
-      const currentMonth = today.getMonth();
-      const currentDay = today.getDate();
-
-      if (currentMonth === 10 && this.movie.date === currentDay) {
-        this.$nextTick(() => {
-          const el = this.$refs[this.domId()];
-          if (el) {
-            el.scrollIntoView({
-              behavior: "auto",
-              block: "center",
-            });
-          }
-        });
-      }
     },
     setupObserver() {
       const today = new Date();
@@ -160,7 +142,7 @@ export default {
           });
         }, options);
 
-        const el = this.$refs[this.domId()];
+        const el = this.$el;
         if (el) {
           this.observer.observe(el);
         }
