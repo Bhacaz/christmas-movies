@@ -1,231 +1,507 @@
 <template>
-  <div class="card" v-bind:ref="domId()">
-    <header class="card-header">
-      <p class="card-header-title">{{ movie.date }} décembre</p>
-    </header>
-    <div class="card-content" style="position: relative">
-      <div class="movie-content" v-if="!showGift() || giftAnimation()">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
+  <div class="movie-card-wrapper" :id="domId()">
+    <div class="date-badge">
+      <span class="day">{{ movie.date }}</span>
+      <span class="month">DÉC</span>
+    </div>
+
+    <div class="movie-card">
+      <!-- Content -->
+      <div v-if="!isGiftVisible" class="movie-content">
+        <div class="poster-container">
+          <img
+            loading="lazy"
+            :src="movie.poster_path"
+            :alt="movie.title"
+            class="movie-poster"
+          />
+        </div>
+        <div class="movie-details">
+          <h3 class="movie-title">{{ movie.title }}</h3>
+          <p class="movie-year">
+            {{ movie.release_date && movie.release_date.split("-")[0] }}
+          </p>
+          <div class="providers-list">
+            <div
+              class="provider-item"
+              v-for="source of movie.providers"
+              :key="source.provider_id"
+            >
               <img
                 loading="lazy"
-                :src="movie.poster_path"
-                alt="Placeholder image"
+                class="provider-logo"
+                :src="source.logo_path"
+                :alt="source.provider_name"
               />
-            </figure>
-          </div>
-          <div class="media-content">
-            <p class="title is-5">{{ movie.title }}</p>
-            <p class="movie-info">
-              {{ movie.release_date && movie.release_date.split("-")[0] }}
-            </p>
-          </div>
-        </div>
-        <div class="source-container">
-          <div
-            class="source-box"
-            v-for="source of movie.providers"
-            :key="source.provider_id"
-          >
-            <img
-              loading="lazy"
-              class="image is-52x52 logo"
-              :src="source.logo_path"
-            />
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Gift Overlay -->
       <div
-        class="gift-box"
-        :class="{ 'slide-out-top': giftAnimation() }"
-        v-if="showGift()"
+        class="gift-overlay"
+        :class="{ unwrap: shouldUnwrap }"
+        v-if="isGiftVisible"
       >
-        <img
-          :class="{ 'fade-out': giftAnimation() }"
-          src="~@/assets/img/gift.webp"
-          style="
-            object-fit: fill;
-            width: 100%;
-            height: 22em;
-            margin-bottom: -1em;
-          "
-        />
+        <div class="gift-flap flap-left"></div>
+        <div class="gift-flap flap-right"></div>
+        <div class="gift-ribbon ribbon-horizontal"></div>
+        <div class="gift-ribbon ribbon-vertical"></div>
+        <div class="gift-content">
+          <GiftBox class="gift-icon" :class="giftAnimationClass" />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import GiftBox from "./GiftBox.vue";
+
 export default {
   name: "MovieCard",
-  props: ["movie"],
+  components: { GiftBox },
+  props: {
+    movie: {
+      type: Object,
+      required: true,
+    },
+    animationIndex: {
+      type: Number,
+      default: 0,
+    },
+  },
   data() {
     return {
-      showModal: false,
+      shouldUnwrap: false,
     };
   },
+  computed: {
+    isGiftVisible() {
+      const today = new Date();
+      const currentMonth = today.getMonth(); // 0-11
+      const currentDay = today.getDate();
+      if (currentMonth !== 11) {
+        return true; // Outside December, always wrapped
+      }
+
+      if (this.movie.date > currentDay) {
+        return true; // Future date, keep wrapped
+      } else if (this.movie.date === currentDay) {
+        return true; // Today, will unwrap
+      } else {
+        return false; // Past date, revealed
+      }
+    },
+    giftAnimationClass() {
+      const animationClasses = [
+        "gift-animation-float",
+        "gift-animation-bounce",
+        "gift-animation-sway",
+        "gift-animation-twist",
+        "gift-animation-pulse",
+      ];
+      const totalAnimations = animationClasses.length;
+      if (totalAnimations === 0) {
+        return "";
+      }
+
+      const index =
+        ((this.animationIndex % totalAnimations) + totalAnimations) %
+        totalAnimations;
+      return animationClasses[index];
+    },
+  },
   mounted() {
-    if (this.giftAnimation()) {
-      setTimeout(() => {
-        this.$refs[this.domId()].scrollIntoView({ behavior: "smooth" });
-      }, 500);
+    this.setupObserver();
+  },
+  beforeUnmount() {
+    if (this.observer) {
+      this.observer.disconnect();
     }
   },
   methods: {
     domId() {
       return "movie-" + this.movie.date;
     },
-    december() {
-      const d = new Date();
-      // JS return month 0-11
-      return d.getMonth() === 11;
-    },
-    date() {
-      const d = new Date();
-      return d.getDate();
-    },
-    showGift() {
-      if (!this.december()) {
-        return true;
-      }
+    setupObserver() {
+      const today = new Date();
+      const currentMonth = today.getMonth();
+      const currentDay = today.getDate();
 
-      return this.movie.date >= this.date();
-    },
-    giftAnimation() {
-      if (!this.december()) {
-        return false;
-      }
+      if (currentMonth === 11 && this.movie.date === currentDay) {
+        const options = {
+          root: null,
+          rootMargin: "-20% 0px -20% 0px",
+          threshold: 0.1,
+        };
 
-      return this.movie.date === this.date();
+        this.observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              this.shouldUnwrap = true;
+              this.observer.disconnect();
+            }
+          });
+        }, options);
+
+        const el = this.$el;
+        if (el) {
+          this.observer.observe(el);
+        }
+      }
     },
   },
 };
 </script>
 
-<style>
-.card {
-  width: 20em;
-  margin: 1.2em;
+<style scoped>
+.movie-card-wrapper {
+  position: relative;
+  margin: 2rem;
+  width: 300px;
+  perspective: 1000px;
 }
 
-.card-content {
-  min-height: 21em;
+.date-badge {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #d42426; /* Red */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #f8b229; /* Gold */
+  font-family: "Roboto", sans-serif;
 }
 
-.media {
-  min-height: 200px;
+.date-badge .day {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
 }
 
-.tag {
-  margin-left: 2px;
-  margin-right: 2px;
+.date-badge .month {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.media-content {
-  color: grey;
+.movie-card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
 }
 
-.card-header {
-  background-color: #fc5966;
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.poster-container {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.movie-card:hover .movie-poster {
+  transform: scale(1.05);
+}
+
+.movie-details {
+  padding: 1.5rem;
+  background: #fff;
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #165b33; /* Green */
+  margin-bottom: 0.5rem;
   font-family: "Courgette", cursive;
 }
 
-.card-header-title {
-  text-align: center;
-  width: 100%;
-  display: block;
-  box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.39);
+.movie-year {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
-.source-container {
+.providers-list {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
-.logo {
-  border-radius: 10px;
+.provider-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.gift-box {
-  z-index: 2;
+.provider-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Gift Overlay */
+.gift-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("~@/assets/img/wrap_gift.webp");
-  background-size: contain;
-  height: 22em;
-  /*background: radial-gradient(circle at center, #fff 20%, transparent 22%),#5EDEFF;*/
-  /*background-size: 34px 34px;*/
-  /*position: absolute;*/
-  /*width: 100%;*/
-  /*background-image: url("~@/assets/img/gift.jpg");*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  overflow: hidden;
 }
 
-.card-content.gift-box {
-  padding: 0;
+.gift-flap {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #165b33; /* Green */
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  border-bottom: 4px solid #124a2a;
 }
 
-.source-box {
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow: 6px 6px 12px #9f9f9f, -6px -6px 12px #ffffff;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+.flap-left {
+  left: 0;
+  transform-origin: left;
+  border-right: 1px solid #124a2a;
 }
 
-.movie-info {
-  font-size: smaller;
-  font-weight: bold;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+.flap-right {
+  right: 0;
+  transform-origin: right;
+  border-left: 1px solid #124a2a;
 }
 
-.is-52x52 {
-  height: 52px;
-  width: 52px;
+/* Ribbons */
+.gift-ribbon {
+  position: absolute;
+  background: #f8b229; /* Gold */
+  z-index: 2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
-.slide-out-top {
-  animation: slide-out-top 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2.5s both;
+.ribbon-horizontal {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  transform: translateY(-50%);
+  transform-origin: right center;
 }
 
-@keyframes slide-out-top {
+.ribbon-vertical {
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 40px;
+  transform: translateX(-50%);
+  transform-origin: top center;
+}
+
+.gift-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  transition: transform 0.8s ease-in, opacity 0.8s ease-in;
+}
+
+.gift-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
+}
+
+.gift-animation-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.gift-animation-bounce {
+  animation: bounce 2.4s ease-in-out infinite;
+}
+
+.gift-animation-sway {
+  animation: sway 2.6s ease-in-out infinite;
+}
+
+.gift-animation-twist {
+  animation: twist 3.2s linear infinite;
+}
+
+.gift-animation-pulse {
+  animation: pulse 2.8s ease-in-out infinite;
+}
+
+.gift-text {
+  font-family: "Courgette", cursive;
+  font-size: 1.2rem;
+  color: #f8b229; /* Gold */
+}
+
+/* Unwrap Animation Sequence */
+
+/* 1. Gift Icon: Spin and minimize (0s - 0.8s) */
+.gift-overlay.unwrap .gift-content {
+  transform: scale(0) rotate(720deg);
+  opacity: 0;
+}
+
+/* 2. Ribbons: Disappear (0.8s - 1.4s) */
+.gift-overlay.unwrap .ribbon-vertical {
+  transform: translateX(-50%) scaleY(0);
+  opacity: 0;
+  transition-delay: 0.8s;
+}
+
+.gift-overlay.unwrap .ribbon-horizontal {
+  transform: translateY(-50%) scaleX(0);
+  opacity: 0;
+  transition-delay: 0.8s;
+}
+
+/* 3. Flaps: Open (1.4s - 2.2s) */
+.gift-overlay.unwrap .flap-left {
+  transform: translateX(-100%);
+  transition-delay: 1.4s;
+}
+
+.gift-overlay.unwrap .flap-right {
+  transform: translateX(100%);
+  transition-delay: 1.4s;
+}
+
+.gift-overlay.unwrap {
+  pointer-events: none;
+}
+
+@keyframes float {
   0% {
-    transform: translateY(0);
-    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
   }
   100% {
-    transform: translateY(-1000px);
-    opacity: 0;
+    transform: translateY(0px);
   }
 }
 
-.scale-out-center {
-  animation: scale-out-center 0.5s ease-in-out 1.5s both;
+@keyframes bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  35% {
+    transform: translateY(-14px) scale(1.05);
+  }
+  55% {
+    transform: translateY(0) scale(0.98);
+  }
+  75% {
+    transform: translateY(-8px) scale(1.03);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
 
-@keyframes scale-out-center {
+@keyframes sway {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-8px) rotate(-4deg);
+  }
+  50% {
+    transform: translateX(0) rotate(0deg);
+  }
+  75% {
+    transform: translateX(8px) rotate(4deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes twist {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  40% {
+    transform: rotate(180deg) scale(1.05);
+  }
+  60% {
+    transform: rotate(200deg) scale(0.97);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes pulse {
   0% {
     transform: scale(1);
-    opacity: 1;
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  55% {
+    transform: scale(0.94);
+  }
+  80% {
+    transform: scale(1.06);
   }
   100% {
-    transform: scale(0);
-    opacity: 1;
+    transform: scale(1);
   }
 }
 
-.fade-out {
-  animation: fade-out 1.5s ease-out 1s both;
-}
-
-@keyframes fade-out {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .movie-card-wrapper {
+    width: 100%;
+    max-width: 320px;
+    margin: 1.5rem auto;
   }
 }
 </style>

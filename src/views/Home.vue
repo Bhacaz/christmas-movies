@@ -1,9 +1,14 @@
 <template>
   <div class="home">
-    <Header />
-    <section class="section">
+    <Header :initial-shrunk="shouldStartShrunk" />
+    <section class="section main-content">
       <div id="movie-card-container">
-        <MovieCard v-for="movie of movies" :key="movie.id" :movie="movie" />
+        <MovieCard
+          v-for="(movie, index) in movies"
+          :key="movie.id"
+          :movie="movie"
+          :animation-index="index"
+        />
       </div>
     </section>
   </div>
@@ -26,29 +31,110 @@ export default {
       movies: [],
     };
   },
+  computed: {
+    shouldStartShrunk() {
+      const today = new Date();
+      const currentMonth = today.getMonth();
+      const currentDay = today.getDate();
+
+      // Check if it's November (10) and there is a movie for today
+      if (currentMonth === 11) {
+        return this.movies.some((movie) => movie.date === currentDay);
+      }
+      return false;
+    },
+  },
   created() {
     this.movies = Movies.sort((a, b) => {
       return a.date - b.date;
     });
   },
+  mounted() {
+    this.scrollToCurrentDay();
+  },
+  methods: {
+    scrollToCurrentDay() {
+      const scrollLogic = () => {
+        const today = new Date();
+        const currentMonth = today.getMonth();
+        const currentDay = today.getDate();
+
+        // Check if it's November (10)
+        if (currentMonth === 11) {
+          const el = document.getElementById("movie-" + currentDay);
+          if (el) {
+            const header = document.getElementById("header-hero");
+            let headerHeight = 0;
+            if (header) {
+              headerHeight = header.offsetHeight;
+            }
+
+            const elementRect = el.getBoundingClientRect();
+            const absoluteElementTop = elementRect.top + window.pageYOffset;
+            const viewportHeight = window.innerHeight;
+            const elementHeight = el.offsetHeight;
+
+            const targetScrollY =
+              absoluteElementTop +
+              elementHeight / 2 -
+              (viewportHeight + headerHeight) / 2;
+
+            window.scrollTo({
+              top: targetScrollY,
+              behavior: "smooth",
+            });
+          }
+        }
+      };
+
+      if (document.readyState === "complete") {
+        scrollLogic();
+      } else {
+        window.addEventListener("load", scrollLogic);
+      }
+    },
+  },
 };
 </script>
 
 <style>
-#movie-card-container {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-}
-
 .home {
-  background-image: url("~@/assets/img/background.webp");
+  min-height: 100vh;
+  background-image: url("/public/background.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 
-.bonus-movie {
-  /*width: 25em;*/
+.main-content {
+  padding: 3rem 1.5rem;
+}
+
+#movie-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Scrollbar styling for a nice touch */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #165b33;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f8b229;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d42426;
 }
 </style>
