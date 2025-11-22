@@ -33,7 +33,7 @@ export default {
       const currentDay = today.getDate();
 
       // Check if it's November (10) and there is a movie for today
-      if (currentMonth === 10) {
+      if (currentMonth === 11) {
         return this.movies.some((movie) => movie.date === currentDay);
       }
       return false;
@@ -55,7 +55,7 @@ export default {
         const currentDay = today.getDate();
 
         // Check if it's November (10)
-        if (currentMonth === 10) {
+        if (currentMonth === 11) {
           const el = document.getElementById("movie-" + currentDay);
           if (el) {
             const header = document.getElementById("header-hero");

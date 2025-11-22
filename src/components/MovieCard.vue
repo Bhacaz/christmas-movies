@@ -73,8 +73,8 @@ export default {
       const today = new Date();
       const currentMonth = today.getMonth(); // 0-11
       const currentDay = today.getDate();
-      if (currentMonth !== 10) {
-        return false;
+      if (currentMonth !== 11) {
+        return true; // Outside December, always wrapped
       }
 
       if (this.movie.date > currentDay) {
@@ -103,7 +103,7 @@ export default {
       const currentMonth = today.getMonth();
       const currentDay = today.getDate();
 
-      if (currentMonth === 10 && this.movie.date === currentDay) {
+      if (currentMonth === 11 && this.movie.date === currentDay) {
         const options = {
           root: null,
           rootMargin: "-20% 0px -20% 0px",
