@@ -64,6 +64,10 @@
     "vote_count": 2552,
     "providers": [
       {
+        "logo_path":"https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name": "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
         "provider_id": 230,
         "provider_name": "Crave",
@@ -172,6 +176,10 @@
     "vote_count": 42,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
         "provider_id": 337,
         "provider_name": "Disney Plus",
@@ -256,16 +264,14 @@
     "vote_count": 370,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
       }
     ],
     "date": 3
@@ -364,16 +370,14 @@
     "vote_count": 835,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
       },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/zLYr7OPvpskMA4S79E3vlCi71iC.jpg",
@@ -463,7 +467,12 @@
     "video": false,
     "vote_average": 0.0,
     "vote_count": 0,
-    "providers": [],
+    "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      }
+    ],
     "date": 5
   },
   {
@@ -527,6 +536,10 @@
     "vote_average": 7.119,
     "vote_count": 697,
     "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
         "provider_id": 337,
@@ -622,6 +635,10 @@
     "vote_count": 90,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
         "provider_id": 230,
         "provider_name": "Crave",
@@ -702,6 +719,10 @@
     "vote_average": 6.593,
     "vote_count": 709,
     "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
         "provider_id": 337,
@@ -791,7 +812,12 @@
     "video": false,
     "vote_average": 6.02,
     "vote_count": 1188,
-    "providers": [],
+    "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      }
+    ],
     "date": 9
   },
   {
@@ -861,6 +887,10 @@
     "vote_average": 6.9,
     "vote_count": 13,
     "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/7rJJlPpuGz0DV5OLjVW1HzYaFj9.jpg",
         "provider_id": 146,
@@ -963,6 +993,10 @@
     "vote_count": 2153,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
         "provider_id": 119,
         "provider_name": "Amazon Prime Video",
@@ -985,12 +1019,6 @@
         "provider_id": 1794,
         "provider_name": "Starz Amazon Channel",
         "display_priority": 93
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
-        "provider_id": 2100,
-        "provider_name": "Amazon Prime Video with Ads",
-        "display_priority": 112
       }
     ],
     "date": 11
@@ -1063,16 +1091,14 @@
     "vote_count": 4309,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
         "provider_id": 119,
         "provider_name": "Amazon Prime Video",
         "display_priority": 2
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
-        "provider_id": 2100,
-        "provider_name": "Amazon Prime Video with Ads",
-        "display_priority": 112
       }
     ],
     "date": 12
@@ -1140,6 +1166,10 @@
     "vote_average": 7.645,
     "vote_count": 951,
     "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
         "provider_id": 337,
@@ -1223,6 +1253,10 @@
     "vote_count": 4271,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
         "provider_id": 8,
         "provider_name": "Netflix",
@@ -1251,18 +1285,6 @@
         "provider_id": 1794,
         "provider_name": "Starz Amazon Channel",
         "display_priority": 93
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/8aBqoNeGGr0oSA85iopgNZUOTOc.jpg",
-        "provider_id": 2100,
-        "provider_name": "Amazon Prime Video with Ads",
-        "display_priority": 112
       }
     ],
     "date": 14
@@ -1333,7 +1355,12 @@
     "video": false,
     "vote_average": 0.0,
     "vote_count": 0,
-    "providers": [],
+    "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      }
+    ],
     "date": 15
   },
   {
@@ -1404,6 +1431,10 @@
     "vote_average": 6.15,
     "vote_count": 1235,
     "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
         "provider_id": 1794,
@@ -1500,16 +1531,14 @@
     "vote_count": 4396,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
       }
     ],
     "date": 17
@@ -1585,6 +1614,10 @@
     "vote_average": 6.866,
     "vote_count": 688,
     "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg",
         "provider_id": 350,
@@ -1664,7 +1697,12 @@
     "video": false,
     "vote_average": 0.0,
     "vote_count": 0,
-    "providers": [],
+    "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      }
+    ],
     "date": 19
   },
   {
@@ -1749,6 +1787,10 @@
     "vote_average": 6.504,
     "vote_count": 2177,
     "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
       {
         "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
         "provider_id": 337,
@@ -1845,6 +1887,10 @@
     "vote_count": 1559,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
         "provider_id": 230,
         "provider_name": "Crave",
@@ -1935,16 +1981,14 @@
     "vote_count": 221,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
       }
     ],
     "date": 22
@@ -2017,6 +2061,10 @@
     "vote_count": 342,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
         "provider_id": 337,
         "provider_name": "Disney Plus",
@@ -2083,16 +2131,14 @@
     "vote_count": 67,
     "providers": [
       {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
         "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
         "provider_id": 8,
         "provider_name": "Netflix",
         "display_priority": 0
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
-        "provider_id": 1796,
-        "provider_name": "Netflix Standard with Ads",
-        "display_priority": 94
       }
     ],
     "date": 24
