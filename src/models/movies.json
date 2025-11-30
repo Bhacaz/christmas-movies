@@ -1,6 +1,116 @@
 [
   {
     "adult": false,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5lWIYxYEqWi8j3ZloxXntw3ImBo.jpg",
+    "belongs_to_collection": null,
+    "budget": 75000000,
+    "genres": [
+      {
+        "id": 10751,
+        "name": "Familial"
+      },
+      {
+        "id": 35,
+        "name": "Comédie"
+      },
+      {
+        "id": 16,
+        "name": "Animation"
+      }
+    ],
+    "homepage": "",
+    "id": 360920,
+    "imdb_id": "tt2709692",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Grinch",
+    "overview": "Le Grincheux habite dans une caverne au sommet d'une montagne qui surplombe le village de Chouville. Les habitants de ce patelin sont reconnus pour fêter Noël en grand. Mais, le Grincheux, lui, déteste Noël de tout son coeur. Exaspéré par la joie, les chants et les décorations des habitants de Chouville, il décide de gâcher leurs festivités avec l'aide de son fidèle compagnon, Max. Pour y arriver, il se déguise en père Noël et pille tous les foyers du village lors de la veille de Noël. Sans leurs cadeaux et leurs sapins, les Chou seront dévastés et le vilain Grincheux n'entendra plus parler de cette fête ignoble... enfin c'est ce qu'il aimerait croire.",
+    "popularity": 14.5766,
+    "poster_path": "https://image.tmdb.org/t/p/original/i5OqdE9T7X02hpXIETzZAOTf2za.jpg",
+    "production_companies": [
+      {
+        "id": 6704,
+        "logo_path": "/xte4JnhtBJfHSR5jqtHQwvyLgk0.png",
+        "name": "Illumination",
+        "origin_country": "US"
+      },
+      {
+        "id": 180651,
+        "logo_path": "/qYmXnLachOZkLaVn6UTaMDUpHey.png",
+        "name": "Dr. Seuss Enterprises",
+        "origin_country": "US"
+      },
+      {
+        "id": 5556,
+        "logo_path": "/xZJwYa9V1bmXhTfCiyMHUTAqjoA.png",
+        "name": "Universal Animation Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2018-11-08",
+    "revenue": 508600000,
+    "runtime": 85,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Il est encore plus méchant.",
+    "title": "Le grincheux",
+    "video": false,
+    "vote_average": 6.9,
+    "vote_count": 4271,
+    "providers": [
+      {
+        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
+        "provider_name":  "Plex"
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "provider_id": 8,
+        "provider_name": "Netflix",
+        "display_priority": 0
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
+        "provider_id": 119,
+        "provider_name": "Amazon Prime Video",
+        "display_priority": 2
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
+        "provider_id": 230,
+        "provider_name": "Crave",
+        "display_priority": 4
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/cQjWvOiKRPeSuWRNGegcBjyqVbR.jpg",
+        "provider_id": 469,
+        "provider_name": "Club Illico",
+        "display_priority": 51
+      },
+      {
+        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
+        "provider_id": 1794,
+        "provider_name": "Starz Amazon Channel",
+        "display_priority": 93
+      }
+    ],
+    "date": 1
+  },
+  {
+    "adult": false,
     "backdrop_path": "https://image.tmdb.org/t/p/original/1KYDPOC6ENDWCkW3TGCdca104hi.jpg",
     "belongs_to_collection": {
       "id": 108693,
@@ -86,7 +196,7 @@
         "display_priority": 93
       }
     ],
-    "date": 1
+    "date": 14
   },
   {
     "adult": false,
@@ -1105,152 +1215,81 @@
   },
   {
     "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/8x16xGu1p2vqfkSNRhGJNlBz8Fz.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/4FzoxZAJnhpoeYHexQCHorsWLxB.jpg",
     "belongs_to_collection": null,
-    "budget": 3000000,
+    "budget": 0,
     "genres": [
       {
-        "id": 10751,
-        "name": "Familial"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      }
-    ],
-    "homepage": "",
-    "id": 14813,
-    "imdb_id": "tt0085936",
-    "origin_country": [
-      "US"
-    ],
-    "original_language": "en",
-    "original_title": "Mickey's Christmas Carol",
-    "overview": "Le soir de Noël, Ebenezer Scrooge reçoit la visite du fantôme de son ancien associé, Jacob Marley. Il tente de lui faire entendre raison de son comportement d'usurpateur qui ne pourra jamais le rendre heureux.",
-    "popularity": 2.3441,
-    "poster_path": "https://image.tmdb.org/t/p/original/vQowq4sfY082UEU1zccHAjIOjb8.jpg",
-    "production_companies": [
-      {
-        "id": 2,
-        "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-        "name": "Walt Disney Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 3166,
-        "logo_path": "/vyyv4Gy9nPqAZKElPm2izLlEaVS.png",
-        "name": "Walt Disney Productions",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "1983-10-19",
-    "revenue": 21000000,
-    "runtime": 25,
-    "spoken_languages": [
-      {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "",
-    "title": "Le Noël de Mickey",
-    "video": false,
-    "vote_average": 7.645,
-    "vote_count": 951,
-    "providers": [
-      {
-        "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
-        "provider_name":  "Plex"
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg",
-        "provider_id": 337,
-        "provider_name": "Disney Plus",
-        "display_priority": 1
-      }
-    ],
-    "date": 13
-  },
-  {
-    "adult": false,
-    "backdrop_path": "https://image.tmdb.org/t/p/original/5lWIYxYEqWi8j3ZloxXntw3ImBo.jpg",
-    "belongs_to_collection": null,
-    "budget": 75000000,
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Familial"
+        "id": 10749,
+        "name": "Romance"
       },
       {
         "id": 35,
         "name": "Comédie"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
       }
     ],
-    "homepage": "",
-    "id": 360920,
-    "imdb_id": "tt2709692",
+    "homepage": "https://www.netflix.com/ca-fr/title/81628146",
+    "id": 1323475,
+    "imdb_id": "tt33053440",
     "origin_country": [
       "US"
     ],
     "original_language": "en",
-    "original_title": "The Grinch",
-    "overview": "Le Grincheux habite dans une caverne au sommet d'une montagne qui surplombe le village de Chouville. Les habitants de ce patelin sont reconnus pour fêter Noël en grand. Mais, le Grincheux, lui, déteste Noël de tout son coeur. Exaspéré par la joie, les chants et les décorations des habitants de Chouville, il décide de gâcher leurs festivités avec l'aide de son fidèle compagnon, Max. Pour y arriver, il se déguise en père Noël et pille tous les foyers du village lors de la veille de Noël. Sans leurs cadeaux et leurs sapins, les Chou seront dévastés et le vilain Grincheux n'entendra plus parler de cette fête ignoble... enfin c'est ce qu'il aimerait croire.",
-    "popularity": 14.5766,
-    "poster_path": "https://image.tmdb.org/t/p/original/i5OqdE9T7X02hpXIETzZAOTf2za.jpg",
+    "original_title": "Champagne Problems",
+    "overview": "Une cadre américaine ambitieuse se rend à Paris, déterminée à acquérir une marque de champagne avant Noël, et tombe accidentellement amoureuse de l'héritier de l'empire de bulles.",
+    "popularity": 27.5385,
+    "poster_path": "https://image.tmdb.org/t/p/original/a66w2eVNFHMgevJlw0d6f4TTrrD.jpg",
     "production_companies": [
       {
-        "id": 6704,
-        "logo_path": "/xte4JnhtBJfHSR5jqtHQwvyLgk0.png",
-        "name": "Illumination",
+        "id": 123789,
+        "logo_path": "https://image.tmdb.org/t/p/original/kSfI86pw0LxtWhflXxmX0V9fHNQ.png",
+        "name": "Off Camera Entertainment",
         "origin_country": "US"
       },
       {
-        "id": 180651,
-        "logo_path": "/qYmXnLachOZkLaVn6UTaMDUpHey.png",
-        "name": "Dr. Seuss Enterprises",
-        "origin_country": "US"
+        "id": 180075,
+        "logo_path": null,
+        "name": "Grumpy Entertainment",
+        "origin_country": ""
       },
       {
-        "id": 5556,
-        "logo_path": "/xZJwYa9V1bmXhTfCiyMHUTAqjoA.png",
-        "name": "Universal Animation Studios",
-        "origin_country": "US"
+        "id": 50500,
+        "logo_path": "https://image.tmdb.org/t/p/original/bzsYDghl8K32AypHbMUriXoyrF.png",
+        "name": "FullDawa Films",
+        "origin_country": "FR"
       }
     ],
     "production_countries": [
       {
         "iso_3166_1": "US",
         "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "FR",
+        "name": "France"
       }
     ],
-    "release_date": "2018-11-08",
-    "revenue": 508600000,
-    "runtime": 85,
+    "release_date": "2025-11-18",
+    "revenue": 0,
+    "runtime": 99,
     "spoken_languages": [
       {
         "english_name": "English",
         "iso_639_1": "en",
         "name": "English"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
       }
     ],
     "status": "Released",
-    "tagline": "Il est encore plus méchant.",
-    "title": "Le grincheux",
+    "tagline": "",
+    "title": "Bulles de Noël",
     "video": false,
-    "vote_average": 6.9,
-    "vote_count": 4271,
+    "vote_average": 6.076,
+    "vote_count": 72,
     "providers": [
       {
         "logo_path": "https://iconlogovector.com/uploads/images/2024/03/lg-65e4e7b1e7202-Plex.webp",
@@ -1263,31 +1302,13 @@
         "display_priority": 0
       },
       {
-        "logo_path": "https://image.tmdb.org/t/p/original/pvske1MyAoymrs5bguRfVqYiM9a.jpg",
-        "provider_id": 119,
-        "provider_name": "Amazon Prime Video",
-        "display_priority": 2
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/ewOptMVIYcOadMGGJz8DJueH2bH.jpg",
-        "provider_id": 230,
-        "provider_name": "Crave",
-        "display_priority": 4
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/cQjWvOiKRPeSuWRNGegcBjyqVbR.jpg",
-        "provider_id": 469,
-        "provider_name": "Club Illico",
-        "display_priority": 51
-      },
-      {
-        "logo_path": "https://image.tmdb.org/t/p/original/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
-        "provider_id": 1794,
-        "provider_name": "Starz Amazon Channel",
-        "display_priority": 93
+        "logo_path": "https://image.tmdb.org/t/p/original/dpR8r13zWDeUR0QkzWidrdMxa56.jpg",
+        "provider_id": 1796,
+        "provider_name": "Netflix Standard with Ads",
+        "display_priority": 94
       }
-    ],
-    "date": 14
+      ],
+    "date": 13
   },
   {
     "adult": false,
